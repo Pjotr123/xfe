@@ -1022,37 +1022,16 @@ bool FXWindow::getDNDData(FXDNDOrigin origin, FXDragType targettype, FXuchar*& d
 
 
 //
-// Hack of FXWindow
+// Hack of FXTextField
 //
-
-// This hack fixes a bug in FOX that prevent any character to be entered
-// when FOX is compiled with the --with-xim option
-// The bug is fixed in FOX 1.6.35 and above
-// However, the hack is still here because the latest FOX is not necessarily present
-// on the user's Linux distribution
 
 #include "FXComposeContext.h"
 
-// Create compose context
-void FXWindow::createComposeContext()
-{
-    if (!composeContext)
-    {
-        composeContext = new FXComposeContext(getApp(), this, 0);
-
-        // !!! This line was missing !!!
-        composeContext->create();
-    }
-}
-
-
-//
-// Hack of FXTextField
-//
 
 // This hack fixes a bug in FOX that make some input fields crash the application
 // when FOX was compiled with the --with-xim option
 // The bug is not fixed yet in FOX 1.6.36
+
 
 // Into focus chain
 void FXTextField::setFocus()
@@ -1301,7 +1280,6 @@ ins:
 // lies outside the text field. The implementation differs if iBus is running or not
 // The bug is not fixed yet in FOX 1.6.50
 
-
 namespace FX
 {
 // Callback Record
@@ -1446,7 +1424,7 @@ Atom fxsendreply(Display* display, Window window, Atom selection, Atom prop, Ato
     XEvent se;
 
     se.xselection.type = SelectionNotify;
-    se.xselection.send_event = TRUE;
+    se.xselection.send_event = true;
     se.xselection.display = display;
     se.xselection.requestor = window;
     se.xselection.selection = selection;
@@ -1487,361 +1465,6 @@ Atom fxrecvtypes(Display* display, Window window, Atom prop, FXDragType*& types,
         return prop;
     }
     return None;
-}
-
-
-// Get an event
-bool FXApp::getNextEvent(FXRawEvent& ev, bool blocking)
-{
-    // !!! Hack to make composed characters work !!!
-    static FXbool init = true;
-    static FXbool xim_used = false;
-
-    if (init)
-    {
-        // Detect if an X input method is used
-        FXString xmodifiers = getenv("XMODIFIERS");
-        if ((xmodifiers == "") || (xmodifiers == "@im=none"))
-        {
-            xim_used = false;
-        }
-        else
-        {
-            xim_used = true;
-        }
-
-        init = false;
-    }
-    // !!! End of hack !!!
-
-    XEvent e;
-
-    // Set to no-op just in case
-    ev.xany.type = 0;
-
-    // Handle all past due timers
-    if (timers)
-    {
-        handleTimeouts();
-    }
-
-    // Check non-immediate signals that may have fired
-    if (nsignals)
-    {
-        for (int sig = 0; sig < MAXSIGNALS; sig++)
-        {
-            if (signals[sig].notified)
-            {
-                signals[sig].notified = false;
-                if (signals[sig].target && signals[sig].target->tryHandle(this, FXSEL(SEL_SIGNAL, signals[sig].message),
-                                                                          (void*)(FXival)sig))
-                {
-                    refresh();
-                    return false;
-                }
-            }
-        }
-    }
-
-    // Are there no events already queued up?
-    if (!initialized || !XEventsQueued((Display*)display, QueuedAfterFlush))
-    {
-        struct timeval delta;
-        fd_set readfds;
-        fd_set writefds;
-        fd_set exceptfds;
-        int maxfds;
-        int nfds;
-
-        // Prepare fd's to check
-        maxfds = maxinput;
-        readfds = *((fd_set*)r_fds);
-        writefds = *((fd_set*)w_fds);
-        exceptfds = *((fd_set*)e_fds);
-
-        // Add connection to display if its open
-        if (initialized)
-        {
-            FD_SET(ConnectionNumber((Display*)display), &readfds);
-            if (ConnectionNumber((Display*)display) > maxfds)
-            {
-                maxfds = ConnectionNumber((Display*)display);
-            }
-        }
-
-        delta.tv_usec = 0;
-        delta.tv_sec = 0;
-
-        // Do a quick poll for any ready events or inputs
-        nfds = SELECT(maxfds + 1, &readfds, &writefds, &exceptfds, &delta);
-
-        // Nothing to do, so perform idle processing
-        if (nfds == 0)
-        {
-            // Release the expose events
-            if (repaints)
-            {
-                FXRepaint* r = repaints;
-                ev.xany.type = Expose;
-                ev.xexpose.window = r->window;
-                ev.xexpose.send_event = r->synth;
-                ev.xexpose.x = r->rect.x;
-                ev.xexpose.y = r->rect.y;
-                ev.xexpose.width = r->rect.w - r->rect.x;
-                ev.xexpose.height = r->rect.h - r->rect.y;
-                repaints = r->next;
-                r->next = repaintrecs;
-                repaintrecs = r;
-                return true;
-            }
-
-            // Do our chores :-)
-            if (chores)
-            {
-                FXChore* c = chores;
-                chores = c->next;
-                if (c->target && c->target->tryHandle(this, FXSEL(SEL_CHORE, c->message), c->data))
-                {
-                    refresh();
-                }
-                c->next = chorerecs;
-                chorerecs = c;
-            }
-
-            // GUI updating:- walk the whole widget tree.
-            if (refresher)
-            {
-                refresher->handle(this, FXSEL(SEL_UPDATE, 0), NULL);
-                if (refresher->getFirst())
-                {
-                    refresher = refresher->getFirst();
-                }
-                else
-                {
-                    while (refresher->getParent())
-                    {
-                        if (refresher->getNext())
-                        {
-                            refresher = refresher->getNext();
-                            break;
-                        }
-                        refresher = refresher->getParent();
-                    }
-                }
-                FXASSERT(refresher);
-                if (refresher != refresherstop)
-                {
-                    return false;
-                }
-                refresher = refresherstop = NULL;
-            }
-
-            // There are more chores to do
-            if (chores)
-            {
-                return false;
-            }
-
-            // We're not blocking
-            if (!blocking)
-            {
-                return false;
-            }
-
-            // Now, block till timeout, i/o, or event
-            maxfds = maxinput;
-            readfds = *((fd_set*)r_fds);
-            writefds = *((fd_set*)w_fds);
-            exceptfds = *((fd_set*)e_fds);
-
-            // Add connection to display if its open
-            if (initialized)
-            {
-                FD_SET(ConnectionNumber((Display*)display), &readfds);
-                if (ConnectionNumber((Display*)display) > maxfds)
-                {
-                    maxfds = ConnectionNumber((Display*)display);
-                }
-            }
-
-            // If there are timers, we block only for a little while.
-            if (timers)
-            {
-                // All that testing above may have taken some time...
-                FXlong interval = timers->due - FXThread::time();
-
-                // Some timers are already due; do them right away!
-                if (interval <= 0)
-                {
-                    return false;
-                }
-
-                // Compute how long to wait
-                delta.tv_usec = (interval / 1000) % 1000000;
-                delta.tv_sec = interval / 1000000000;
-
-                // Exit critical section
-                appMutex.unlock();
-
-                // Block till timer or event or interrupt
-                nfds = SELECT(maxfds + 1, &readfds, &writefds, &exceptfds, &delta);
-
-                // Enter critical section
-                appMutex.lock();
-            }
-            // If no timers, we block till event or interrupt
-            else
-            {
-                // Exit critical section
-                appMutex.unlock();
-
-                // Block until something happens
-                nfds = SELECT(maxfds + 1, &readfds, &writefds, &exceptfds, NULL);
-
-                // Enter critical section
-                appMutex.lock();
-            }
-        }
-
-        // Timed out or interrupted
-        if (nfds <= 0)
-        {
-            if ((nfds < 0) && (errno != EAGAIN) && (errno != EINTR))
-            {
-                fxerror("Application terminated: interrupt or lost connection errno=%d\n", errno);
-            }
-            return false;
-        }
-
-        // Any other file descriptors set?
-        if (0 <= maxinput)
-        {
-            // Examine I/O file descriptors
-            for (FXInputHandle fff = 0; fff <= maxinput; fff++)
-            {
-                // Copy the record as the callbacks may try to change things
-                FXInput in = inputs[fff];
-
-                // Skip the display connection, which is treated differently
-                if (initialized && (fff == ConnectionNumber((Display*)display)))
-                {
-                    continue;
-                }
-
-                // Check file descriptors
-                if (FD_ISSET(fff, &readfds))
-                {
-                    if (in.read.target && in.read.target->tryHandle(this, FXSEL(SEL_IO_READ, in.read.message),
-                                                                    (void*)(FXival)fff))
-                    {
-                        refresh();
-                    }
-                }
-                if (FD_ISSET(fff, &writefds))
-                {
-                    if (in.write.target && in.write.target->tryHandle(this, FXSEL(SEL_IO_WRITE, in.write.message),
-                                                                      (void*)(FXival)fff))
-                    {
-                        refresh();
-                    }
-                }
-                if (FD_ISSET(fff, &exceptfds))
-                {
-                    if (in.excpt.target && in.excpt.target->tryHandle(this, FXSEL(SEL_IO_EXCEPT, in.excpt.message),
-                                                                      (void*)(FXival)fff))
-                    {
-                        refresh();
-                    }
-                }
-            }
-        }
-
-        // If there is no event, we're done
-        if (!initialized || !FD_ISSET(ConnectionNumber((Display*)display),
-                                      &readfds) || !XEventsQueued((Display*)display, QueuedAfterReading))
-        {
-            return false;
-        }
-    }
-
-    // Get an event
-    XNextEvent((Display*)display, &ev);
-
-    // !!! Hack to make composed characters work !!!
-    if (xim_used)
-    {
-        // Filter event through input method context, if any
-        if (xim && XFilterEvent(&ev, None))
-        {
-            return false;
-        }
-    }
-    else
-    {
-        FXWindow* focuswin;
-        focuswin = getFocusWindow();
-        if (xim && focuswin && XFilterEvent(&ev, (Window)focuswin->id()))
-        {
-            return false;
-        }
-    }
-    // !!! End of hack !!!
-
-    // Save expose events for later...
-    if ((ev.xany.type == Expose) || (ev.xany.type == GraphicsExpose))
-    {
-        addRepaint((FXID)ev.xexpose.window, ev.xexpose.x, ev.xexpose.y, ev.xexpose.width, ev.xexpose.height, 0);
-        return false;
-    }
-
-    // Compress motion events
-    if (ev.xany.type == MotionNotify)
-    {
-        while (XPending((Display*)display))
-        {
-            XPeekEvent((Display*)display, &e);
-            if ((e.xany.type != MotionNotify) || (ev.xmotion.window != e.xmotion.window) ||
-                (ev.xmotion.state != e.xmotion.state))
-            {
-                break;
-            }
-            XNextEvent((Display*)display, &ev);
-        }
-    }
-    // Compress wheel events
-    else if ((ev.xany.type == ButtonPress) && ((ev.xbutton.button == Button4) || (ev.xbutton.button == Button5)))
-    {
-        int ticks = 1;
-        while (XPending((Display*)display))
-        {
-            XPeekEvent((Display*)display, &e);
-            if (((e.xany.type != ButtonPress) && (e.xany.type != ButtonRelease)) || (ev.xany.window != e.xany.window) ||
-                (ev.xbutton.button != e.xbutton.button))
-            {
-                break;
-            }
-            ticks += (e.xany.type == ButtonPress);
-            XNextEvent((Display*)display, &ev);
-        }
-        ev.xbutton.subwindow = (Window)ticks; // Stick it here for later
-    }
-    // Compress configure events
-    else if (ev.xany.type == ConfigureNotify)
-    {
-        while (XCheckTypedWindowEvent((Display*)display, ev.xconfigure.window, ConfigureNotify, &e))
-        {
-            ev.xconfigure.width = e.xconfigure.width;
-            ev.xconfigure.height = e.xconfigure.height;
-            if (e.xconfigure.send_event)
-            {
-                ev.xconfigure.x = e.xconfigure.x;
-                ev.xconfigure.y = e.xconfigure.y;
-            }
-        }
-    }
-
-    // Regular event
-    return true;
 }
 
 
@@ -1906,6 +1529,7 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
 
         // Keyboard
         case KeyPress:
+        case KeyRelease:
 
             // !!! Hack to fix the bug with composed characters !!!
             FXWindow* focuswin;
@@ -1913,21 +1537,20 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
 
             if ((ev.xkey.keycode != 0) && focuswin && focuswin->getComposeContext())
             {
-                Window w = 0;
-                XGetICValues((XIC)focuswin->getComposeContext()->id(), XNFocusWindow, &w, NULL);
-
                 // Mouse pointer is not over the text field
                 if (!focuswin->underCursor())
                 {
-                    if ((focuswin->id() != w) && XFilterEvent(&ev, (Window)focuswin->id()))
+                    if (XFilterEvent(&ev, (Window)focuswin->id()))
                     {
+                        // Position mouse pointer within the text field
+                        (Window)focuswin->setCursorPosition(0, 0);
+
                         return true;
                     }
                 }
             }
-        // !!! End of hack !!!
-
-        case KeyRelease:
+            // !!! End of hack !!!
+            
             event.type = SEL_KEYPRESS + ev.xkey.type - KeyPress;
             event.time = ev.xkey.time;
             event.win_x = ev.xkey.x;
@@ -2101,7 +1724,7 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
                     {
                         refresh();
                     }
-                    return TRUE;
+                    return true;
                 }
 
                 // Beep if outside modal
@@ -2629,7 +2252,7 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
                 }
                 if (ev.xclient.data.l[1] & 1)
                 {
-                    fxrecvtypes((Display*)display, xdndSource, xdndTypes, ddeTypeList, ddeNumTypes, FALSE);
+                    fxrecvtypes((Display*)display, xdndSource, xdndTypes, ddeTypeList, ddeNumTypes, false);
                 }
                 else
                 {
@@ -2710,7 +2333,7 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
                     ddeAction = DRAG_COPY;
                 }
                 ansAction = DRAG_REJECT;
-                xdndWantUpdates = TRUE;
+                xdndWantUpdates = true;
                 xdndRect.x = event.root_x;
                 xdndRect.y = event.root_y;
                 xdndRect.w = 1;
@@ -2794,7 +2417,7 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
                 {
                     return true; // We're not talking to this guy
                 }
-                xdndFinishSent = FALSE;
+                xdndFinishSent = false;
                 event.type = SEL_DND_DROP;
                 event.time = ev.xclient.data.l[2];
                 if (!dropWindow || !dropWindow->handle(this, FXSEL(SEL_DND_DROP, 0), &event))
@@ -2875,8 +2498,8 @@ bool FXApp::dispatchEvent(FXRawEvent& ev)
                 xdndRect.y = ((FXuint)ev.xclient.data.l[2]) & 0xffff;
                 xdndRect.w = ((FXuint)ev.xclient.data.l[3]) >> 16;
                 xdndRect.h = ((FXuint)ev.xclient.data.l[3]) & 0xffff;
-                xdndStatusReceived = TRUE;
-                xdndStatusPending = FALSE;
+                xdndStatusReceived = true;
+                xdndStatusPending = false;
             }
             return true;
 
@@ -4152,7 +3775,7 @@ hop:
         lookup = FXString::null;
         if (0 <= index && index < items.no())
         {
-            setCurrentItem(index, TRUE);
+            setCurrentItem(index, true);
             makeItemVisible(index);
             if (items[index]->isEnabled())
             {
@@ -4162,19 +3785,19 @@ hop:
                     {
                         if (0 <= anchor)
                         {
-                            selectItem(anchor, TRUE);
-                            extendSelection(index, TRUE);
+                            selectItem(anchor, true);
+                            extendSelection(index, true);
                         }
                         else
                         {
-                            selectItem(index, TRUE);
+                            selectItem(index, true);
                             setAnchorItem(index);
                         }
                     }
                     else if (!(event->state & CONTROLMASK))
                     {
-                        killSelection(TRUE);
-                        selectItem(index, TRUE);
+                        killSelection(true);
+                        selectItem(index, true);
                         setAnchorItem(index);
                     }
                 }
@@ -4205,27 +3828,27 @@ hop:
                 {
                     if (0 <= anchor)
                     {
-                        selectItem(anchor, TRUE);
-                        extendSelection(current, TRUE);
+                        selectItem(anchor, true);
+                        extendSelection(current, true);
                     }
                     else
                     {
-                        selectItem(current, TRUE);
+                        selectItem(current, true);
                     }
                 }
                 else if (event->state & CONTROLMASK)
                 {
-                    toggleItem(current, TRUE);
+                    toggleItem(current, true);
                 }
                 else
                 {
-                    killSelection(TRUE);
-                    selectItem(current, TRUE);
+                    killSelection(true);
+                    selectItem(current, true);
                 }
                 break;
             case LIST_MULTIPLESELECT:
             case LIST_SINGLESELECT:
-                toggleItem(current, TRUE);
+                toggleItem(current, true);
                 break;
             }
             setAnchorItem(current);
@@ -4263,14 +3886,14 @@ hop:
         index = findItem(lookup, current, SEARCH_FORWARD | SEARCH_WRAP | SEARCH_PREFIX);
         if (0 <= index)
         {
-            setCurrentItem(index, TRUE);
+            setCurrentItem(index, true);
             makeItemVisible(index);
             if ((options & SELECT_MASK) == LIST_EXTENDEDSELECT)
             {
                 if (items[index]->isEnabled())
                 {
-                    killSelection(TRUE);
-                    selectItem(index, TRUE);
+                    killSelection(true);
+                    selectItem(index, true);
                 }
             }
             setAnchorItem(index);

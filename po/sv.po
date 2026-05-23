@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfe 1.37\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-28 10:35+0100\n"
+"POT-Creation-Date: 2026-05-21 14:25+0200\n"
 "PO-Revision-Date: 2013-04-03 19:37+0100\n"
 "Last-Translator: Anders F Björklund <afb@users.sourceforge.net>\n"
 "Language-Team: Swedish\n"
@@ -1838,7 +1838,7 @@ msgstr "Länka till "
 #: src/FileList.cpp:5139 src/FileList.cpp:5963 src/IconList.cpp:316
 #: src/IconList.cpp:331 src/IconList.cpp:671 src/XFileImage.cpp:1717
 #: src/XFileImage.cpp:2415 src/XFileImage.cpp:2490 src/XFileImage.cpp:2605
-#: src/foxhacks.cpp:3886 src/foxhacks.cpp:3911
+#: src/foxhacks.cpp:3509 src/foxhacks.cpp:3534
 msgid "Unable to load image"
 msgstr "Kunde inte ladda bild"
 
@@ -6537,35 +6537,35 @@ msgstr "&Uttryck"
 msgid "&Backward"
 msgstr "&Baklänges"
 
-#: src/foxhacks.cpp:4070
+#: src/foxhacks.cpp:3693
 msgid "Docking"
 msgstr ""
 
-#: src/foxhacks.cpp:4072
+#: src/foxhacks.cpp:3695
 #, fuzzy
 #| msgid "To:"
 msgid "Top"
 msgstr "Till:"
 
-#: src/foxhacks.cpp:4073
+#: src/foxhacks.cpp:3696
 msgid "Bottom"
 msgstr ""
 
-#: src/foxhacks.cpp:4074
+#: src/foxhacks.cpp:3697
 msgid "Left"
 msgstr ""
 
-#: src/foxhacks.cpp:4075
+#: src/foxhacks.cpp:3698
 #, fuzzy
 #| msgid "&Weight:"
 msgid "Right"
 msgstr "Vikt:"
 
-#: src/foxhacks.cpp:4076
+#: src/foxhacks.cpp:3699
 msgid "Float"
 msgstr ""
 
-#: src/foxhacks.cpp:4077
+#: src/foxhacks.cpp:3700
 msgid "Flip"
 msgstr ""
 

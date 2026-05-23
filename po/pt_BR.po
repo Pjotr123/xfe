@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-28 10:35+0100\n"
+"POT-Creation-Date: 2026-05-21 14:25+0200\n"
 "PO-Revision-Date: 2022-01-17 11:46-0300\n"
 "Last-Translator: Phantom X <megaphantomx at hotmail dot com>\n"
 "Language-Team: Portuguese <>\n"
@@ -1841,7 +1841,7 @@ msgstr "Ligação para "
 #: src/FileList.cpp:5139 src/FileList.cpp:5963 src/IconList.cpp:316
 #: src/IconList.cpp:331 src/IconList.cpp:671 src/XFileImage.cpp:1717
 #: src/XFileImage.cpp:2415 src/XFileImage.cpp:2490 src/XFileImage.cpp:2605
-#: src/foxhacks.cpp:3886 src/foxhacks.cpp:3911
+#: src/foxhacks.cpp:3509 src/foxhacks.cpp:3534
 msgid "Unable to load image"
 msgstr "Impossível abrir a imagem: %s"
 
@@ -6563,35 +6563,35 @@ msgstr "E&xpressão"
 msgid "&Backward"
 msgstr "&Voltar"
 
-#: src/foxhacks.cpp:4070
+#: src/foxhacks.cpp:3693
 msgid "Docking"
 msgstr ""
 
-#: src/foxhacks.cpp:4072
+#: src/foxhacks.cpp:3695
 #, fuzzy
 #| msgid "To:"
 msgid "Top"
 msgstr "Para:"
 
-#: src/foxhacks.cpp:4073
+#: src/foxhacks.cpp:3696
 msgid "Bottom"
 msgstr ""
 
-#: src/foxhacks.cpp:4074
+#: src/foxhacks.cpp:3697
 msgid "Left"
 msgstr ""
 
-#: src/foxhacks.cpp:4075
+#: src/foxhacks.cpp:3698
 #, fuzzy
 #| msgid "&Weight:"
 msgid "Right"
 msgstr "&Peso:"
 
-#: src/foxhacks.cpp:4076
+#: src/foxhacks.cpp:3699
 msgid "Float"
 msgstr ""
 
-#: src/foxhacks.cpp:4077
+#: src/foxhacks.cpp:3700
 msgid "Flip"
 msgstr ""
 

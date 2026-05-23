@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfe 1.32.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-28 10:35+0100\n"
+"POT-Creation-Date: 2026-05-21 14:25+0200\n"
 "PO-Revision-Date: 2010-01-17 16:36+0800\n"
 "Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -1851,7 +1851,7 @@ msgstr "連結到 "
 #: src/FileList.cpp:5139 src/FileList.cpp:5963 src/IconList.cpp:316
 #: src/IconList.cpp:331 src/IconList.cpp:671 src/XFileImage.cpp:1717
 #: src/XFileImage.cpp:2415 src/XFileImage.cpp:2490 src/XFileImage.cpp:2605
-#: src/foxhacks.cpp:3886 src/foxhacks.cpp:3911
+#: src/foxhacks.cpp:3509 src/foxhacks.cpp:3534
 msgid "Unable to load image"
 msgstr "無法載入圖像"
 
@@ -6605,35 +6605,35 @@ msgstr "運算式(&X)"
 msgid "&Backward"
 msgstr "向後(&B)"
 
-#: src/foxhacks.cpp:4070
+#: src/foxhacks.cpp:3693
 msgid "Docking"
 msgstr ""
 
-#: src/foxhacks.cpp:4072
+#: src/foxhacks.cpp:3695
 #, fuzzy
 #| msgid "To:"
 msgid "Top"
 msgstr "到："
 
-#: src/foxhacks.cpp:4073
+#: src/foxhacks.cpp:3696
 msgid "Bottom"
 msgstr ""
 
-#: src/foxhacks.cpp:4074
+#: src/foxhacks.cpp:3697
 msgid "Left"
 msgstr ""
 
-#: src/foxhacks.cpp:4075
+#: src/foxhacks.cpp:3698
 #, fuzzy
 #| msgid "&Weight:"
 msgid "Right"
 msgstr "字重(&W)："
 
-#: src/foxhacks.cpp:4076
+#: src/foxhacks.cpp:3699
 msgid "Float"
 msgstr ""
 
-#: src/foxhacks.cpp:4077
+#: src/foxhacks.cpp:3700
 msgid "Flip"
 msgstr ""
 
