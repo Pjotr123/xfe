@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfe 1.32.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 14:25+0200\n"
+"POT-Creation-Date: 2026-07-09 18:36+0200\n"
 "PO-Revision-Date: 2010-12-13 22:36+0100\n"
 "Last-Translator: Franciszek Janowski <nobange@poczta.onet.pl>\n"
 "Language-Team:  <pl@li.org>\n"
@@ -5626,7 +5626,7 @@ msgid ""
 msgstr ""
 
 #: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
-#: src/startupnotification.cpp:186 src/startupnotification.cpp:247
+#: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, fuzzy, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Wykonaj polecenie"
@@ -7219,15 +7219,15 @@ msgstr ""
 "Ostrzeżenie: Nieznany tryb paneli, powrót do ostatnio zachowanego trybu\n"
 
 #: src/startupnotification.cpp:80 src/startupnotification.cpp:132
-#: src/startupnotification.cpp:201 src/startupnotification.cpp:227
-#: src/startupnotification.cpp:261
+#: src/startupnotification.cpp:200 src/startupnotification.cpp:226
+#: src/startupnotification.cpp:259
 #, fuzzy, c-format
 msgid "Error: Can't enter folder %s: %s"
 msgstr "Nie można usunąć katalogu %s: %s"
 
 #: src/startupnotification.cpp:84 src/startupnotification.cpp:136
-#: src/startupnotification.cpp:205 src/startupnotification.cpp:231
-#: src/startupnotification.cpp:265
+#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
+#: src/startupnotification.cpp:263
 #, fuzzy, c-format
 msgid "Error: Can't enter folder %s"
 msgstr "Nie można utworzyć katalogu %s"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 14:25+0200\n"
+"POT-Creation-Date: 2026-07-09 18:36+0200\n"
 "PO-Revision-Date: 2022-01-17 11:46-0300\n"
 "Last-Translator: Phantom X <megaphantomx at hotmail dot com>\n"
 "Language-Team: Portuguese <>\n"
@@ -5568,7 +5568,7 @@ msgid ""
 msgstr ""
 
 #: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
-#: src/startupnotification.cpp:186 src/startupnotification.cpp:247
+#: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Erro: Impossível executar comando %s"
@@ -7695,15 +7695,15 @@ msgstr ""
 "salvo\n"
 
 #: src/startupnotification.cpp:80 src/startupnotification.cpp:132
-#: src/startupnotification.cpp:201 src/startupnotification.cpp:227
-#: src/startupnotification.cpp:261
+#: src/startupnotification.cpp:200 src/startupnotification.cpp:226
+#: src/startupnotification.cpp:259
 #, c-format
 msgid "Error: Can't enter folder %s: %s"
 msgstr "Erro: Impossível entrar no diretório %s: %s"
 
 #: src/startupnotification.cpp:84 src/startupnotification.cpp:136
-#: src/startupnotification.cpp:205 src/startupnotification.cpp:231
-#: src/startupnotification.cpp:265
+#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
+#: src/startupnotification.cpp:263
 #, c-format
 msgid "Error: Can't enter folder %s"
 msgstr "Erro: Impossível entrar no diretório %s"

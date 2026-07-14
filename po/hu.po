@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfe 1.32.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 14:25+0200\n"
+"POT-Creation-Date: 2026-07-09 18:36+0200\n"
 "PO-Revision-Date: 2015-01-24 16:55+0100\n"
 "Last-Translator: Sándor Sipos <ss1978@freestart.hu>\n"
 "Language-Team:  <hu@li.org>\n"
@@ -5576,7 +5576,7 @@ msgid ""
 msgstr ""
 
 #: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
-#: src/startupnotification.cpp:186 src/startupnotification.cpp:247
+#: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Hiba: nem tudom végrehajtani a parancsot: %s"
@@ -7665,15 +7665,15 @@ msgstr ""
 "Figyelem! Ismeretlen panel mód, az utolsónak mentett üzemmód használata\n"
 
 #: src/startupnotification.cpp:80 src/startupnotification.cpp:132
-#: src/startupnotification.cpp:201 src/startupnotification.cpp:227
-#: src/startupnotification.cpp:261
+#: src/startupnotification.cpp:200 src/startupnotification.cpp:226
+#: src/startupnotification.cpp:259
 #, c-format
 msgid "Error: Can't enter folder %s: %s"
 msgstr "Hiba: Nem tudok belépni a %s könyvtárba: %s"
 
 #: src/startupnotification.cpp:84 src/startupnotification.cpp:136
-#: src/startupnotification.cpp:205 src/startupnotification.cpp:231
-#: src/startupnotification.cpp:265
+#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
+#: src/startupnotification.cpp:263
 #, c-format
 msgid "Error: Can't enter folder %s"
 msgstr "Hiba: Nem tudok belépni a %s könyvtárba"

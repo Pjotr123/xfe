@@ -1,4 +1,9 @@
-Version 2.1.7 (released 23/05/2026)
+Version 2.1.8 (released 14/07/2026)
+- update czech translation (David Vachulka <david@konstrukce-cad.com>)
+- update german translation (Joachim Wiedorn <joodebian@joonet.de>)
+- fix problem when opening more than one file if startup notification is disabled
+
+Version 2.1.7
 - fix text input broken and composed characters patch not working anymore with libx11 >= 1.8.10
 
 Version 2.1.6 (released 28/03/2026)

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfe 1.44.1\n"
+"Project-Id-Version: Xfe 2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 14:25+0200\n"
-"PO-Revision-Date: 2025-04-06 21:33+0200\n"
+"POT-Creation-Date: 2026-07-09 18:36+0200\n"
+"PO-Revision-Date: 2026-06-13 13:18+0200\n"
 "Last-Translator: David Vachulka <archdvx@dxsolutions.org>\n"
 "Language-Team: dvx-alone <arch_dvx@users.sourceforge.net>\n"
 "Language: cs\n"
@@ -222,10 +222,8 @@ msgid "\tBy Name"
 msgstr "\tPodle jména"
 
 #: src/ComboBox.cpp:81
-#, fuzzy
-#| msgid "&Clear bookmarks"
 msgid "Clear\tReset history list"
-msgstr "&Vyčistit záložky"
+msgstr "Vyčistit\tObnovit seznam historie"
 
 #: src/ComboBox.cpp:906 src/DirPanel.cpp:1524 src/FilePanel.cpp:5044
 #: src/SearchPanel.cpp:2605 src/WriteWindow.cpp:879 src/WriteWindow.cpp:920
@@ -245,14 +243,12 @@ msgid "&Paste"
 msgstr "&Vložit"
 
 #: src/ComboBox.cpp:913
-#, fuzzy
-#| msgid "Places and tree"
 msgid "Paste and &Open"
-msgstr "Místa a strom"
+msgstr "Vložit a &Otevřít"
 
 #: src/ComboBox.cpp:915
 msgid "C&lear"
-msgstr ""
+msgstr "Vyč&istit"
 
 #: src/CommandWindow.cpp:61 src/CommandWindow.cpp:95
 msgid "Cl&ose"
@@ -425,20 +421,16 @@ msgstr ""
 ">>>> KONEC PŘÍKAZU <<<<"
 
 #: src/ConnectDialog.cpp:54
-#, fuzzy
-#| msgid "Show details"
 msgid "Server Details"
-msgstr "Zobrazit detaily"
+msgstr "Server"
 
 #: src/ConnectDialog.cpp:61
-#, fuzzy
-#| msgid "Archiver:"
 msgid "Server:"
-msgstr "Program pro archívy:"
+msgstr "Server:"
 
 #: src/ConnectDialog.cpp:72
 msgid "PORT:"
-msgstr ""
+msgstr "Port:"
 
 #: src/ConnectDialog.cpp:81 src/Properties.cpp:722 src/Properties.cpp:1022
 msgid "Type:"
@@ -446,45 +438,37 @@ msgstr "Typ:"
 
 #: src/ConnectDialog.cpp:85 src/ConnectDialog.cpp:210 src/ConnectDialog.cpp:544
 #: src/ConnectDialog.cpp:582
-#, fuzzy
-#| msgid "&Window"
 msgid "Windows share"
-msgstr "&Okno"
+msgstr "Sdílení systému Windows"
 
 #: src/ConnectDialog.cpp:86 src/ConnectDialog.cpp:216 src/ConnectDialog.cpp:557
 #: src/ConnectDialog.cpp:595
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #: src/ConnectDialog.cpp:92
 msgid "Share:"
-msgstr ""
+msgstr "Sdílení:"
 
 #: src/ConnectDialog.cpp:103
 msgid "User Details"
-msgstr ""
+msgstr "Uživatel"
 
 #: src/ConnectDialog.cpp:110
-#, fuzzy
-#| msgid "&Bookmarks"
 msgid "Domain name:"
-msgstr "&Záložky"
+msgstr "Název domény:"
 
 #: src/ConnectDialog.cpp:121
-#, fuzzy
-#| msgid "Folder name"
 msgid "User name:"
-msgstr "Jméno adresáře"
+msgstr "Uživatelské jméno:"
 
 #: src/ConnectDialog.cpp:132
 msgid "Password:"
-msgstr ""
+msgstr "Heslo:"
 
 #: src/ConnectDialog.cpp:139
-#, fuzzy
-#| msgid "Enter the user password:"
 msgid "Save password"
-msgstr "Vložte uživatelské heslo:"
+msgstr "Uložit heslo"
 
 #: src/ConnectDialog.cpp:244 src/ConnectDialog.cpp:374
 msgid ""
@@ -494,10 +478,15 @@ msgid ""
 "Please install the package that provides secret-tool (libsecret-tools on "
 "Debian based systems, libsecret on RedHat based systems)..."
 msgstr ""
+"Heslo nelze načíst, protože nástroj secret-tool nebyl ve vašem systému "
+"nalezen.\n"
+" \n"
+"Prosím naistalujte balíček poskytující secret-tool (libsecret-tools v "
+"systému založeném na Debianu, libsecret v systému založeném na RedHat)..."
 
 #: src/ConnectDialog.cpp:277 src/ConnectDialog.cpp:402
 msgid "Connection failed, please check your parameters..."
-msgstr ""
+msgstr "Připojení selhalo, zkontrolujte připojovací údaje..."
 
 #: src/ConnectDialog.cpp:297 src/ConnectDialog.cpp:433
 msgid ""
@@ -505,6 +494,9 @@ msgid ""
 "\n"
 "Please install gio and gvfs to be able to connect to a server..."
 msgstr ""
+"Příkaz gio nebyl nalezen ve vašem systému\n"
+"\n"
+"Prosím naistalujte gio a gvfs, aby se dalo připojit k serveru..."
 
 #: src/ConnectDialog.cpp:341 src/ConnectDialog.cpp:485 src/DirList.cpp:774
 #: src/DirList.cpp:778 src/DirList.cpp:905 src/DirList.cpp:952
@@ -553,6 +545,11 @@ msgid ""
 "Please install the package that provides secret-tool (libsecret-tools on "
 "Debian based systems, libsecret on RedHat based systems)..."
 msgstr ""
+"Heslo nelze uložit, protože nástroj secret-tool nebyl ve vašem systému "
+"nalezen.\n"
+" \n"
+"Prosím naistalujte balíček poskytující secret-tool (libsecret-tools v "
+"systému založeném na Debianu, libsecret v systému založeném na RedHat)..."
 
 #: src/DirList.cpp:688 src/FileList.cpp:674
 msgid "Copy Here"
@@ -667,10 +664,8 @@ msgstr "Adresář"
 #: src/DirList.cpp:2020 src/DirList.cpp:2037 src/FileList.cpp:5185
 #: src/FileList.cpp:6010 src/FileList.cpp:6027 src/Properties.cpp:702
 #: src/SearchPanel.cpp:2199
-#, fuzzy
-#| msgid "Mount Points"
 msgid "Mount Point"
-msgstr "Připojovací body"
+msgstr "Připojovací bod"
 
 #: src/DirList.cpp:2075
 msgid "Link to Folder"
@@ -902,10 +897,8 @@ msgstr "Vlas&tnosti"
 
 #: src/DirPanel.cpp:1614 src/DirPanel.cpp:1694 src/DirPanel.cpp:1813
 #: src/TabButtons.cpp:437
-#, fuzzy
-#| msgid "New Name"
 msgid "New &Tab"
-msgstr "Nové jméno"
+msgstr "Nová &karta"
 
 #: src/DirPanel.cpp:1615 src/DirPanel.cpp:1695 src/DirPanel.cpp:1814
 #: src/XFileExplorer.cpp:1611
@@ -1186,17 +1179,15 @@ msgstr "Soubor nebo adresář %s už existuje"
 
 #: src/DirPanel.cpp:3897 src/DirPanel.cpp:3948
 msgid "Can't find server name"
-msgstr ""
+msgstr "Nemohu najít jméno serveru"
 
 #: src/DirPanel.cpp:3912
 msgid "Can't find share name"
-msgstr ""
+msgstr "Nemohu najít jméno sdílení"
 
 #: src/DirPanel.cpp:3971
-#, fuzzy
-#| msgid "\tFilter by user name"
 msgid "Can't find user name"
-msgstr "\tFiltrování podle jména uživatele"
+msgstr "Nemohu najít jména uživatele"
 
 #: src/DirPanel.cpp:4005 src/DirPanel.cpp:4079 src/File.cpp:282
 #: src/FilePanel.cpp:6187
@@ -1205,7 +1196,7 @@ msgstr "Připojuji souborový systém..."
 
 #: src/DirPanel.cpp:4006 src/DirPanel.cpp:4080 src/FilePanel.cpp:6188
 msgid "Volume busy, please wait while mounting folder:"
-msgstr ""
+msgstr "Svazek je zaneprázdněn, počkejte prosím na připojení složky:"
 
 #: src/DirPanel.cpp:4012 src/DirPanel.cpp:4086 src/File.cpp:293
 #: src/FilePanel.cpp:6194
@@ -1214,7 +1205,7 @@ msgstr "Odpojuji souborový systém..."
 
 #: src/DirPanel.cpp:4013 src/DirPanel.cpp:4087 src/FilePanel.cpp:6195
 msgid "Volume busy, please wait while unmounting folder:"
-msgstr ""
+msgstr "Svazek je zaneprázdněn, počkejte prosím na odpojení složky:"
 
 #: src/ExecuteBox.cpp:47
 msgid "E&xecute"
@@ -1802,10 +1793,9 @@ msgstr "Záznam příkazů"
 #: src/SearchPanel.cpp:609 src/SearchPanel.cpp:814 src/SearchPanel.cpp:897
 #: src/SearchPanel.cpp:975 src/SearchPanel.cpp:1126 src/SearchPanel.cpp:1580
 #: src/SearchPanel.cpp:1693 src/SearchPanel.cpp:1726 src/XFileArchive.cpp:1089
-#, fuzzy, c-format
-#| msgid "String '%s' not found"
+#, c-format
 msgid "Program %s not found"
-msgstr "Řetězec '%s' nenalezen"
+msgstr "Program %s nenalezen"
 
 #: src/FilePanel.cpp:1963
 msgid ""
@@ -1899,10 +1889,7 @@ msgid "With:"
 msgstr "S:"
 
 #: src/FilePanel.cpp:3864
-#, fuzzy, c-format
-#| msgid ""
-#| "Program %s not found. Please define a file comparator program in the "
-#| "Preferences dialog!"
+#, c-format
 msgid ""
 "Program %s not found. Please define a file / folder comparator program in "
 "the Preferences dialog!"
@@ -2404,7 +2391,7 @@ msgstr "Jméno"
 
 #: src/IconList.cpp:4617
 msgid "Folder Name"
-msgstr "Jméno adresáře:"
+msgstr "Jméno adresáře"
 
 #: src/IconList.cpp:4621 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
 msgid "Original Path"
@@ -2723,7 +2710,7 @@ msgstr "Aktuální téma"
 
 #: src/Preferences.cpp:210
 msgid "Applied theme, right click to save"
-msgstr ""
+msgstr "Aplikované téma, klikněte pravým pro uložení"
 
 #: src/Preferences.cpp:229
 msgid "The default theme"
@@ -2759,17 +2746,15 @@ msgstr "Téma s XFCE barvami"
 
 #: src/Preferences.cpp:292
 msgid "Custom theme, right click to rename or remove"
-msgstr ""
+msgstr "Uživatelské téma, klikněte pravým pro přejmenování nebo odstranění"
 
 #: src/Preferences.cpp:343 src/Properties.cpp:220 src/Properties.cpp:1013
 msgid "&General"
 msgstr "&Obecné"
 
 #: src/Preferences.cpp:346
-#, fuzzy
-#| msgid "Starting mode"
 msgid "Starting"
-msgstr "Mód spuštění"
+msgstr "Spouštění"
 
 #: src/Preferences.cpp:348
 msgid "Start in home folder"
@@ -2784,10 +2769,8 @@ msgid "Start in last visited folder"
 msgstr "Spustit v posledním navštíveném adresáři"
 
 #: src/Preferences.cpp:356
-#, fuzzy
-#| msgid "&General toolbar"
 msgid "General Options"
-msgstr "Hlavní &nástrojová lišta"
+msgstr "Obecné volby"
 
 #: src/Preferences.cpp:357
 msgid "Use trash can for file deletion (safe delete)"
@@ -2935,43 +2918,35 @@ msgstr "Varovat při spuštění pod rootem"
 
 #: src/Preferences.cpp:538
 msgid "&Settings"
-msgstr ""
+msgstr "&Nastavení"
 
 #: src/Preferences.cpp:545
 msgid "Tabs"
-msgstr ""
+msgstr "Karty"
 
 #: src/Preferences.cpp:550
-#, fuzzy
-#| msgid "Start in home folder"
 msgid "Open new tab in home folder"
-msgstr "Spustit v domovském adresáři"
+msgstr "Otevřít novou kartu v domovském adresáři"
 
 #: src/Preferences.cpp:551
 msgid "Always show tab bar"
-msgstr ""
+msgstr "Vždy zobrazovat panel karet"
 
 #: src/Preferences.cpp:552
-#, fuzzy
-#| msgid "Start in current folder"
 msgid "Open new tab in current folder"
-msgstr "Spustit v aktuálním adresáři"
+msgstr "Otevřít novou kartu v aktuálním adresáři"
 
 #: src/Preferences.cpp:553
 msgid "Restore tabs on startup"
-msgstr ""
+msgstr "Obnovit karty při startu"
 
 #: src/Preferences.cpp:554
-#, fuzzy
-#| msgid "Start in current folder"
 msgid "Open new tab in root folder"
-msgstr "Spustit v aktuálním adresáři"
+msgstr "Otevřít novou kartu v kořenovém adresáři"
 
 #: src/Preferences.cpp:556
-#, fuzzy
-#| msgid "Scrolling mode"
 msgid "Scrolling"
-msgstr "Mód skrolování"
+msgstr "Skrolování"
 
 #: src/Preferences.cpp:559
 msgid "Smooth scrolling in file lists and text windows"
@@ -2998,22 +2973,20 @@ msgid "Big thumbnails size:"
 msgstr "Velikost velkých náhledů:"
 
 #: src/Preferences.cpp:595
-#, fuzzy
-#| msgid "Unmount"
 msgid "Automount"
-msgstr "Odpojit"
+msgstr "Automatické připojení"
 
 #: src/Preferences.cpp:598
 msgid "(Only enable automounting if your system does not have this feature)"
-msgstr ""
+msgstr "(Povolte automatické připojování jen pokud to váš systém neumožňuje)"
 
 #: src/Preferences.cpp:600
 msgid "Enable automounting"
-msgstr ""
+msgstr "Povolit automatické připojování"
 
 #: src/Preferences.cpp:604
 msgid "Open new Xfe window when mounting"
-msgstr ""
+msgstr "Otevřít nové okno Xfe při připojování"
 
 #: src/Preferences.cpp:609
 msgid "Root Mode"
@@ -3048,10 +3021,8 @@ msgid "File &List"
 msgstr "&Seznam souborů"
 
 #: src/Preferences.cpp:727
-#, fuzzy
-#| msgid "Displayed columns in file list"
 msgid "Displayed Columns"
-msgstr "Zobrazované sloupce v seznamu souborů"
+msgstr "Zobrazované sloupce"
 
 #: src/Preferences.cpp:730
 msgid "(Name column is always displayed)"
@@ -3097,10 +3068,8 @@ msgid "Text editor:"
 msgstr "Textový editor:"
 
 #: src/Preferences.cpp:865
-#, fuzzy
-#| msgid "File comparator:"
 msgid "File / folder comparator:"
-msgstr "Porovnávání souboru:"
+msgstr "Porovnávání souboru/adresáře:"
 
 #: src/Preferences.cpp:873
 msgid "Image editor:"
@@ -3156,6 +3125,9 @@ msgid ""
 "click \n"
 "on a custom theme to rename or remove it.)"
 msgstr ""
+"(Klikněte pravým na aktuální téma pro uložení jako uživatelské. Klikněte "
+"pravým \n"
+"na uživatelské téma pro přejmenování nebo odstranění.)"
 
 #: src/Preferences.cpp:968
 msgid "Custom Colors"
@@ -3254,48 +3226,36 @@ msgid "&Key Bindings"
 msgstr "Přiřazení &kláves"
 
 #: src/Preferences.cpp:1042
-#, fuzzy
-#| msgid "Modify key bindings..."
 msgid "&Modify key bindings..."
-msgstr "Upravit přiřazení kláves..."
+msgstr "&Upravit přiřazení kláves..."
 
 #: src/Preferences.cpp:1044
-#, fuzzy
-#| msgid "Restore default key bindings..."
 msgid "&Restore default key bindings..."
-msgstr "Obnovit výchozí přiřazení kláves..."
+msgstr "&Obnovit výchozí přiřazení kláves..."
 
 #: src/Preferences.cpp:1094
 msgid "&Save As..."
 msgstr "Uložit &jako..."
 
 #: src/Preferences.cpp:1135 src/Preferences.cpp:1194
-#, fuzzy
-#| msgid "Enter the user password:"
 msgid "Enter theme name:"
-msgstr "Vložte uživatelské heslo:"
+msgstr "Vložte jméno pro téma:"
 
 #: src/Preferences.cpp:1135
 msgid "Save current theme"
 msgstr "Aktuální téma"
 
 #: src/Preferences.cpp:1144 src/Preferences.cpp:1203
-#, fuzzy
-#| msgid "File name is empty, operation cancelled"
 msgid "Theme name is empty, operation cancelled"
-msgstr "Jméno souboru je prázdné, operace zrušena"
+msgstr "Jméno tématu je prázdné, operace zrušena"
 
 #: src/Preferences.cpp:1163 src/Preferences.cpp:1222
-#, fuzzy
-#| msgid "File name is empty, operation cancelled"
 msgid "Theme name already exists, operation cancelled"
-msgstr "Jméno souboru je prázdné, operace zrušena"
+msgstr "Jméno tématu existuje, operace zrušena"
 
 #: src/Preferences.cpp:1194
-#, fuzzy
-#| msgid "Rename "
 msgid "Rename theme"
-msgstr "Přejmenovat "
+msgstr "Přejmenovat téma"
 
 #: src/Preferences.cpp:1282
 msgid "Select an icon theme folder or an icon file"
@@ -3474,10 +3434,8 @@ msgid "Launch terminal"
 msgstr "Spustit terminál"
 
 #: src/Preferences.cpp:1610
-#, fuzzy
-#| msgid "Mount file system (Linux only)"
 msgid "Connect to server (Linux only)"
-msgstr "Připojit souborový systém (jen pro Linux)"
+msgstr "Připojit k serveru (jen pro Linux)"
 
 #: src/Preferences.cpp:1614
 msgid "Mount file system (Linux only)"
@@ -3504,10 +3462,8 @@ msgid "Folders and two panels mode"
 msgstr "Složky a dva panely mód"
 
 #: src/Preferences.cpp:1638
-#, fuzzy
-#| msgid "&Address bar"
 msgid "Clear address bar"
-msgstr "&Adresní řádek"
+msgstr "Vyčistit adresní řádek"
 
 #: src/Preferences.cpp:1642
 msgid "Rename files"
@@ -3562,10 +3518,8 @@ msgid "Filter files"
 msgstr "Filtr souborů"
 
 #: src/Preferences.cpp:1698
-#, fuzzy
-#| msgid "New Name"
 msgid "New tab"
-msgstr "Nové jméno"
+msgstr "Nová karta"
 
 #: src/Preferences.cpp:1708
 msgid "View previous image"
@@ -4423,40 +4377,28 @@ msgid "Select path"
 msgstr "Vybrat cestu"
 
 #: src/TabButtons.cpp:71
-#, fuzzy
-#| msgid "New Name"
 msgid "\tNew Tab"
-msgstr "Nové jméno"
+msgstr " \tNová karta"
 
 #: src/TabButtons.cpp:316
-#, fuzzy
-#| msgid "Confirm Remove"
 msgid "Confirm Remove Tabs"
-msgstr "Potvrdit odebrání"
+msgstr "Potvrdit odebrání karet"
 
 #: src/TabButtons.cpp:317
-#, fuzzy
-#| msgid "Do you really want to remove all your bookmarks?"
 msgid "Do you really want to remove all tabs?"
-msgstr "Opravdu chcete odstranit všechny vaše záložky?"
+msgstr "Opravdu chcete odstranit všechny karty?"
 
 #: src/TabButtons.cpp:441
-#, fuzzy
-#| msgid "Move &up"
 msgid "Move &Left"
-msgstr "Posunout &nahoru"
+msgstr "Posunout &doleva"
 
 #: src/TabButtons.cpp:442
-#, fuzzy
-#| msgid "Rotate &right"
 msgid "Move &Right"
-msgstr "Otočit v&pravo"
+msgstr "Posunout do&prava"
 
 #: src/TabButtons.cpp:446
-#, fuzzy
-#| msgid "&Close"
 msgid "&Close Tab"
-msgstr "&Zavřít"
+msgstr "&Zavřít kartu"
 
 #: src/TextWindow.cpp:30 src/TextWindow.cpp:59 src/WriteWindow.cpp:829
 msgid "&Close"
@@ -5097,7 +5039,7 @@ msgstr "Připojit"
 
 #: src/XFileExplorer.cpp:1224
 msgid "Connect to Server..."
-msgstr ""
+msgstr "Připojit k serveru..."
 
 #: src/XFileExplorer.cpp:1234
 msgid "Show One File Panel"
@@ -5124,10 +5066,8 @@ msgid "Horizontal Panels"
 msgstr "Horizontální panely"
 
 #: src/XFileExplorer.cpp:1308
-#, fuzzy
-#| msgid "&Address bar"
 msgid "Clear Address Bar"
-msgstr "&Adresní řádek"
+msgstr "Vyčistit adresní řádek"
 
 #: src/XFileExplorer.cpp:1330
 msgid "New Fo&lder..."
@@ -5276,16 +5216,12 @@ msgid "&Scripts"
 msgstr "Skri&pty"
 
 #: src/XFileExplorer.cpp:1602
-#, fuzzy
-#| msgid "&New"
 msgid "&New Tab"
-msgstr "&Nový"
+msgstr "Nový &karta"
 
 #: src/XFileExplorer.cpp:1607
-#, fuzzy
-#| msgid "&Remove all bookmarks"
 msgid "Remove &All Tabs"
-msgstr "&Odebrat všechny záložky"
+msgstr "Odebrat &všechny karty"
 
 #: src/XFileExplorer.cpp:1617
 msgid "New &Root Window"
@@ -5308,13 +5244,12 @@ msgid "Sw&itch Panels"
 msgstr "Přepnout &panely"
 
 #: src/XFileExplorer.cpp:1652
-#, fuzzy
 msgid "Search &Files..."
-msgstr "\tVybrat soubor..."
+msgstr "&Hledat soubory..."
 
 #: src/XFileExplorer.cpp:1671
 msgid "&Connect to Server..."
-msgstr ""
+msgstr "Připojit k &serveru..."
 
 #: src/XFileExplorer.cpp:1675
 msgid "&Tools"
@@ -5391,9 +5326,12 @@ msgid ""
 "Unable to find udisksctl command on your system.\n"
 "Package udisks2 is probably not installed, Xfe automounter is disabled."
 msgstr ""
+"Nemohu najít příkaz udisksctl ve vašem systému.\n"
+"Balíček udisks2 není pravděpodobně nainstalován, Xfe automatické připojování "
+"je zakázáno."
 
 #: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
-#: src/startupnotification.cpp:186 src/startupnotification.cpp:247
+#: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Chyba: Nemohu spustit příkaz %s"
@@ -5517,7 +5455,7 @@ msgstr "Vložte heslo roota:"
 
 #: src/XFileExplorer.cpp:5632
 msgid "Connect to Server"
-msgstr ""
+msgstr "Připojit k serveru"
 
 #: src/XFileExplorer.cpp:5647
 msgid "Search Files and Folders"
@@ -5812,17 +5750,14 @@ msgstr "Chyba při nahrávání ikon"
 
 #: src/XFileArchive.cpp:2341 src/XFileImage.cpp:3344 src/XFilePackage.cpp:984
 #: src/XFileWrite.cpp:353 src/main.cpp:564
-#, fuzzy
-#| msgid ""
-#| "Icon path doesn't exist, icon theme was set back to default. Please check "
-#| "your icon path!"
 msgid ""
 "Icon path doesn't exist, default icon path was selected.\n"
 "\n"
 "From Xfe, please check your icon path in Edit / Preferences / Appearance..."
 msgstr ""
-"Cesta k ikonám neexistuje, téma nastaveno zpět na výchozí. Prosím "
-"zkontrolujte cestu k ikonám!"
+"Cesta k ikonám neexistuje, téma nastaveno zpět na výchozí.\n"
+"\n"
+"Prosím zkontrolujte cestu k ikonám v Editovat / Nastavení / Vzhled..."
 
 #: src/XFileArchive.cpp:2349 src/XFileImage.cpp:3352 src/XFilePackage.cpp:992
 #: src/XFileWrite.cpp:361 src/main.cpp:572
@@ -5831,16 +5766,20 @@ msgid ""
 "\n"
 "From Xfe, please check your icon theme in Edit / Preferences / Appearance..."
 msgstr ""
+"Nemohu načíst některé ikony, výchozí téma bylo vybráno.\n"
+"\n"
+"Prosím zkontrolujte cestu k ikonám v Editovat / Nastavení / Vzhled..."
 
 #: src/XFileArchive.cpp:2357 src/XFileImage.cpp:3360 src/XFilePackage.cpp:1000
 #: src/XFileWrite.cpp:369 src/main.cpp:580
-#, fuzzy
-#| msgid "Unable to load some icons. Please check your icon theme!"
 msgid ""
 "Unable to load default icons, no icons can be shown.\n"
 "\n"
 "Please check your Xfe installation..."
-msgstr "Nemohu načíst některé ikony. Prosím zkontrolujte téma ikon!"
+msgstr ""
+"Nemohu načíst výchozí ikony, nebudou zobrazeny žádné ikony.\n"
+"\n"
+"Prosím zkontrolujte svojí instalaci Xfe..."
 
 #: src/XFileImage.cpp:182
 msgid "GIF Image"
@@ -6043,31 +5982,24 @@ msgid "Mirror vertically."
 msgstr "Zrcadlí vertikálně."
 
 #: src/XFileImage.cpp:971
-#, fuzzy
 msgid "Show hidden files and folders."
-msgstr "Zobrazí skryté soubory a adresáře."
+msgstr "Zobrazit skryté soubory a adresáře."
 
 #: src/XFileImage.cpp:977
 msgid "Show image thumbnails."
 msgstr "Zobrazí náhledy."
 
 #: src/XFileImage.cpp:985
-#, fuzzy
-#| msgid "Display folder with small icons."
 msgid "Display folders with big icons."
-msgstr "Zobrazí adresář s malými ikonami."
+msgstr "Zobrazit adresář s velkými ikonami."
 
 #: src/XFileImage.cpp:991
-#, fuzzy
-#| msgid "Display folder with small icons."
 msgid "Display folders with small icons."
-msgstr "Zobrazí adresář s malými ikonami."
+msgstr "Zobrazit adresář s malými ikonami."
 
 #: src/XFileImage.cpp:997
-#, fuzzy
-#| msgid "Display detailed folder listing."
 msgid "Display detailed folder listing."
-msgstr "Zobrazí detailní výpis adresáře."
+msgstr "Zobrazit detailní výpis adresáře."
 
 #: src/XFileImage.cpp:1013
 msgid "Autosize icon names."
@@ -6334,35 +6266,31 @@ msgstr "&Zpět"
 
 #: src/foxhacks.cpp:3693
 msgid "Docking"
-msgstr ""
+msgstr "Dokování"
 
 #: src/foxhacks.cpp:3695
-#, fuzzy
-#| msgid "To:"
 msgid "Top"
-msgstr "Na:"
+msgstr "Nahoře"
 
 #: src/foxhacks.cpp:3696
 msgid "Bottom"
-msgstr ""
+msgstr "Dole"
 
 #: src/foxhacks.cpp:3697
 msgid "Left"
-msgstr ""
+msgstr "Vlevo"
 
 #: src/foxhacks.cpp:3698
-#, fuzzy
-#| msgid "&Weight:"
 msgid "Right"
-msgstr "&Tloušťka:"
+msgstr "Vpravo"
 
 #: src/foxhacks.cpp:3699
 msgid "Float"
-msgstr ""
+msgstr "Plovoucí"
 
 #: src/foxhacks.cpp:3700
 msgid "Flip"
-msgstr ""
+msgstr "Převrátit"
 
 #: src/help.h:8
 #, c-format
@@ -7462,15 +7390,15 @@ msgstr ""
 "Varování: Neznámý mód panelů, přepínám do poslední uložené konfigurace\n"
 
 #: src/startupnotification.cpp:80 src/startupnotification.cpp:132
-#: src/startupnotification.cpp:201 src/startupnotification.cpp:227
-#: src/startupnotification.cpp:261
+#: src/startupnotification.cpp:200 src/startupnotification.cpp:226
+#: src/startupnotification.cpp:259
 #, c-format
 msgid "Error: Can't enter folder %s: %s"
 msgstr "Chyba: Nemohu otevřít adresář %s: %s"
 
 #: src/startupnotification.cpp:84 src/startupnotification.cpp:136
-#: src/startupnotification.cpp:205 src/startupnotification.cpp:231
-#: src/startupnotification.cpp:265
+#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
+#: src/startupnotification.cpp:263
 #, c-format
 msgid "Error: Can't enter folder %s"
 msgstr "Chyba: Nemohu otevřít adresář %s"
@@ -7498,10 +7426,9 @@ msgid "bytes"
 msgstr "bytů"
 
 #: src/xfeutils.cpp:1182
-#, fuzzy, c-format
-#| msgid "Error"
+#, c-format
 msgid "Error: %s\n"
-msgstr "Chyba"
+msgstr "Chyba: %s\n"
 
 #: src/xfeutils.cpp:1547
 #, c-format
@@ -7541,10 +7468,8 @@ msgid "A lightweight file manager for X Window"
 msgstr "Lehký souborový manažer pro X"
 
 #: xfe.desktop.in:6
-#, fuzzy
-#| msgid "File Manager"
 msgid "file manager"
-msgstr "Souborový manažer"
+msgstr "souborový manažer"
 
 #: xfi.desktop.in:3
 msgid "Xfi"
@@ -7560,7 +7485,7 @@ msgstr "Jednoduchý prohlížeč obrázků pro Xfe"
 
 #: xfi.desktop.in:6
 msgid "image viewer;image manager"
-msgstr ""
+msgstr "prohlížeč obrázků;správce obrázků"
 
 #: xfp.desktop.in:3
 msgid "Xfp"
@@ -7576,7 +7501,7 @@ msgstr "Jednoduchý správce balíků pro Xfe"
 
 #: xfp.desktop.in:6
 msgid "package viewer;package manager"
-msgstr ""
+msgstr "prohlížeč balíčků;správce balíčků"
 
 #: xfw.desktop.in:3
 msgid "Xfw"
@@ -7592,7 +7517,7 @@ msgstr "Jednoduchý textový editor pro Xfe"
 
 #: xfw.desktop.in:6
 msgid "editor;viewer;text"
-msgstr ""
+msgstr "editor;prohlížeč;text"
 
 #: org.xfe.root.policy.in.in:11
 msgid "Run Xfe as root"

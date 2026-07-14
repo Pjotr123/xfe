@@ -2,16 +2,15 @@
 # Copyright (C) 2002-2026 Roland Baudin
 # This file is distributed under the same license as the Xfe package.
 # Joachim Wiedorn <joodebian@joonet.de>, 2011, 2013, 2014, 2015, 2016, 2025.
-# Roland Baudin <roland65@free.fr>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfe 1.42.1\n"
+"Project-Id-Version: Xfe 2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 14:25+0200\n"
-"PO-Revision-Date: 2025-10-18 17:32+0200\n"
+"POT-Creation-Date: 2026-07-09 18:36+0200\n"
+"PO-Revision-Date: 2026-06-04 20:33+0200\n"
 "Last-Translator: Joachim Wiedorn <joodevel@joonet.de>\n"
-"Language-Team: français <>\n"
+"Language-Team: german\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -426,7 +425,7 @@ msgstr ""
 
 #: src/ConnectDialog.cpp:54
 msgid "Server Details"
-msgstr ""
+msgstr "Server Details"
 
 #: src/ConnectDialog.cpp:61
 msgid "Server:"
@@ -1813,10 +1812,9 @@ msgstr "Befehlssprotokoll"
 #: src/SearchPanel.cpp:609 src/SearchPanel.cpp:814 src/SearchPanel.cpp:897
 #: src/SearchPanel.cpp:975 src/SearchPanel.cpp:1126 src/SearchPanel.cpp:1580
 #: src/SearchPanel.cpp:1693 src/SearchPanel.cpp:1726 src/XFileArchive.cpp:1089
-#, fuzzy, c-format
-#| msgid "Unarchive program %s was not found"
+#, c-format
 msgid "Program %s not found"
-msgstr "Entpack-Programm %s wurde nicht gefunden"
+msgstr "Programm %s wurde nicht gefunden"
 
 #: src/FilePanel.cpp:1963
 msgid ""
@@ -5368,7 +5366,7 @@ msgstr ""
 "deaktiviert."
 
 #: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
-#: src/startupnotification.cpp:186 src/startupnotification.cpp:247
+#: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Fehler: Kann den Befehl %s nicht ausführen"
@@ -5400,7 +5398,7 @@ msgstr ""
 
 #: src/XFileExplorer.cpp:4743
 msgid "FOX Toolkit by Jeroen van der Zijp\n"
-msgstr ""
+msgstr "FOX Toolkit von Jeroen van der Zijp\n"
 
 #: src/XFileExplorer.cpp:4748
 msgid ""
@@ -6024,30 +6022,22 @@ msgid "Mirror vertically."
 msgstr "Vertikal spiegeln."
 
 #: src/XFileImage.cpp:971
-#, fuzzy
-#| msgid "Show hidden files and folders."
 msgid "Show hidden files and folders."
-msgstr "Versteckte Dateien und Verzeichnisse anzeigen."
+msgstr "Versteckte Dateien und Ordner anzeigen."
 
 #: src/XFileImage.cpp:977
 msgid "Show image thumbnails."
 msgstr "Vorschaubilder anzeigen."
 
 #: src/XFileImage.cpp:985
-#, fuzzy
-#| msgid "Display folders with big icons."
 msgid "Display folders with big icons."
 msgstr "Ordner mit großen Symbolen anzeigen."
 
 #: src/XFileImage.cpp:991
-#, fuzzy
-#| msgid "Display folders with small icons."
 msgid "Display folders with small icons."
 msgstr "Ordner mit kleinen Symbolen anzeigen."
 
 #: src/XFileImage.cpp:997
-#, fuzzy
-#| msgid "Display detailed folder listing."
 msgid "Display detailed folder listing."
 msgstr "Detaillierte Ordnerliste anzeigen."
 
@@ -6317,7 +6307,7 @@ msgstr "&Zurück"
 
 #: src/foxhacks.cpp:3693
 msgid "Docking"
-msgstr ""
+msgstr "Andocken"
 
 #: src/foxhacks.cpp:3695
 msgid "Top"
@@ -6337,11 +6327,11 @@ msgstr "Rechts"
 
 #: src/foxhacks.cpp:3699
 msgid "Float"
-msgstr ""
+msgstr "Schwebend"
 
 #: src/foxhacks.cpp:3700
 msgid "Flip"
-msgstr ""
+msgstr "Gedreht"
 
 #: src/help.h:8
 #, c-format
@@ -6981,15 +6971,15 @@ msgstr ""
 "Warnung: Unbekannter Feld-Modus, verwende letzten gespeicherten Feld-Modus\n"
 
 #: src/startupnotification.cpp:80 src/startupnotification.cpp:132
-#: src/startupnotification.cpp:201 src/startupnotification.cpp:227
-#: src/startupnotification.cpp:261
+#: src/startupnotification.cpp:200 src/startupnotification.cpp:226
+#: src/startupnotification.cpp:259
 #, c-format
 msgid "Error: Can't enter folder %s: %s"
 msgstr "Fehler: Kann den Ordner %s nicht öffnen: %s"
 
 #: src/startupnotification.cpp:84 src/startupnotification.cpp:136
-#: src/startupnotification.cpp:205 src/startupnotification.cpp:231
-#: src/startupnotification.cpp:265
+#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
+#: src/startupnotification.cpp:263
 #, c-format
 msgid "Error: Can't enter folder %s"
 msgstr "Fehler: Kann den Ordner %s nicht öffnen"
@@ -7034,17 +7024,17 @@ msgstr "Fehler: Kann die Gruppenliste nicht lesen"
 #: src/xfeutils.cpp:2069
 #, c-format
 msgid "%u h %u min %u s"
-msgstr ""
+msgstr "%u h %u min %u s"
 
 #: src/xfeutils.cpp:2073
 #, c-format
 msgid "%u min %u s"
-msgstr ""
+msgstr "%u min %u s"
 
 #: src/xfeutils.cpp:2077
 #, c-format
 msgid "%u s"
-msgstr ""
+msgstr "%u s"
 
 #: xfe.desktop.in:3
 msgid "Xfe"
@@ -7059,8 +7049,6 @@ msgid "A lightweight file manager for X Window"
 msgstr "Ein leichter Dateimanager für X Window"
 
 #: xfe.desktop.in:6
-#, fuzzy
-#| msgid "File Manager"
 msgid "file manager"
 msgstr "Dateimanager"
 
@@ -7114,539 +7102,8 @@ msgstr ""
 
 #: org.xfe.root.policy.in.in:11
 msgid "Run Xfe as root"
-msgstr "Xfe als Administrator ausführen"
+msgstr "Xfe als \"root\" ausführen"
 
 #: org.xfe.root.policy.in.in:12
 msgid "Authentication is required to run Xfe as root"
 msgstr "Legitimierung ist erforderlich, um Xfe als Root-Benutzer auszuführen"
-
-#, fuzzy
-#~| msgid "Go to Previous Folder"
-#~ msgid "Go to Previous FprevImageer"
-#~ msgstr "Zum vorherigen Ordner wechseln"
-
-#, fuzzy
-#~| msgid "Go to Next Folder"
-#~ msgid "Go to Next FprevImageer"
-#~ msgstr "Zum nächsten Ordner wechseln"
-
-#, fuzzy
-#~| msgid "Go to Parent Folder"
-#~ msgid "Go to Parent FprevImageer"
-#~ msgstr "Zum übergeordneten Ordner wechseln"
-
-#, fuzzy
-#~| msgid "Go to Home Folder"
-#~ msgid "Go to Home FprevImageer"
-#~ msgstr "Zum Heimatordner wechseln"
-
-#, fuzzy
-#~| msgid "Go to Working Folder"
-#~ msgid "Go to Working FprevImageer"
-#~ msgstr "Zum Arbeitsordner wechseln"
-
-#, fuzzy
-#~| msgid "Fold&ers First"
-#~ msgid "FprevImage&ers First"
-#~ msgstr "Ordn&er zuerst"
-
-#, fuzzy
-#~| msgid "Folder: "
-#~ msgid "Folder:"
-#~ msgstr "Ordner: "
-
-#, fuzzy
-#~| msgid "&Window"
-#~ msgid "Windows Share"
-#~ msgstr "&Fenster"
-
-#~ msgid "All files"
-#~ msgstr "Alle Dateien"
-
-#~ msgid "Mount point"
-#~ msgstr "Einhängepunkt"
-
-#~ msgid "&New window"
-#~ msgstr "&Neues Fenster"
-
-#~ msgid " file system..."
-#~ msgstr " Dateisystem..."
-
-#~ msgid " the folder:"
-#~ msgstr " der Ordner:"
-
-#~ msgid " operation cancelled!"
-#~ msgstr " Aktion abgebrochen!"
-
-#~ msgid "Install/Upgrade package"
-#~ msgstr "Pakete installieren/aktualisieren"
-
-#~ msgid "Uninstall package"
-#~ msgstr "Deinstalliere Paket"
-
-#~ msgid "New folder"
-#~ msgstr "Neuer Ordner"
-
-#~ msgid "Fu&ll file list"
-#~ msgstr "&Lange Dateiliste"
-
-#~ msgid "&Full file list"
-#~ msgstr "&Lange Dateiliste"
-
-#~ msgid "Deletion date"
-#~ msgstr "Löschen Datum"
-
-#~ msgid "Modified date"
-#~ msgstr "Änderungsdatum"
-
-#~ msgid "&Modes"
-#~ msgstr "&Modi"
-
-#~ msgid "Thumbnails mode"
-#~ msgstr "V&orschaubilder Modus"
-
-#~ msgid "File &list"
-#~ msgstr "&Dateiliste"
-
-#~ msgid "F&ull file list"
-#~ msgstr "&Lange Dateiliste"
-
-#~ msgid "I&gnore case"
-#~ msgstr "&Ignoriere Groß-/Kleinschreibung"
-
-#~ msgid "Error Saving File"
-#~ msgstr "Fehler beim Speichern der Datei"
-
-#~ msgid "&Add bookmark"
-#~ msgstr "Lesezeichen &setzen"
-
-#~ msgid "Go to script folder"
-#~ msgstr "Zum Skript-Ordner wechseln"
-
-#~ msgid "&Clear recent files"
-#~ msgstr "Dateiliste l&eeren"
-
-#~ msgid "Original path: "
-#~ msgstr "Ursprungspfad: "
-
-#~ msgid "Size: "
-#~ msgstr "Größe: "
-
-#~ msgid "Mount (Linux only)"
-#~ msgstr "Einhängen (nur bei Linux)"
-
-#~ msgid "Unmount (Linux only)"
-#~ msgstr "Trennen (nur bei Linux)"
-
-#~ msgid "Autosize"
-#~ msgstr "Automatische Größe"
-
-#~ msgid "&Autosize"
-#~ msgstr "&Automatische Größenanpassung"
-
-#, fuzzy
-#~| msgid "Extr&act to folder "
-#~ msgid "Extract file to folder: "
-#~ msgstr "Entp&acken in den Ordner "
-
-#, fuzzy
-#~| msgid "Can't copy file %s"
-#~ msgid "Can't open, file is a directory"
-#~ msgstr "Kann Datei %s nicht kopieren"
-
-#, fuzzy, c-format
-#~| msgid "Can't create folder %s"
-#~ msgid "Can't create directory %s"
-#~ msgstr "Kann Ordner %s nicht erstellen"
-
-#, fuzzy
-#~| msgid "Can't copy file %s"
-#~ msgid "Can't extract, file is a directory"
-#~ msgstr "Kann Datei %s nicht kopieren"
-
-#, fuzzy, c-format
-#~| msgid "Can't create folder %s"
-#~ msgid "Can't remove directory %s"
-#~ msgstr "Kann Ordner %s nicht erstellen"
-
-#~ msgid "tar.Z\tArchive format is tar.Z"
-#~ msgstr "tar.Z\tPaketformat ist tar.Z"
-
-#~ msgid "Z\tArchive format is Z"
-#~ msgstr "Z\tPaketformat ist Z"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program tar does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program unzip does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program bsdtar does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program unrar does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program lha does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program unace does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Unarchive program arj does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "No package loaded"
-#~ msgid "Archive opened"
-#~ msgstr "Keine Pakete geladen"
-
-#, fuzzy
-#~| msgid "Archiver:"
-#~ msgid "Archive extracted"
-#~ msgstr "Archivierer:"
-
-#, fuzzy
-#~| msgid "No package loaded"
-#~ msgid "No archive loaded"
-#~ msgstr "Keine Pakete geladen"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Archive program tar does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "Symlink source %s does not exist"
-#~ msgid "Archive program arj does not exist"
-#~ msgstr "Die Verknüpfung Quelle %s existiert nicht"
-
-#, fuzzy
-#~| msgid "E&xtract to..."
-#~ msgid "&Extract..."
-#~ msgstr "Ent&packen nach..."
-
-#, c-format
-#~ msgid ""
-#~ "Starting from Xfe 1.32, the location of the configuration files has "
-#~ "changed to '%s'.\n"
-#~ "Note you can manually edit the new configuration files to import your old "
-#~ "customizations..."
-#~ msgstr ""
-#~ "Beginnend mit Xfe 1.32 werden die Konfigurationsdateien jetzt in '%s' "
-#~ "abgelegt.\n"
-#~ "Hinweis: Die neuen Konfigurationsdateien können manuell bearbeitet werden "
-#~ "um alte Einstellungen zu importieren..."
-
-#, fuzzy
-#~| msgid "Add bookmark"
-#~ msgid "Rename Bookmark"
-#~ msgstr "Lesezeichen setzen"
-
-#, fuzzy
-#~| msgid "Show hidden folders"
-#~ msgid "Show files/folders:"
-#~ msgstr "Versteckte Ordner anzeigen"
-
-#, fuzzy
-#~| msgid "\tFilter by file type"
-#~ msgid "Filter by file type"
-#~ msgstr "\tFiltern nach Dateityp"
-
-#, fuzzy
-#~| msgid "Create new window"
-#~ msgid "&Open in new window"
-#~ msgstr "Neues Fenster erstellen"
-
-#~ msgid "0 bytes in root"
-#~ msgstr "0 Byte im Wurzelverzeichnis"
-
-#~ msgid " in root"
-#~ msgstr " in Wurzelverzeichnis"
-
-#, fuzzy
-#~| msgid "\tFilter by file type"
-#~ msgid "Filter by type"
-#~ msgstr "\tFiltern nach Dateityp"
-
-#, fuzzy
-#~| msgid "Two panels mode"
-#~ msgid "Folders panel view mode"
-#~ msgstr "Zwei Felder"
-
-#, fuzzy
-#~| msgid "Preview:"
-#~ msgid "Panel view:"
-#~ msgstr "Voransicht:"
-
-#~ msgid "Tree and panel mode"
-#~ msgstr "Baum und ein Feld"
-
-#~ msgid "Tree and two panels mode"
-#~ msgstr "Baum und zwei Felder"
-
-#~ msgid "Show tree and panel"
-#~ msgstr "Baum und ein Feld"
-
-#~ msgid "Show tree and two panels"
-#~ msgstr "Baum und zwei Felder"
-
-#, fuzzy
-#~| msgid "Fold&ers first"
-#~ msgid "Places first"
-#~ msgstr "Ordn&er zuerst"
-
-#, fuzzy
-#~| msgid "File properties"
-#~ msgid "&Folder properties"
-#~ msgstr "Datei-Eigenschaften"
-
-#~ msgid "Confirm Clear Bookmarks"
-#~ msgstr "Löschen von Lesezeichen bestätigen"
-
-#~ msgid "Do you really want to clear all your bookmarks?"
-#~ msgstr "Wollen Sie wirklich alle Lesezeichen löschen?"
-
-#~ msgid "Clear location bar"
-#~ msgstr "Adresseleiste löschen"
-
-#~ msgid "Clear location"
-#~ msgstr "Adresse löschen"
-
-#~ msgid "Go to location"
-#~ msgstr "Zur Adresse wechseln"
-
-#~ msgid "&Location bar"
-#~ msgstr "&Adressleiste"
-
-#, fuzzy
-#~| msgid "Clear location"
-#~ msgid "Bookmark location:"
-#~ msgstr "Adresse löschen"
-
-#~ msgid "Bookmarks limit number reached. The last bookmark will be deleted..."
-#~ msgstr "Lesezeichenlimit erreicht. Das letzte Lesezeichen wird gelöscht..."
-
-#, fuzzy
-#~| msgid "Folder name is empty, operation cancelled"
-#~ msgid "Folders rename is not allowed in Search Panel"
-#~ msgstr "Ordnername ist leer, Ausführung wurde abgebrochen"
-
-#, fuzzy
-#~| msgid "Rename"
-#~ msgid "renamed"
-#~ msgstr "Umbenennen"
-
-#, fuzzy
-#~| msgid "File rename"
-#~ msgid "Whole file name"
-#~ msgstr "Datei umbenennen"
-
-#~ msgid "copy"
-#~ msgstr "kopieren"
-
-#~ msgid "Controls"
-#~ msgstr "Bedienelemente"
-
-#~ msgid "Standard (classic controls)"
-#~ msgstr "Standard (klassische Bedienelemente)"
-
-#~ msgid "Clearlooks (modern looking controls)"
-#~ msgstr "Clearlooks (modernes Aussehen)"
-
-#~ msgid "File:"
-#~ msgstr "Datei :"
-
-#, fuzzy
-#~| msgid ""
-#~| "Please wait...\n"
-#~| "\n"
-#~ msgid "Please wait..."
-#~ msgstr ""
-#~ "Bitte warten...\n"
-#~ "\n"
-
-#~ msgid "File copy"
-#~ msgstr "Datei kopieren"
-
-#~ msgid "File symlink"
-#~ msgstr "Datei-Verknüpfung"
-
-#~ msgid "File delete"
-#~ msgstr "Datei löschen"
-
-#, fuzzy
-#~ msgid "xfe"
-#~ msgstr "Xfe"
-
-#, fuzzy
-#~ msgid "xfi"
-#~ msgstr "Xfi"
-
-#, fuzzy
-#~ msgid "xfw"
-#~ msgstr "Xfw"
-
-#, fuzzy
-#~ msgid "xfp"
-#~ msgstr "Xfp"
-
-#, fuzzy
-#~ msgid "To clip&board"
-#~ msgstr "In die Zwischenablage ausschneiden"
-
-#~ msgid "&Themes"
-#~ msgstr "&Themen"
-
-#, fuzzy
-#~ msgid "Never execute text files"
-#~ msgstr "Ausführen von Textdateien bestätigen"
-
-#~ msgid "KB"
-#~ msgstr "KB"
-
-#~ msgid ""
-#~ "Scrolling mode will be changed after restart.\n"
-#~ "Restart X File Explorer now?"
-#~ msgstr ""
-#~ "Das Rollverhalten wird bei einem Neustart geändert.\n"
-#~ "X File Explorer jetzt neu starten?"
-
-#~ msgid ""
-#~ "Path linker will be changed after restart.\n"
-#~ "Restart X File Explorer now?"
-#~ msgstr ""
-#~ "Pfad-Linker wird bei einem Neustart geändert.\n"
-#~ "X File Explorer jetzt neu starten?"
-
-#~ msgid ""
-#~ "Button style will be changed after restart.\n"
-#~ "Restart X File Explorer now?"
-#~ msgstr ""
-#~ "Schaltflächen-Stil wird bei einem Neustart geändert.\n"
-#~ "X File Explorer jetzt neu starten?"
-
-#~ msgid ""
-#~ "Normal font will be changed after restart.\n"
-#~ "Restart X File Explorer now?"
-#~ msgstr ""
-#~ "Die Schriftart wird bei einem Neustart geändert.\n"
-#~ "Wollen Sie X File Explorer jetzt neu starten?"
-
-#~ msgid ""
-#~ "Text font will be changed after restart.\n"
-#~ "Restart X File Explorer now?"
-#~ msgstr ""
-#~ "Die Schriftart wird bei einem Neustart geändert.\n"
-#~ "Wollen Sie X File Explorer jetzt neu starten?"
-
-#, fuzzy
-#~ msgid "!!!!!An error has occurred!"
-#~ msgstr "Ein Fehler ist aufgetreten!"
-
-#, fuzzy
-#~ msgid "Set focus to panel"
-#~ msgstr "Zwei Felder"
-
-#~ msgid "Panel does not have focus"
-#~ msgstr "Anzeigefeld hat den Fokus nicht"
-
-#, fuzzy
-#~ msgid "Folder &Usage"
-#~ msgstr "Ordner"
-
-#, fuzzy
-#~ msgid "Confirm Properties"
-#~ msgstr "Überschreiben bestätigen"
-
-#~ msgid "P&roperties..."
-#~ msgstr "Ei&genschaften..."
-
-#~ msgid "&Properties..."
-#~ msgstr "Ei&genschaften..."
-
-#~ msgid "&About X File Write..."
-#~ msgstr "Ü&ber X File Write"
-
-#, fuzzy
-#~ msgid "Can 't enter folder %s: %s"
-#~ msgstr "Kann Ordner %s nicht öffnen: %s"
-
-#, fuzzy
-#~ msgid "Can't enter folder %s : %s"
-#~ msgstr "Kann Ordner %s nicht öffnen: %s"
-
-#~ msgid "Can't create trash can 'files' folder %s : %s"
-#~ msgstr "'files' Papierkorb-Ordner %s kann nicht erstellt werden: %s"
-
-#, fuzzy
-#~ msgid "Can 't execute command %s"
-#~ msgstr "Kann Befehl %s nicht ausführen"
-
-#, fuzzy
-#~ msgid "Can 't enter folder %s"
-#~ msgstr "Kann Ordner %s nicht öffnen"
-
-#, fuzzy
-#~ msgid "Can 't create trash can 'files ' folder %s"
-#~ msgstr "'files' Papierkorb-Ordner %s kann nicht erstellt werden"
-
-#, fuzzy
-#~ msgid "Can't create trash can 'info' folder %s : %s"
-#~ msgstr "'info' Papierkorb-Ordner %s kann nicht erstellt werden: %s"
-
-#, fuzzy
-#~ msgid "Can 't create trash can 'info ' folder %s"
-#~ msgstr "'info' Papierkorb-Ordner %s kann nicht erstellt werden"
-
-#~ msgid "Delete: "
-#~ msgstr "Löschen : "
-
-#, fuzzy
-#~ msgid "About X File Explorer "
-#~ msgstr "Über X File Explorer"
-
-#, fuzzy
-#~ msgid "&Right panel "
-#~ msgstr "&Rechtes Anzeigefeld"
-
-#, fuzzy
-#~ msgid "&Left panel "
-#~ msgstr "Lin&kes Anzeigefeld"
-
-#, fuzzy
-#~ msgid "Can't enter folder %s "
-#~ msgstr "Kann Ordner %s nicht öffnen"
-
-#, fuzzy
-#~ msgid "Execute command "
-#~ msgstr "Befehl ausführen"
-
-#, fuzzy
-#~ msgid "Command log "
-#~ msgstr "Befehlssprotokoll"
-
-#, fuzzy
-#~ msgid "Can't create trash can 'files' folder %s : %s "
-#~ msgstr "'files' Papierkorb-Ordner %s kann nicht erstellt werden: %s"
-
-#~ msgid "Non-existing file: %s"
-#~ msgstr "Datei nicht vorhanden: %s"
-
-#, fuzzy
-#~ msgid "2Can't rename to target %s: %s"
-#~ msgstr "Kann nicht nach Ziel %s umbenennen: %s"

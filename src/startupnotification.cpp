@@ -175,8 +175,7 @@ int runcmd(FXString cmd, FXString cmdname, FXString dir, FXString startdir, FXbo
     else
     {
         // Replace quotes with double quotes to avoid problems with sh -c
-        cmd.replace(cmd.find('\''), '"');
-        cmd.replace(cmd.rfind('\''), '"');
+        cmd.substitute('\'', '"', true);
 
         // Run command in background through a shell (to avoid problems with pkexec)
         FXString shcmd = "sh -c \'" + cmd + "\' &";
@@ -235,8 +234,7 @@ int runcmd(FXString cmd, FXString dir, FXString startdir)
     }
 
     // Replace quotes with double quotes to avoid problems with sh -c
-    cmd.replace(cmd.find('\''), '"');
-    cmd.replace(cmd.rfind('\''), '"');
+    cmd.substitute('\'', '"', true);
 
     // Run command in background through a shell (to avoid problems with pkexec)
     FXString shcmd = "sh -c '" + cmd + "' &";
