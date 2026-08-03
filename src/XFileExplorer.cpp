@@ -4761,6 +4761,7 @@ Danish: Jonas Bardino, Vidar Jon Bauge\n\
 Dutch: Hans Strijards\n\
 Finnish: Kimmo Siira\n\
 French: Claude Leo Mercier, Roland Baudin\n\
+Georgian: Ekaterine Papava\n\
 German: Bastian Kleineidam, Joachim Wiedorn, Tim Benke, Jens Körner\n\
 Greek: Nikos Papadopoulos\n\
 Hungarian: Attila Szervac, Sandor Sipos\n\

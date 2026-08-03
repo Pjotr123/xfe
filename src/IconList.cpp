@@ -1002,18 +1002,19 @@ long IconList::onConfigure(FXObject*, FXSelector, void*)
     // Update the relative header sizes
     if (relative_resize && (count >= 1))
     {
-        // Initialize the extra header pcts if necessary
-        if (initheaderpct && (getNumHeaders() == 9)) // Search list, is it really necessary???
+        // If not in a search list, initialize the extra header pcts if necessary
+        if ( !(options & ICONLIST_SEARCH) )
         {
-            headerpct[8] = (double)getHeaderSize(8) / (double)width;
-            initheaderpct = false;
+           if (initheaderpct && (getNumHeaders() > NMAX_COLS))
+            {
+                for (int hi = NMAX_COLS; hi < getNumHeaders(); hi++)
+                {
+                    headerpct[hi] = (double)getHeaderSize(hi) / (double)width;
+                }
+                initheaderpct = false;
+            }            
         }
-        if (initheaderpct && (getNumHeaders() == 10))
-        {
-            headerpct[8] = (double)getHeaderSize(8) / (double)width;
-            headerpct[9] = (double)getHeaderSize(9) / (double)width;
-            initheaderpct = false;
-        }
+
         int newhsize;
         for (int hi = 0; hi < getNumHeaders(); hi++)
         {

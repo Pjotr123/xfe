@@ -458,7 +458,7 @@
   Translations\n \
   =-=-=-=-=-=-=\n \
  \n \
- Xfe is now available in 24 languages but some translations are only partial. To translate Xfe to your language,\n \
+ Xfe is now available in 25 languages but some translations are only partial. To translate Xfe to your language,\n \
  open the Xfe.pot file located in the po folder of the source tree with a software like poedit, kbabel\n \
  or gtranslator and fill it with your translated strings (be careful to the hotkeys and c-format characters),\n \
  and then send it back to me. I'll be pleased to integrate your work in the next Xfe release.\n \
@@ -473,7 +473,7 @@
  Many thanks to Maxim Baranov for his excellent X Win Commander, to Jeroen van der Zijp for the FOX toolkit\n \
  and  to all people that have provided useful patches, translations, tests and advices.\n \
 \n \
- [Last revision: 05/01/2026]\n \
+ [Last revision: 25/07/2026]\n \
 \n \
 ");
 

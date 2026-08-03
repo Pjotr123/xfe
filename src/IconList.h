@@ -242,7 +242,7 @@ protected:
     FXbool state = false;                           // State of item
     FXbool allowTooltip = false;                    // Allow tooltip in single click mode
     FXuint numsortheader = 0;                       // Index of the sorted column
-    double headerpct[10];                           // Header sizes, relatively to the list width (in percent)
+    double headerpct[NMAX_COLS + 2];                // Header sizes, relatively to the list width (in percent)
     int count = 0;                                  // Counter used to properly initialize the relative header sizes
     FXbool ignorecase = false;                      // Case sensitivity for file name sorting
     FXbool initheaderpct = false;                   // Indicates we have to initialize the headerpct for the deletion columns

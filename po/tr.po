@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfe 0.54.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-09 18:36+0200\n"
+"POT-Creation-Date: 2026-07-25 10:57+0200\n"
 "PO-Revision-Date: 2019-09-03 08:35+0200\n"
 "Last-Translator: Yaşar Çiv <yasarciv67@gmail.com>\n"
 "Language-Team: Türkçe <tr@li.org>\n"
@@ -403,17 +403,17 @@ msgstr "Hata: Çatal başarısız oldu: %s\n"
 #: src/XFileExplorer.cpp:4478 src/XFileExplorer.cpp:4610
 #: src/XFileExplorer.cpp:4660 src/XFileExplorer.cpp:4665
 #: src/XFileExplorer.cpp:4677 src/XFileExplorer.cpp:4688
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5364
-#: src/XFileExplorer.cpp:5369 src/XFileExplorer.cpp:5417
-#: src/XFileExplorer.cpp:5469 src/XFileExplorer.cpp:5474
-#: src/XFileExplorer.cpp:5516 src/XFileExplorer.cpp:5543
-#: src/XFileExplorer.cpp:5548 src/XFileExplorer.cpp:5601
-#: src/XFileExplorer.cpp:5606 src/XFileExplorer.cpp:5615
-#: src/XFileExplorer.cpp:5749 src/XFileExplorer.cpp:5754
-#: src/XFileExplorer.cpp:5770 src/XFileExplorer.cpp:5775
-#: src/XFileExplorer.cpp:5830 src/XFileExplorer.cpp:6427
-#: src/XFileExplorer.cpp:6501 src/XFileExplorer.cpp:6507
-#: src/XFileExplorer.cpp:6514 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
+#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5365
+#: src/XFileExplorer.cpp:5370 src/XFileExplorer.cpp:5418
+#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5475
+#: src/XFileExplorer.cpp:5517 src/XFileExplorer.cpp:5544
+#: src/XFileExplorer.cpp:5549 src/XFileExplorer.cpp:5602
+#: src/XFileExplorer.cpp:5607 src/XFileExplorer.cpp:5616
+#: src/XFileExplorer.cpp:5750 src/XFileExplorer.cpp:5755
+#: src/XFileExplorer.cpp:5771 src/XFileExplorer.cpp:5776
+#: src/XFileExplorer.cpp:5831 src/XFileExplorer.cpp:6428
+#: src/XFileExplorer.cpp:6502 src/XFileExplorer.cpp:6508
+#: src/XFileExplorer.cpp:6515 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
 #: src/XFileArchive.cpp:605 src/XFileArchive.cpp:628 src/XFileArchive.cpp:719
 #: src/XFileArchive.cpp:808 src/XFileArchive.cpp:872 src/XFileArchive.cpp:882
 #: src/XFileArchive.cpp:901 src/XFileArchive.cpp:1012 src/XFileArchive.cpp:1022
@@ -818,7 +818,7 @@ msgstr " İzin: %s reddedildi."
 #: src/DirPanel.cpp:817 src/DirPanel.cpp:944 src/DirPanel.cpp:1071
 #: src/DirPanel.cpp:3805 src/FilePanel.cpp:5189 src/WriteWindow.cpp:2017
 #: src/XFileExplorer.cpp:4610 src/XFileExplorer.cpp:4677
-#: src/XFileExplorer.cpp:5417 src/XFileArchive.cpp:901
+#: src/XFileExplorer.cpp:5418 src/XFileArchive.cpp:901
 #: src/XFileArchive.cpp:1041 src/XFileArchive.cpp:1192
 #: src/XFileArchive.cpp:1264 src/XFileImage.cpp:1943
 #, c-format
@@ -921,7 +921,7 @@ msgid "&Add to Archive..."
 msgstr "&Arşive ekle..."
 
 #: src/DirPanel.cpp:1527 src/FilePanel.cpp:5049 src/SearchPanel.cpp:2618
-#: src/XFileExplorer.cpp:6198 src/XFileExplorer.cpp:6221
+#: src/XFileExplorer.cpp:6199 src/XFileExplorer.cpp:6222
 #, fuzzy
 #| msgid "Name"
 msgid "Cop&y Name"
@@ -1015,9 +1015,9 @@ msgstr "Taşı "
 #: src/FilePanel.cpp:6232 src/FilePanel.cpp:6488 src/FilePanel.cpp:6541
 #: src/SearchPanel.cpp:936 src/SearchPanel.cpp:2712 src/SearchPanel.cpp:4532
 #: src/SearchPanel.cpp:4563 src/XFileExplorer.cpp:4660
-#: src/XFileExplorer.cpp:4688 src/XFileExplorer.cpp:5364
-#: src/XFileExplorer.cpp:5469 src/XFileExplorer.cpp:5543
-#: src/XFileExplorer.cpp:5601
+#: src/XFileExplorer.cpp:4688 src/XFileExplorer.cpp:5365
+#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5544
+#: src/XFileExplorer.cpp:5602
 #, c-format
 msgid "Can't enter folder %s: %s"
 msgstr "%s dizini girilemiyor: %s"
@@ -1032,9 +1032,9 @@ msgstr "%s dizini girilemiyor: %s"
 #: src/FilePanel.cpp:6237 src/FilePanel.cpp:6493 src/FilePanel.cpp:6546
 #: src/SearchPanel.cpp:941 src/SearchPanel.cpp:2717 src/SearchPanel.cpp:4537
 #: src/SearchPanel.cpp:4568 src/XFileExplorer.cpp:4665
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5369
-#: src/XFileExplorer.cpp:5474 src/XFileExplorer.cpp:5548
-#: src/XFileExplorer.cpp:5606
+#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5370
+#: src/XFileExplorer.cpp:5475 src/XFileExplorer.cpp:5549
+#: src/XFileExplorer.cpp:5607
 #, c-format
 msgid "Can't enter folder %s"
 msgstr "%s dizini girilemiyor"
@@ -1873,7 +1873,7 @@ msgstr "%s dosyası çalıştırılabilir bir metin dosyası, ne yapmak istiyors
 msgid "Confirm Execute"
 msgstr "Çalıştırmayı Onayla"
 
-#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5404
+#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5405
 msgid "Command log"
 msgstr "Komut günlüğü"
 
@@ -1964,7 +1964,7 @@ msgstr "%s dosyası kesinlikle silinsin mi ?"
 msgid "Definitively delete %s selected items?"
 msgstr "%s seçili öğe kesinlikle silinsin mi?"
 
-#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5728 src/XFileExplorer.cpp:5734
+#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5729 src/XFileExplorer.cpp:5735
 msgid "Delete Files"
 msgstr "Dosyaları sil"
 
@@ -2153,7 +2153,7 @@ msgid "&Go to Script Folder"
 msgstr "Betik dizinine &git"
 
 #: src/FilePanel.cpp:5053 src/SearchPanel.cpp:257 src/SearchPanel.cpp:2622
-#: src/XFileExplorer.cpp:1404 src/XFileExplorer.cpp:6203
+#: src/XFileExplorer.cpp:1404 src/XFileExplorer.cpp:6204
 #, fuzzy
 #| msgid "Name"
 msgid "Cop&y Names"
@@ -2483,58 +2483,58 @@ msgstr "Tüm Yazıtipleri:"
 msgid "Preview:"
 msgstr "Önizleme:"
 
-#: src/IconList.cpp:386 src/IconList.cpp:4625 src/Preferences.cpp:84
+#: src/IconList.cpp:386 src/IconList.cpp:4626 src/Preferences.cpp:84
 #: src/Preferences.cpp:734
 msgid "Size"
 msgstr "Boyut"
 
-#: src/IconList.cpp:4613 src/Preferences.cpp:80 src/Preferences.cpp:733
+#: src/IconList.cpp:4614 src/Preferences.cpp:80 src/Preferences.cpp:733
 #: src/Properties.cpp:321 src/RenameDialog.cpp:142 src/RenameDialog.cpp:248
 #: src/RenameDialog.cpp:257
 msgid "Name"
 msgstr "İsim"
 
-#: src/IconList.cpp:4617
+#: src/IconList.cpp:4618
 #, fuzzy
 #| msgid "Folder: "
 msgid "Folder Name"
 msgstr "Dizin: "
 
-#: src/IconList.cpp:4621 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
+#: src/IconList.cpp:4622 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
 msgid "Original Path"
 msgstr "Asıl yol"
 
-#: src/IconList.cpp:4629 src/Preferences.cpp:88 src/Preferences.cpp:735
+#: src/IconList.cpp:4630 src/Preferences.cpp:88 src/Preferences.cpp:735
 msgid "Type"
 msgstr "Tür"
 
-#: src/IconList.cpp:4633 src/Preferences.cpp:92 src/Preferences.cpp:736
+#: src/IconList.cpp:4634 src/Preferences.cpp:92 src/Preferences.cpp:736
 msgid "Extension"
 msgstr "Uzantı"
 
-#: src/IconList.cpp:4637 src/Preferences.cpp:96 src/Preferences.cpp:737
+#: src/IconList.cpp:4638 src/Preferences.cpp:96 src/Preferences.cpp:737
 msgid "Modified Date"
 msgstr "Değiştirme tarihi"
 
-#: src/IconList.cpp:4641 src/XFileExplorer.cpp:1553 src/XFileExplorer.cpp:1584
+#: src/IconList.cpp:4642 src/XFileExplorer.cpp:1553 src/XFileExplorer.cpp:1584
 msgid "Deletion Date"
 msgstr "Silme Tarihi:"
 
-#: src/IconList.cpp:4645 src/Preferences.cpp:100 src/Preferences.cpp:738
+#: src/IconList.cpp:4646 src/Preferences.cpp:100 src/Preferences.cpp:738
 #: src/Properties.cpp:57 src/Properties.cpp:80
 msgid "User"
 msgstr "Kullanıcı"
 
-#: src/IconList.cpp:4649 src/Preferences.cpp:104 src/Preferences.cpp:739
+#: src/IconList.cpp:4650 src/Preferences.cpp:104 src/Preferences.cpp:739
 #: src/Properties.cpp:62 src/Properties.cpp:83
 msgid "Group"
 msgstr "Grup"
 
-#: src/IconList.cpp:4653 src/Preferences.cpp:108 src/Preferences.cpp:740
+#: src/IconList.cpp:4654 src/Preferences.cpp:108 src/Preferences.cpp:740
 msgid "Permissions"
 msgstr "İzinler"
 
-#: src/IconList.cpp:4657 src/Preferences.cpp:112 src/Preferences.cpp:741
+#: src/IconList.cpp:4658 src/Preferences.cpp:112 src/Preferences.cpp:741
 #: src/SearchWindow.cpp:219
 msgid "Link"
 msgstr "Bağlantı"
@@ -2707,7 +2707,7 @@ msgstr "&Kaydet"
 msgid "Yes for &All"
 msgstr "&Tümüne Evet"
 
-#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5517
+#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5518
 msgid ""
 "Command pkexec not found!\n"
 "\n"
@@ -2723,7 +2723,7 @@ msgstr "Kullanıcı parolasını girin:"
 msgid "Enter root password:"
 msgstr "Kök parolasını girin:"
 
-#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5615
+#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5616
 msgid "An error has occurred!"
 msgstr "Bir hata oluştu!"
 
@@ -3594,7 +3594,7 @@ msgstr "Yeni pencere oluştur"
 msgid "Create new root window"
 msgstr "Yeni kök penceresi oluştur"
 
-#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5379
+#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5380
 msgid "Execute command"
 msgstr "Komut çalıştır"
 
@@ -3672,7 +3672,7 @@ msgstr "Panelleri değiştir"
 msgid "Go to trash can"
 msgstr "Çöp kutusuna git"
 
-#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5717
+#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5718
 msgid "Empty trash can"
 msgstr "Boş çöp kutusu"
 
@@ -3992,13 +3992,13 @@ msgid "Deletion Date:"
 msgstr "Silme Tarihi:"
 
 #: src/Properties.cpp:856 src/Properties.cpp:2154 src/Properties.cpp:2223
-#: src/XFileExplorer.cpp:5703
+#: src/XFileExplorer.cpp:5704
 #, c-format
 msgid "%s (%lu bytes)"
 msgstr "%s (%lu bayt)"
 
 #: src/Properties.cpp:858 src/Properties.cpp:2156 src/Properties.cpp:2225
-#: src/XFileExplorer.cpp:5705
+#: src/XFileExplorer.cpp:5706
 #, c-format
 msgid "%s (%llu bytes)"
 msgstr "%s (%llu bayt)"
@@ -4125,7 +4125,7 @@ msgstr "%u dosya, %u altdizin"
 msgid "%u files, %u subfolder"
 msgstr "%u dosya, %u altdizin"
 
-#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5707
+#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5708
 #, c-format
 msgid "%u files, %u subfolders"
 msgstr "%u dosya, %u altdizin"
@@ -4708,8 +4708,8 @@ msgid "&Window"
 msgstr "&Pencere"
 
 #: src/WriteWindow.cpp:635 src/XFileExplorer.cpp:1699
-#: src/XFileExplorer.cpp:1706 src/XFileExplorer.cpp:6078
-#: src/XFileExplorer.cpp:6089 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
+#: src/XFileExplorer.cpp:1706 src/XFileExplorer.cpp:6079
+#: src/XFileExplorer.cpp:6090 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
 #: src/XFilePackage.cpp:212
 msgid "&Help"
 msgstr "&Yardım"
@@ -5428,8 +5428,8 @@ msgstr "Gr&up"
 msgid "Fol&ders First"
 msgstr "Önce &dizinler"
 
-#: src/XFileExplorer.cpp:1559 src/XFileExplorer.cpp:5168
-#: src/XFileExplorer.cpp:5227
+#: src/XFileExplorer.cpp:1559 src/XFileExplorer.cpp:5169
+#: src/XFileExplorer.cpp:5228
 msgid "&Left Panel"
 msgstr "So&l panel"
 
@@ -5441,8 +5441,8 @@ msgstr "&Süzgeç"
 msgid "&Folders First"
 msgstr "Önce dizinl&er"
 
-#: src/XFileExplorer.cpp:1590 src/XFileExplorer.cpp:5167
-#: src/XFileExplorer.cpp:5226
+#: src/XFileExplorer.cpp:1590 src/XFileExplorer.cpp:5168
+#: src/XFileExplorer.cpp:5227
 msgid "&Right Panel"
 msgstr "&Sağ panel"
 
@@ -5512,7 +5512,7 @@ msgstr "Çöp boyu&tu"
 msgid "&Empty Trash"
 msgstr "&Boş çöp kutusu"
 
-#: src/XFileExplorer.cpp:1694 src/XFileExplorer.cpp:6075
+#: src/XFileExplorer.cpp:1694 src/XFileExplorer.cpp:6076
 msgid "T&rash"
 msgstr "Çö&p"
 
@@ -5547,22 +5547,22 @@ msgstr "Xfe yapılandırma dosyası"
 msgid "Xfe cannot run without a global xferc configuration file"
 msgstr ""
 
-#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:5749
+#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:5750
 #, c-format
 msgid "Can't create trash can 'files' folder %s: %s"
 msgstr "Çöp kutusu 'dosyalar' dizini %s oluşturulamıyor: %s"
 
-#: src/XFileExplorer.cpp:3573 src/XFileExplorer.cpp:5754
+#: src/XFileExplorer.cpp:3573 src/XFileExplorer.cpp:5755
 #, c-format
 msgid "Can't create trash can 'files' folder %s"
 msgstr "Çöp kutusu 'dosyalar' dizini %s oluşturulamıyor"
 
-#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:5770
+#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:5771
 #, c-format
 msgid "Can't create trash can 'info' folder %s: %s"
 msgstr "Çöp kutusu 'bilgi' dizini %s oluşturulamıyor: %s"
 
-#: src/XFileExplorer.cpp:3597 src/XFileExplorer.cpp:5775
+#: src/XFileExplorer.cpp:3597 src/XFileExplorer.cpp:5776
 #, c-format
 msgid "Can't create trash can 'info' folder %s"
 msgstr "Çöp kutusu 'bilgi' dizini %s oluşturulamıyor"
@@ -5613,6 +5613,38 @@ msgid "FOX Toolkit by Jeroen van der Zijp\n"
 msgstr ""
 
 #: src/XFileExplorer.cpp:4748
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "Translators\n"
+#| "-------------\n"
+#| "Argentinian Spanish: Bruno Gilberto Luciani\n"
+#| "Brazilian Portuguese: Eduardo R.B.S., Jose Carlos Medeiros,\n"
+#| "Phantom X, Tomas Acauan Schertel\n"
+#| "Bosnian: Samir Ribi, Bajrami Emran, Balagija Jasmina,\n"
+#| "Bilalovi, Omar Cogo Emir\n"
+#| "Catalan: Pere Orga\n"
+#| "Chinese: Xin Li\n"
+#| "Chinese (Taïwan): Wei-Lun Chao\n"
+#| "Colombian Spanish: Vladimir Támara (Pasos de Jesús)\n"
+#| "Czech: David Vachulka\n"
+#| "Danish: Jonas Bardino, Vidar Jon Bauge\n"
+#| "Dutch: Hans Strijards\n"
+#| "Finnish: Kimmo Siira\n"
+#| "French: Claude Leo Mercier, Roland Baudin\n"
+#| "German: Bastian Kleineidam, Joachim Wiedorn, Tim Benke, Jens Körner\n"
+#| "Greek: Nikos Papadopoulos\n"
+#| "Hungarian: Attila Szervac, Sandor Sipos\n"
+#| "Italian: Claudio Fontana, Giorgio Moscardi\n"
+#| "Japanese: Karl Skewes\n"
+#| "Norwegian: Vidar Jon Bauge\n"
+#| "Polish: Jacek Dziura, Franciszek Janowski\n"
+#| "Portuguese: Miguel Santinho\n"
+#| "Russian: Dimitri Sertolov, Vad Vad\n"
+#| "Spanish: Felix Medrano Sanz, Lucas 'Basurero' Vieites,\n"
+#| "Martin Carr\n"
+#| "Swedish: Anders F. Bjorklund\n"
+#| "Turkish: erkaN\n"
 msgid ""
 "\n"
 "Translators\n"
@@ -5631,6 +5663,7 @@ msgid ""
 "Dutch: Hans Strijards\n"
 "Finnish: Kimmo Siira\n"
 "French: Claude Leo Mercier, Roland Baudin\n"
+"Georgian: Ekaterine Papava\n"
 "German: Bastian Kleineidam, Joachim Wiedorn, Tim Benke, Jens Körner\n"
 "Greek: Nikos Papadopoulos\n"
 "Hungarian: Attila Szervac, Sandor Sipos\n"
@@ -5676,49 +5709,49 @@ msgstr ""
 "İsveçce: Anders F. Bjorklund\n"
 "Türkçe: erkaN, Yaşar Çiv\n"
 
-#: src/XFileExplorer.cpp:4780
+#: src/XFileExplorer.cpp:4781
 msgid "About X File Explorer"
 msgstr "X File Explorer Hakkında"
 
-#: src/XFileExplorer.cpp:5135 src/XFileExplorer.cpp:5189
+#: src/XFileExplorer.cpp:5136 src/XFileExplorer.cpp:5190
 msgid "&Panel"
 msgstr "&Panel"
 
-#: src/XFileExplorer.cpp:5379
+#: src/XFileExplorer.cpp:5380
 msgid "Execute the command:"
 msgstr "Komutu çalıştır:"
 
-#: src/XFileExplorer.cpp:5380
+#: src/XFileExplorer.cpp:5381
 msgid "Console mode"
 msgstr "Konsol modu"
 
-#: src/XFileExplorer.cpp:5557
+#: src/XFileExplorer.cpp:5558
 msgid "Enter the user password:"
 msgstr "Kullanıcı parolasını girin:"
 
-#: src/XFileExplorer.cpp:5564
+#: src/XFileExplorer.cpp:5565
 msgid "Enter the root password:"
 msgstr "Kök parolasını girin:"
 
-#: src/XFileExplorer.cpp:5632
+#: src/XFileExplorer.cpp:5633
 #, fuzzy
 #| msgid "Mount file system (Linux only)"
 msgid "Connect to Server"
 msgstr "Dosya sistemi bağla (sadece Linux)"
 
-#: src/XFileExplorer.cpp:5647
+#: src/XFileExplorer.cpp:5648
 msgid "Search Files and Folders"
 msgstr "Dosya ve dizinleri ara"
 
-#: src/XFileExplorer.cpp:5713
+#: src/XFileExplorer.cpp:5714
 msgid "Do you really want to empty the trash can?"
 msgstr "Gerçekten çöp kutusunu boşaltmak istiyor musunuz?"
 
-#: src/XFileExplorer.cpp:5713
+#: src/XFileExplorer.cpp:5714
 msgid " in "
 msgstr " içinde "
 
-#: src/XFileExplorer.cpp:5715
+#: src/XFileExplorer.cpp:5716
 msgid ""
 "\n"
 "\n"
@@ -5728,7 +5761,7 @@ msgstr ""
 "\n"
 "Tüm öğeler kesinlikle kaybedilecek!"
 
-#: src/XFileExplorer.cpp:5820
+#: src/XFileExplorer.cpp:5821
 #, c-format
 msgid ""
 "Trash size: %s (%s files, %s subfolders)\n"
@@ -5739,26 +5772,26 @@ msgstr ""
 "\n"
 "Değiştirilme tarihi: %s"
 
-#: src/XFileExplorer.cpp:5822
+#: src/XFileExplorer.cpp:5823
 msgid "Trash size"
 msgstr "Çöp boyutu"
 
-#: src/XFileExplorer.cpp:5830
+#: src/XFileExplorer.cpp:5831
 #, c-format
 msgid "Trash can 'files' folder %s is not readable!"
 msgstr "Çöp kutusu 'dosyalar' dizini %s okunabilir değil!"
 
-#: src/XFileExplorer.cpp:6427 src/XFileExplorer.cpp:6501
+#: src/XFileExplorer.cpp:6428 src/XFileExplorer.cpp:6502
 #, c-format
 msgid "Command not found: %s"
 msgstr "Komut bulunamadı: %s"
 
-#: src/XFileExplorer.cpp:6507
+#: src/XFileExplorer.cpp:6508
 #, c-format
 msgid "Invalid file association: %s"
 msgstr "Geçersiz dosya ilişkisi: %s"
 
-#: src/XFileExplorer.cpp:6514
+#: src/XFileExplorer.cpp:6515
 #, c-format
 msgid "File association not found: %s"
 msgstr "Dosya ilişkisi bulunamadı: %s"
@@ -7144,7 +7177,7 @@ msgid ""
 "   Translations\n"
 "   =-=-=-=-=-=-=\n"
 "  \n"
-"  Xfe is now available in 24 languages but some translations are only "
+"  Xfe is now available in 25 languages but some translations are only "
 "partial. To translate Xfe to your language,\n"
 "  open the Xfe.pot file located in the po folder of the source tree with a "
 "software like poedit, kbabel\n"
@@ -7166,7 +7199,7 @@ msgid ""
 "  and  to all people that have provided useful patches, translations, tests "
 "and advices.\n"
 " \n"
-"  [Last revision: 05/01/2026]\n"
+"  [Last revision: 25/07/2026]\n"
 " \n"
 " "
 msgstr ""

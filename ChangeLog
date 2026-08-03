@@ -1,3 +1,9 @@
+Version 2.1.9 (released 25/07/2026)
+- new georgian translation (thanks to Ekaterine Papava <papava.e@gtu.ge>) 
+- update russian translation
+- fix missing headers in file lists when entering or leaving trash folder and switching between different
+  panel modes (bug #321)
+
 Version 2.1.8 (released 14/07/2026)
 - update czech translation (David Vachulka <david@konstrukce-cad.com>)
 - update german translation (Joachim Wiedorn <joodebian@joonet.de>)

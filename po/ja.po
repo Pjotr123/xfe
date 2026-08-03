@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: XFE 1.19.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-09 18:36+0200\n"
+"POT-Creation-Date: 2026-07-25 10:57+0200\n"
 "PO-Revision-Date: 2008-08-30 08:48+0900\n"
 "Last-Translator: Karl Skewes <karl@garagedori.com>\n"
 "Language-Team: Japanese <karl@garagedori.com>\n"
@@ -394,17 +394,17 @@ msgstr ""
 #: src/XFileExplorer.cpp:4478 src/XFileExplorer.cpp:4610
 #: src/XFileExplorer.cpp:4660 src/XFileExplorer.cpp:4665
 #: src/XFileExplorer.cpp:4677 src/XFileExplorer.cpp:4688
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5364
-#: src/XFileExplorer.cpp:5369 src/XFileExplorer.cpp:5417
-#: src/XFileExplorer.cpp:5469 src/XFileExplorer.cpp:5474
-#: src/XFileExplorer.cpp:5516 src/XFileExplorer.cpp:5543
-#: src/XFileExplorer.cpp:5548 src/XFileExplorer.cpp:5601
-#: src/XFileExplorer.cpp:5606 src/XFileExplorer.cpp:5615
-#: src/XFileExplorer.cpp:5749 src/XFileExplorer.cpp:5754
-#: src/XFileExplorer.cpp:5770 src/XFileExplorer.cpp:5775
-#: src/XFileExplorer.cpp:5830 src/XFileExplorer.cpp:6427
-#: src/XFileExplorer.cpp:6501 src/XFileExplorer.cpp:6507
-#: src/XFileExplorer.cpp:6514 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
+#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5365
+#: src/XFileExplorer.cpp:5370 src/XFileExplorer.cpp:5418
+#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5475
+#: src/XFileExplorer.cpp:5517 src/XFileExplorer.cpp:5544
+#: src/XFileExplorer.cpp:5549 src/XFileExplorer.cpp:5602
+#: src/XFileExplorer.cpp:5607 src/XFileExplorer.cpp:5616
+#: src/XFileExplorer.cpp:5750 src/XFileExplorer.cpp:5755
+#: src/XFileExplorer.cpp:5771 src/XFileExplorer.cpp:5776
+#: src/XFileExplorer.cpp:5831 src/XFileExplorer.cpp:6428
+#: src/XFileExplorer.cpp:6502 src/XFileExplorer.cpp:6508
+#: src/XFileExplorer.cpp:6515 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
 #: src/XFileArchive.cpp:605 src/XFileArchive.cpp:628 src/XFileArchive.cpp:719
 #: src/XFileArchive.cpp:808 src/XFileArchive.cpp:872 src/XFileArchive.cpp:882
 #: src/XFileArchive.cpp:901 src/XFileArchive.cpp:1012 src/XFileArchive.cpp:1022
@@ -807,7 +807,7 @@ msgstr "%s を読込のは禁止です"
 #: src/DirPanel.cpp:817 src/DirPanel.cpp:944 src/DirPanel.cpp:1071
 #: src/DirPanel.cpp:3805 src/FilePanel.cpp:5189 src/WriteWindow.cpp:2017
 #: src/XFileExplorer.cpp:4610 src/XFileExplorer.cpp:4677
-#: src/XFileExplorer.cpp:5417 src/XFileArchive.cpp:901
+#: src/XFileExplorer.cpp:5418 src/XFileArchive.cpp:901
 #: src/XFileArchive.cpp:1041 src/XFileArchive.cpp:1192
 #: src/XFileArchive.cpp:1264 src/XFileImage.cpp:1943
 #, fuzzy, c-format
@@ -912,7 +912,7 @@ msgid "&Add to Archive..."
 msgstr "書庫へ追加(&A)..."
 
 #: src/DirPanel.cpp:1527 src/FilePanel.cpp:5049 src/SearchPanel.cpp:2618
-#: src/XFileExplorer.cpp:6198 src/XFileExplorer.cpp:6221
+#: src/XFileExplorer.cpp:6199 src/XFileExplorer.cpp:6222
 #, fuzzy
 #| msgid "Name"
 msgid "Cop&y Name"
@@ -1010,9 +1010,9 @@ msgstr "移動"
 #: src/FilePanel.cpp:6232 src/FilePanel.cpp:6488 src/FilePanel.cpp:6541
 #: src/SearchPanel.cpp:936 src/SearchPanel.cpp:2712 src/SearchPanel.cpp:4532
 #: src/SearchPanel.cpp:4563 src/XFileExplorer.cpp:4660
-#: src/XFileExplorer.cpp:4688 src/XFileExplorer.cpp:5364
-#: src/XFileExplorer.cpp:5469 src/XFileExplorer.cpp:5543
-#: src/XFileExplorer.cpp:5601
+#: src/XFileExplorer.cpp:4688 src/XFileExplorer.cpp:5365
+#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5544
+#: src/XFileExplorer.cpp:5602
 #, fuzzy, c-format
 msgid "Can't enter folder %s: %s"
 msgstr "%s というファイルを削除できません"
@@ -1027,9 +1027,9 @@ msgstr "%s というファイルを削除できません"
 #: src/FilePanel.cpp:6237 src/FilePanel.cpp:6493 src/FilePanel.cpp:6546
 #: src/SearchPanel.cpp:941 src/SearchPanel.cpp:2717 src/SearchPanel.cpp:4537
 #: src/SearchPanel.cpp:4568 src/XFileExplorer.cpp:4665
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5369
-#: src/XFileExplorer.cpp:5474 src/XFileExplorer.cpp:5548
-#: src/XFileExplorer.cpp:5606
+#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5370
+#: src/XFileExplorer.cpp:5475 src/XFileExplorer.cpp:5549
+#: src/XFileExplorer.cpp:5607
 #, fuzzy, c-format
 msgid "Can't enter folder %s"
 msgstr "%s というファイルを削除できません"
@@ -1892,7 +1892,7 @@ msgstr ""
 msgid "Confirm Execute"
 msgstr "削除されます"
 
-#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5404
+#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5405
 msgid "Command log"
 msgstr "コマンドログ"
 
@@ -1982,7 +1982,7 @@ msgstr "永久に削除されます"
 msgid "Definitively delete %s selected items?"
 msgstr " 選択されているアイテムが永久に削除されますか？"
 
-#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5728 src/XFileExplorer.cpp:5734
+#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5729 src/XFileExplorer.cpp:5735
 #, fuzzy
 msgid "Delete Files"
 msgstr "フォルダを削除："
@@ -2173,7 +2173,7 @@ msgid "&Go to Script Folder"
 msgstr "ルートディレクトリ"
 
 #: src/FilePanel.cpp:5053 src/SearchPanel.cpp:257 src/SearchPanel.cpp:2622
-#: src/XFileExplorer.cpp:1404 src/XFileExplorer.cpp:6203
+#: src/XFileExplorer.cpp:1404 src/XFileExplorer.cpp:6204
 #, fuzzy
 #| msgid "Name"
 msgid "Cop&y Names"
@@ -2503,59 +2503,59 @@ msgstr "すべてフォント："
 msgid "Preview:"
 msgstr "プレビュー："
 
-#: src/IconList.cpp:386 src/IconList.cpp:4625 src/Preferences.cpp:84
+#: src/IconList.cpp:386 src/IconList.cpp:4626 src/Preferences.cpp:84
 #: src/Preferences.cpp:734
 msgid "Size"
 msgstr "サイズ"
 
-#: src/IconList.cpp:4613 src/Preferences.cpp:80 src/Preferences.cpp:733
+#: src/IconList.cpp:4614 src/Preferences.cpp:80 src/Preferences.cpp:733
 #: src/Properties.cpp:321 src/RenameDialog.cpp:142 src/RenameDialog.cpp:248
 #: src/RenameDialog.cpp:257
 msgid "Name"
 msgstr "名前"
 
-#: src/IconList.cpp:4617
+#: src/IconList.cpp:4618
 #, fuzzy
 msgid "Folder Name"
 msgstr "フォルダ"
 
-#: src/IconList.cpp:4621 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
+#: src/IconList.cpp:4622 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
 #, fuzzy
 msgid "Original Path"
 msgstr "\tロケーションバーを消去する\tロケーションバーを消去します"
 
-#: src/IconList.cpp:4629 src/Preferences.cpp:88 src/Preferences.cpp:735
+#: src/IconList.cpp:4630 src/Preferences.cpp:88 src/Preferences.cpp:735
 msgid "Type"
 msgstr "種類"
 
-#: src/IconList.cpp:4633 src/Preferences.cpp:92 src/Preferences.cpp:736
+#: src/IconList.cpp:4634 src/Preferences.cpp:92 src/Preferences.cpp:736
 msgid "Extension"
 msgstr "拡張子"
 
-#: src/IconList.cpp:4637 src/Preferences.cpp:96 src/Preferences.cpp:737
+#: src/IconList.cpp:4638 src/Preferences.cpp:96 src/Preferences.cpp:737
 msgid "Modified Date"
 msgstr "変更日時"
 
-#: src/IconList.cpp:4641 src/XFileExplorer.cpp:1553 src/XFileExplorer.cpp:1584
+#: src/IconList.cpp:4642 src/XFileExplorer.cpp:1553 src/XFileExplorer.cpp:1584
 #, fuzzy
 msgid "Deletion Date"
 msgstr "削除日時："
 
-#: src/IconList.cpp:4645 src/Preferences.cpp:100 src/Preferences.cpp:738
+#: src/IconList.cpp:4646 src/Preferences.cpp:100 src/Preferences.cpp:738
 #: src/Properties.cpp:57 src/Properties.cpp:80
 msgid "User"
 msgstr "ユーザー"
 
-#: src/IconList.cpp:4649 src/Preferences.cpp:104 src/Preferences.cpp:739
+#: src/IconList.cpp:4650 src/Preferences.cpp:104 src/Preferences.cpp:739
 #: src/Properties.cpp:62 src/Properties.cpp:83
 msgid "Group"
 msgstr "グループ"
 
-#: src/IconList.cpp:4653 src/Preferences.cpp:108 src/Preferences.cpp:740
+#: src/IconList.cpp:4654 src/Preferences.cpp:108 src/Preferences.cpp:740
 msgid "Permissions"
 msgstr "アクセス権"
 
-#: src/IconList.cpp:4657 src/Preferences.cpp:112 src/Preferences.cpp:741
+#: src/IconList.cpp:4658 src/Preferences.cpp:112 src/Preferences.cpp:741
 #: src/SearchWindow.cpp:219
 msgid "Link"
 msgstr "リンク"
@@ -2712,7 +2712,7 @@ msgstr "保存(&S)"
 msgid "Yes for &All"
 msgstr "すべてはい(&A)"
 
-#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5517
+#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5518
 msgid ""
 "Command pkexec not found!\n"
 "\n"
@@ -2728,7 +2728,7 @@ msgstr "ユーザーパスワードを入力してください："
 msgid "Enter root password:"
 msgstr "ルートパスワードを入力してください："
 
-#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5615
+#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5616
 #, fuzzy
 msgid "An error has occurred!"
 msgstr "シムリンクの間にエラーが発生しました！"
@@ -3638,7 +3638,7 @@ msgstr "ファイルを作成："
 msgid "Create new root window"
 msgstr "新しいルートウィンドー(&R)\tShift-F3"
 
-#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5379
+#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5380
 msgid "Execute command"
 msgstr "コマンドを実行"
 
@@ -3727,7 +3727,7 @@ msgstr "パネルを切り替え(&I)\tCtrl-P"
 msgid "Go to trash can"
 msgstr "ゴミ箱へ移動"
 
-#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5717
+#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5718
 msgid "Empty trash can"
 msgstr "ゴミ箱を空にする"
 
@@ -4064,13 +4064,13 @@ msgid "Deletion Date:"
 msgstr "削除日時："
 
 #: src/Properties.cpp:856 src/Properties.cpp:2154 src/Properties.cpp:2223
-#: src/XFileExplorer.cpp:5703
+#: src/XFileExplorer.cpp:5704
 #, fuzzy, c-format
 msgid "%s (%lu bytes)"
 msgstr "%s (%llu バイト)"
 
 #: src/Properties.cpp:858 src/Properties.cpp:2156 src/Properties.cpp:2225
-#: src/XFileExplorer.cpp:5705
+#: src/XFileExplorer.cpp:5706
 #, c-format
 msgid "%s (%llu bytes)"
 msgstr "%s (%llu バイト)"
@@ -4201,7 +4201,7 @@ msgstr "合計： %d 個のアイテム、%d フォルダ、%d ファイル。"
 msgid "%u files, %u subfolder"
 msgstr "合計： %d 個のアイテム、%d フォルダ、%d ファイル。"
 
-#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5707
+#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5708
 #, fuzzy, c-format
 msgid "%u files, %u subfolders"
 msgstr "合計： %d 個のアイテム、%d フォルダ、%d ファイル。"
@@ -4823,8 +4823,8 @@ msgid "&Window"
 msgstr "ウィンドウ(&W)"
 
 #: src/WriteWindow.cpp:635 src/XFileExplorer.cpp:1699
-#: src/XFileExplorer.cpp:1706 src/XFileExplorer.cpp:6078
-#: src/XFileExplorer.cpp:6089 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
+#: src/XFileExplorer.cpp:1706 src/XFileExplorer.cpp:6079
+#: src/XFileExplorer.cpp:6090 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
 #: src/XFilePackage.cpp:212
 msgid "&Help"
 msgstr "ヘルプ(&H)"
@@ -5625,8 +5625,8 @@ msgstr "グループ(&O)"
 msgid "Fol&ders First"
 msgstr "フォルダ"
 
-#: src/XFileExplorer.cpp:1559 src/XFileExplorer.cpp:5168
-#: src/XFileExplorer.cpp:5227
+#: src/XFileExplorer.cpp:1559 src/XFileExplorer.cpp:5169
+#: src/XFileExplorer.cpp:5228
 msgid "&Left Panel"
 msgstr "左パネル(&L)"
 
@@ -5639,8 +5639,8 @@ msgstr "フィルター(&F)"
 msgid "&Folders First"
 msgstr "フォルダ"
 
-#: src/XFileExplorer.cpp:1590 src/XFileExplorer.cpp:5167
-#: src/XFileExplorer.cpp:5226
+#: src/XFileExplorer.cpp:1590 src/XFileExplorer.cpp:5168
+#: src/XFileExplorer.cpp:5227
 msgid "&Right Panel"
 msgstr "右パネル(&R)"
 
@@ -5715,7 +5715,7 @@ msgstr "サイズ合計："
 msgid "&Empty Trash"
 msgstr "ゴミ箱を空にする"
 
-#: src/XFileExplorer.cpp:1694 src/XFileExplorer.cpp:6075
+#: src/XFileExplorer.cpp:1694 src/XFileExplorer.cpp:6076
 msgid "T&rash"
 msgstr "ゴミ箱(&R)"
 
@@ -5751,22 +5751,22 @@ msgstr "XFEのコンフィグレーションファイル"
 msgid "Xfe cannot run without a global xferc configuration file"
 msgstr ""
 
-#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:5749
+#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:5750
 #, fuzzy, c-format
 msgid "Can't create trash can 'files' folder %s: %s"
 msgstr "内容が空ではない %s フォルダを上書きできません"
 
-#: src/XFileExplorer.cpp:3573 src/XFileExplorer.cpp:5754
+#: src/XFileExplorer.cpp:3573 src/XFileExplorer.cpp:5755
 #, fuzzy, c-format
 msgid "Can't create trash can 'files' folder %s"
 msgstr "内容が空ではない %s フォルダを上書きできません"
 
-#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:5770
+#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:5771
 #, fuzzy, c-format
 msgid "Can't create trash can 'info' folder %s: %s"
 msgstr "内容が空ではない %s フォルダを上書きできません"
 
-#: src/XFileExplorer.cpp:3597 src/XFileExplorer.cpp:5775
+#: src/XFileExplorer.cpp:3597 src/XFileExplorer.cpp:5776
 #, fuzzy, c-format
 msgid "Can't create trash can 'info' folder %s"
 msgstr "内容が空ではない %s フォルダを上書きできません"
@@ -5837,6 +5837,7 @@ msgid ""
 "Dutch: Hans Strijards\n"
 "Finnish: Kimmo Siira\n"
 "French: Claude Leo Mercier, Roland Baudin\n"
+"Georgian: Ekaterine Papava\n"
 "German: Bastian Kleineidam, Joachim Wiedorn, Tim Benke, Jens Körner\n"
 "Greek: Nikos Papadopoulos\n"
 "Hungarian: Attila Szervac, Sandor Sipos\n"
@@ -5852,55 +5853,55 @@ msgid ""
 "Turkish: erkaN\n"
 msgstr ""
 
-#: src/XFileExplorer.cpp:4780
+#: src/XFileExplorer.cpp:4781
 #, fuzzy
 msgid "About X File Explorer"
 msgstr "X File Explorerについて(&A)"
 
-#: src/XFileExplorer.cpp:5135 src/XFileExplorer.cpp:5189
+#: src/XFileExplorer.cpp:5136 src/XFileExplorer.cpp:5190
 #, fuzzy
 msgid "&Panel"
 msgstr "パネル(&P)"
 
-#: src/XFileExplorer.cpp:5379
+#: src/XFileExplorer.cpp:5380
 #, fuzzy
 msgid "Execute the command:"
 msgstr "指定コマンドを実行："
 
-#: src/XFileExplorer.cpp:5380
+#: src/XFileExplorer.cpp:5381
 #, fuzzy
 msgid "Console mode"
 msgstr "コンソールモード"
 
-#: src/XFileExplorer.cpp:5557
+#: src/XFileExplorer.cpp:5558
 msgid "Enter the user password:"
 msgstr "ユーザーパスワードを入力してください："
 
-#: src/XFileExplorer.cpp:5564
+#: src/XFileExplorer.cpp:5565
 msgid "Enter the root password:"
 msgstr "ルートパスワードを入力してください："
 
-#: src/XFileExplorer.cpp:5632
+#: src/XFileExplorer.cpp:5633
 #, fuzzy
 msgid "Connect to Server"
 msgstr "ファイルシステムをマウント中..."
 
-#: src/XFileExplorer.cpp:5647
+#: src/XFileExplorer.cpp:5648
 #, fuzzy
 msgid "Search Files and Folders"
 msgstr ""
 "隠しファイル(&H)\tCtrl-F6\t隠しファイルとディレクトリを表示する。(Ctrl-F6)"
 
-#: src/XFileExplorer.cpp:5713
+#: src/XFileExplorer.cpp:5714
 #, fuzzy
 msgid "Do you really want to empty the trash can?"
 msgstr "本当にXFEを終了されますか？"
 
-#: src/XFileExplorer.cpp:5713
+#: src/XFileExplorer.cpp:5714
 msgid " in "
 msgstr " が含まれる"
 
-#: src/XFileExplorer.cpp:5715
+#: src/XFileExplorer.cpp:5716
 #, fuzzy
 msgid ""
 "\n"
@@ -5911,7 +5912,7 @@ msgstr ""
 "\n"
 "すべてアイテムが永久に削除されます！"
 
-#: src/XFileExplorer.cpp:5820
+#: src/XFileExplorer.cpp:5821
 #, fuzzy, c-format
 msgid ""
 "Trash size: %s (%s files, %s subfolders)\n"
@@ -5919,27 +5920,27 @@ msgid ""
 "Modified date: %s"
 msgstr "変更日時："
 
-#: src/XFileExplorer.cpp:5822
+#: src/XFileExplorer.cpp:5823
 #, fuzzy
 msgid "Trash size"
 msgstr "サイズ合計："
 
-#: src/XFileExplorer.cpp:5830
+#: src/XFileExplorer.cpp:5831
 #, fuzzy, c-format
 msgid "Trash can 'files' folder %s is not readable!"
 msgstr "内容が空ではない %s フォルダを上書きできません"
 
-#: src/XFileExplorer.cpp:6427 src/XFileExplorer.cpp:6501
+#: src/XFileExplorer.cpp:6428 src/XFileExplorer.cpp:6502
 #, fuzzy, c-format
 msgid "Command not found: %s"
 msgstr "%s というファイルを削除できません"
 
-#: src/XFileExplorer.cpp:6507
+#: src/XFileExplorer.cpp:6508
 #, fuzzy, c-format
 msgid "Invalid file association: %s"
 msgstr "ファイルの関連性(&F)"
 
-#: src/XFileExplorer.cpp:6514
+#: src/XFileExplorer.cpp:6515
 #, fuzzy, c-format
 msgid "File association not found: %s"
 msgstr "ファイルの関連性(&F)"
@@ -7349,7 +7350,7 @@ msgid ""
 "   Translations\n"
 "   =-=-=-=-=-=-=\n"
 "  \n"
-"  Xfe is now available in 24 languages but some translations are only "
+"  Xfe is now available in 25 languages but some translations are only "
 "partial. To translate Xfe to your language,\n"
 "  open the Xfe.pot file located in the po folder of the source tree with a "
 "software like poedit, kbabel\n"
@@ -7371,7 +7372,7 @@ msgid ""
 "  and  to all people that have provided useful patches, translations, tests "
 "and advices.\n"
 " \n"
-"  [Last revision: 05/01/2026]\n"
+"  [Last revision: 25/07/2026]\n"
 " \n"
 " "
 msgstr ""

@@ -329,7 +329,7 @@ public:
 public:
     enum
     {
-        // Note : the order of the 10 following column IDs must be kept
+        // Note : the order of the 12 following column IDs must be kept
         ID_COL_NAME = IconList::ID_LAST,
         ID_COL_SIZE,
         ID_COL_TYPE,
