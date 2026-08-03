@@ -1,3 +1,9 @@
+xfe (2.1.10-1jammy) jammy; urgency=medium
+
+  * New upstream release
+
+ -- Roland Baudin <roland65@free.fr>  Wed, 29 Jul 2026 13:58:24 +0100
+
 xfe (2.1.9-1jammy) jammy; urgency=medium
 
   * New upstream release

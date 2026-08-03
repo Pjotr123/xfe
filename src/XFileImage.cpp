@@ -2869,18 +2869,8 @@ void XFileImage::saveConfig()
 
     if (save_win_pos)
     {
-        // Account for the Window Manager border size
-        XWindowAttributes xwattr;
-        if (XGetWindowAttributes((Display*)getApp()->getDisplay(), this->id(), &xwattr))
-        {
-            getApp()->reg().writeIntEntry("OPTIONS", "xpos", getX() - xwattr.x);
-            getApp()->reg().writeIntEntry("OPTIONS", "ypos", getY() - xwattr.y);
-        }
-        else
-        {
-            getApp()->reg().writeIntEntry("OPTIONS", "xpos", getX());
-            getApp()->reg().writeIntEntry("OPTIONS", "ypos", getY());
-        }
+        getApp()->reg().writeIntEntry("OPTIONS", "xpos", getX());
+        getApp()->reg().writeIntEntry("OPTIONS", "ypos", getY());
     }
 
     // Width and height of filebox

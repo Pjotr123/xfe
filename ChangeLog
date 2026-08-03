@@ -1,3 +1,8 @@
+Version 2.1.10 (released 01/08/2026)
+- scripts menu is now automatically refreshed when scripts directory content changes
+- fix wrong window positioning in Xfe, Xfi, Xfw, Xfa and Xfp
+- fix a crash that hapened when moving a big file located on a different file system to trash can
+
 Version 2.1.9 (released 25/07/2026)
 - new georgian translation (thanks to Ekaterine Papava <papava.e@gtu.ge>) 
 - update russian translation

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfe 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-25 10:57+0200\n"
+"POT-Creation-Date: 2026-07-31 15:49+0200\n"
 "PO-Revision-Date: 2019-02-10 19:29+0200\n"
 "Last-Translator: nikos papadopoulos <nikos769@yahoo.gr>\n"
 "Language-Team: \n"
@@ -145,7 +145,7 @@ msgstr "Επέλεξε ένα φάκελο προορισμού"
 #: src/ArchInputDialog.cpp:143 src/BookmarkDialog.cpp:167
 #: src/BrowseInputDialog.cpp:149 src/FilePanel.cpp:5412
 #: src/HistInputDialog.cpp:171 src/Preferences.cpp:1315 src/Properties.cpp:2010
-#: src/SearchPanel.cpp:2854 src/SearchWindow.cpp:1328 src/WriteWindow.cpp:1661
+#: src/SearchPanel.cpp:2854 src/SearchWindow.cpp:1328 src/WriteWindow.cpp:1651
 #: src/XFileArchive.cpp:387 src/XFileArchive.cpp:528 src/XFileArchive.cpp:1232
 #: src/XFileImage.cpp:181 src/XFilePackage.cpp:351
 msgid "All Files"
@@ -265,18 +265,18 @@ msgstr "Εκκα&θάριση των σελιδοδεικτών"
 
 #: src/ComboBox.cpp:906 src/DirPanel.cpp:1524 src/FilePanel.cpp:5044
 #: src/SearchPanel.cpp:2605 src/WriteWindow.cpp:879 src/WriteWindow.cpp:920
-#: src/XFileExplorer.cpp:1429
+#: src/XFileExplorer.cpp:1479
 msgid "&Copy"
 msgstr "Αντι&γραφή"
 
 #: src/ComboBox.cpp:907 src/DirPanel.cpp:1525 src/FilePanel.cpp:5045
-#: src/SearchPanel.cpp:2606 src/XFileExplorer.cpp:1435
+#: src/SearchPanel.cpp:2606 src/XFileExplorer.cpp:1485
 msgid "C&ut"
 msgstr "Αποκ&οπή"
 
 #: src/ComboBox.cpp:908 src/DirPanel.cpp:1526 src/FilePanel.cpp:4862
 #: src/FilePanel.cpp:4907 src/FilePanel.cpp:5046 src/WriteWindow.cpp:891
-#: src/WriteWindow.cpp:922 src/XFileExplorer.cpp:1441
+#: src/WriteWindow.cpp:922 src/XFileExplorer.cpp:1491
 msgid "&Paste"
 msgstr "Επι&κόλληση"
 
@@ -302,7 +302,7 @@ msgstr ""
 
 # In Unix, to make a copy of a process for execution.
 #: src/CommandWindow.cpp:221 src/FilePanel.cpp:6079 src/SearchPanel.cpp:4547
-#: src/SearchWindow.cpp:970 src/XFileArchive.cpp:1613
+#: src/SearchWindow.cpp:970 src/XFileArchive.cpp:1603
 #: src/startupnotification.cpp:162 src/xfeutils.cpp:1843
 #, c-format
 msgid "Error: Fork failed: %s\n"
@@ -395,48 +395,48 @@ msgstr ""
 #: src/SearchWindow.cpp:994 src/SearchWindow.cpp:1119 src/WriteWindow.cpp:1177
 #: src/WriteWindow.cpp:1187 src/WriteWindow.cpp:1265 src/WriteWindow.cpp:1271
 #: src/WriteWindow.cpp:1284 src/WriteWindow.cpp:1291 src/WriteWindow.cpp:1313
-#: src/WriteWindow.cpp:2017 src/XFileExplorer.cpp:3501
-#: src/XFileExplorer.cpp:3506 src/XFileExplorer.cpp:3544
-#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:3573
-#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:3597
-#: src/XFileExplorer.cpp:3702 src/XFileExplorer.cpp:4473
-#: src/XFileExplorer.cpp:4478 src/XFileExplorer.cpp:4610
-#: src/XFileExplorer.cpp:4660 src/XFileExplorer.cpp:4665
-#: src/XFileExplorer.cpp:4677 src/XFileExplorer.cpp:4688
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5365
-#: src/XFileExplorer.cpp:5370 src/XFileExplorer.cpp:5418
-#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5475
-#: src/XFileExplorer.cpp:5517 src/XFileExplorer.cpp:5544
-#: src/XFileExplorer.cpp:5549 src/XFileExplorer.cpp:5602
-#: src/XFileExplorer.cpp:5607 src/XFileExplorer.cpp:5616
-#: src/XFileExplorer.cpp:5750 src/XFileExplorer.cpp:5755
-#: src/XFileExplorer.cpp:5771 src/XFileExplorer.cpp:5776
-#: src/XFileExplorer.cpp:5831 src/XFileExplorer.cpp:6428
-#: src/XFileExplorer.cpp:6502 src/XFileExplorer.cpp:6508
-#: src/XFileExplorer.cpp:6515 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
+#: src/WriteWindow.cpp:2007 src/XFileExplorer.cpp:3542
+#: src/XFileExplorer.cpp:3547 src/XFileExplorer.cpp:3585
+#: src/XFileExplorer.cpp:3609 src/XFileExplorer.cpp:3614
+#: src/XFileExplorer.cpp:3633 src/XFileExplorer.cpp:3638
+#: src/XFileExplorer.cpp:3743 src/XFileExplorer.cpp:4514
+#: src/XFileExplorer.cpp:4519 src/XFileExplorer.cpp:4651
+#: src/XFileExplorer.cpp:4701 src/XFileExplorer.cpp:4706
+#: src/XFileExplorer.cpp:4718 src/XFileExplorer.cpp:4729
+#: src/XFileExplorer.cpp:4734 src/XFileExplorer.cpp:5406
+#: src/XFileExplorer.cpp:5411 src/XFileExplorer.cpp:5459
+#: src/XFileExplorer.cpp:5511 src/XFileExplorer.cpp:5516
+#: src/XFileExplorer.cpp:5558 src/XFileExplorer.cpp:5585
+#: src/XFileExplorer.cpp:5590 src/XFileExplorer.cpp:5643
+#: src/XFileExplorer.cpp:5648 src/XFileExplorer.cpp:5657
+#: src/XFileExplorer.cpp:5791 src/XFileExplorer.cpp:5796
+#: src/XFileExplorer.cpp:5812 src/XFileExplorer.cpp:5817
+#: src/XFileExplorer.cpp:5872 src/XFileExplorer.cpp:6469
+#: src/XFileExplorer.cpp:6543 src/XFileExplorer.cpp:6549
+#: src/XFileExplorer.cpp:6556 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
 #: src/XFileArchive.cpp:605 src/XFileArchive.cpp:628 src/XFileArchive.cpp:719
 #: src/XFileArchive.cpp:808 src/XFileArchive.cpp:872 src/XFileArchive.cpp:882
 #: src/XFileArchive.cpp:901 src/XFileArchive.cpp:1012 src/XFileArchive.cpp:1022
 #: src/XFileArchive.cpp:1041 src/XFileArchive.cpp:1164
 #: src/XFileArchive.cpp:1192 src/XFileArchive.cpp:1200
 #: src/XFileArchive.cpp:1224 src/XFileArchive.cpp:1264
-#: src/XFileArchive.cpp:1272 src/XFileArchive.cpp:1403
-#: src/XFileArchive.cpp:1415 src/XFileArchive.cpp:1427
-#: src/XFileArchive.cpp:1439 src/XFileArchive.cpp:1451
-#: src/XFileArchive.cpp:1463 src/XFileArchive.cpp:1475
-#: src/XFileArchive.cpp:1487 src/XFileArchive.cpp:1499
-#: src/XFileArchive.cpp:1511 src/XFileArchive.cpp:1523
-#: src/XFileArchive.cpp:1535 src/XFileArchive.cpp:1547
-#: src/XFileArchive.cpp:1559 src/XFileArchive.cpp:1570
-#: src/XFileArchive.cpp:1632 src/XFileArchive.cpp:1636 src/XFileImage.cpp:1619
+#: src/XFileArchive.cpp:1272 src/XFileArchive.cpp:1393
+#: src/XFileArchive.cpp:1405 src/XFileArchive.cpp:1417
+#: src/XFileArchive.cpp:1429 src/XFileArchive.cpp:1441
+#: src/XFileArchive.cpp:1453 src/XFileArchive.cpp:1465
+#: src/XFileArchive.cpp:1477 src/XFileArchive.cpp:1489
+#: src/XFileArchive.cpp:1501 src/XFileArchive.cpp:1513
+#: src/XFileArchive.cpp:1525 src/XFileArchive.cpp:1537
+#: src/XFileArchive.cpp:1549 src/XFileArchive.cpp:1560
+#: src/XFileArchive.cpp:1622 src/XFileArchive.cpp:1626 src/XFileImage.cpp:1619
 #: src/XFileImage.cpp:1943 src/XFileImage.cpp:2213 src/XFileImage.cpp:2259
 #: src/XFilePackage.cpp:396 src/XFilePackage.cpp:415 src/XFilePackage.cpp:442
-#: src/XFilePackage.cpp:465 src/XFilePackage.cpp:590 src/XFilePackage.cpp:655
-#: src/XFilePackage.cpp:687 src/XFilePackage.cpp:711 src/XFilePackage.cpp:1031
+#: src/XFilePackage.cpp:465 src/XFilePackage.cpp:580 src/XFilePackage.cpp:645
+#: src/XFilePackage.cpp:677 src/XFilePackage.cpp:701 src/XFilePackage.cpp:1021
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: src/CommandWindow.cpp:236 src/SearchWindow.cpp:990 src/XFileArchive.cpp:1632
+#: src/CommandWindow.cpp:236 src/SearchWindow.cpp:990 src/XFileArchive.cpp:1622
 #, c-format
 msgid "Can't duplicate pipes: %s"
 msgstr ""
@@ -444,7 +444,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/CommandWindow.cpp:240 src/SearchWindow.cpp:994 src/XFileArchive.cpp:1636
+#: src/CommandWindow.cpp:240 src/SearchWindow.cpp:994 src/XFileArchive.cpp:1626
 msgid "Can't duplicate pipes"
 msgstr "Αδυναμία δημιουργίας διπλότυπου των διοχετεύσεων"
 
@@ -575,9 +575,9 @@ msgstr ""
 #: src/SearchPanel.cpp:4094 src/SearchPanel.cpp:4125 src/SearchPanel.cpp:4171
 #: src/SearchPanel.cpp:4209 src/SearchPanel.cpp:4226 src/SearchPanel.cpp:4308
 #: src/SearchPanel.cpp:4403 src/SearchPanel.cpp:4454 src/SearchPanel.cpp:4475
-#: src/XFileExplorer.cpp:3457 src/XFileExplorer.cpp:3473
+#: src/XFileExplorer.cpp:3498 src/XFileExplorer.cpp:3514
 #: src/XFileArchive.cpp:1068 src/XFileArchive.cpp:1089
-#: src/XFileArchive.cpp:1348
+#: src/XFileArchive.cpp:1338
 msgid "Warning"
 msgstr "Προσοχή"
 
@@ -704,7 +704,7 @@ msgid "An error has occurred during the copy file operation!"
 msgstr ""
 "Παρουσιάστηκε κάποιο σφάλμα, κατά τη προσπάθεια αντιγραφής του αρχείου."
 
-#: src/DirList.cpp:1552 src/XFileExplorer.cpp:3473
+#: src/DirList.cpp:1552 src/XFileExplorer.cpp:3514
 #, c-format
 msgid "Mount point %s is not responding..."
 msgstr "Το σημείο προσάρτησης %s δεν ανταποκρίνεται..."
@@ -814,15 +814,15 @@ msgstr "Ενεργοποίηση πλαισίου"
 #: src/DirPanel.cpp:1651 src/DirPanel.cpp:1759 src/FileDialog.cpp:436
 #: src/FileDialog.cpp:501 src/FilePanel.cpp:1313 src/FilePanel.cpp:1517
 #: src/SearchPanel.cpp:508 src/SearchPanel.cpp:712 src/SearchPanel.cpp:1873
-#: src/XFileExplorer.cpp:4478 src/XFileImage.cpp:2213 src/XFileImage.cpp:2259
+#: src/XFileExplorer.cpp:4519 src/XFileImage.cpp:2213 src/XFileImage.cpp:2259
 #, c-format
 msgid " Permission to: %s denied."
 msgstr " Άδεια για: άρνηση για %s ."
 
 #: src/DirPanel.cpp:817 src/DirPanel.cpp:944 src/DirPanel.cpp:1071
-#: src/DirPanel.cpp:3805 src/FilePanel.cpp:5189 src/WriteWindow.cpp:2017
-#: src/XFileExplorer.cpp:4610 src/XFileExplorer.cpp:4677
-#: src/XFileExplorer.cpp:5418 src/XFileArchive.cpp:901
+#: src/DirPanel.cpp:3805 src/FilePanel.cpp:5189 src/WriteWindow.cpp:2007
+#: src/XFileExplorer.cpp:4651 src/XFileExplorer.cpp:4718
+#: src/XFileExplorer.cpp:5459 src/XFileArchive.cpp:901
 #: src/XFileArchive.cpp:1041 src/XFileArchive.cpp:1192
 #: src/XFileArchive.cpp:1264 src/XFileImage.cpp:1943
 #, c-format
@@ -835,7 +835,7 @@ msgstr ""
 #: src/DirPanel.cpp:1566 src/DirPanel.cpp:1646 src/DirPanel.cpp:2853
 #: src/DirPanel.cpp:2881 src/FilePanel.cpp:2049 src/FilePanel.cpp:2070
 #: src/Properties.cpp:1497 src/SearchPanel.cpp:3985 src/SearchPanel.cpp:4013
-#: src/XFileExplorer.cpp:4473
+#: src/XFileExplorer.cpp:4514
 #, c-format
 msgid "Folder %s doesn't exist"
 msgstr "Ο φάκελος %s δεν υπάρχει"
@@ -845,21 +845,21 @@ msgid "Modify Bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
 #: src/DirPanel.cpp:1104 src/DirPanel.cpp:1181 src/FilePanel.cpp:4281
-#: src/XFileExplorer.cpp:4339
+#: src/XFileExplorer.cpp:4380
 #, fuzzy
 #| msgid "Name: "
 msgid "Name:"
 msgstr "Όνομα: "
 
 #: src/DirPanel.cpp:1105 src/DirPanel.cpp:1182 src/FilePanel.cpp:4282
-#: src/XFileExplorer.cpp:4340
+#: src/XFileExplorer.cpp:4381
 #, fuzzy
 #| msgid "Big Icon:"
 msgid "Icon:"
 msgstr "Μεγάλο Εικονίδιο:"
 
 #: src/DirPanel.cpp:1118 src/DirPanel.cpp:1187 src/FilePanel.cpp:4287
-#: src/Properties.cpp:713 src/Properties.cpp:728 src/XFileExplorer.cpp:4345
+#: src/Properties.cpp:713 src/Properties.cpp:728 src/XFileExplorer.cpp:4386
 msgid "Location:"
 msgstr "Τοποθεσία:"
 
@@ -875,7 +875,7 @@ msgstr "Εκκα&θάριση των σελιδοδεικτών"
 msgid "Confirm Remove"
 msgstr "Επιβεβαίωση Αποκατάστασης"
 
-#: src/DirPanel.cpp:1181 src/FilePanel.cpp:4281 src/XFileExplorer.cpp:4339
+#: src/DirPanel.cpp:1181 src/FilePanel.cpp:4281 src/XFileExplorer.cpp:4380
 msgid "Add Bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
@@ -927,14 +927,14 @@ msgid "&Add to Archive..."
 msgstr "Προσ&θήκη σε αρχειοθήκη..."
 
 #: src/DirPanel.cpp:1527 src/FilePanel.cpp:5049 src/SearchPanel.cpp:2618
-#: src/XFileExplorer.cpp:6199 src/XFileExplorer.cpp:6222
+#: src/XFileExplorer.cpp:6240 src/XFileExplorer.cpp:6263
 #, fuzzy
 #| msgid "Name"
 msgid "Cop&y Name"
 msgstr "Όνομα"
 
 #: src/DirPanel.cpp:1529 src/FilePanel.cpp:5056 src/Preferences.cpp:1112
-#: src/SearchPanel.cpp:2608 src/XFileExplorer.cpp:1362
+#: src/SearchPanel.cpp:2608 src/XFileExplorer.cpp:1412
 msgid "Re&name..."
 msgstr "&Μετονομασία..."
 
@@ -943,7 +943,7 @@ msgid "Cop&y to..."
 msgstr "Α&ντιγραφή στο..."
 
 #: src/DirPanel.cpp:1531 src/FilePanel.cpp:5058 src/SearchPanel.cpp:2610
-#: src/XFileExplorer.cpp:1374
+#: src/XFileExplorer.cpp:1424
 msgid "&Move to..."
 msgstr "&Μεταφορά στο..."
 
@@ -951,16 +951,16 @@ msgstr "&Μεταφορά στο..."
 msgid "Symlin&k to..."
 msgstr "Εσωτερικός &δεσμός στο ..."
 
-#: src/DirPanel.cpp:1533 src/XFileExplorer.cpp:1386
+#: src/DirPanel.cpp:1533 src/XFileExplorer.cpp:1436
 msgid "Mo&ve to Trash"
 msgstr "Μετακίνηση στα απο&ρρίμματα"
 
-#: src/DirPanel.cpp:1534 src/XFileExplorer.cpp:1392
+#: src/DirPanel.cpp:1534 src/XFileExplorer.cpp:1442
 msgid "R&estore From Trash"
 msgstr "Απο&κατάσταση από τον κάδο απορριμμάτων"
 
 #: src/DirPanel.cpp:1535 src/FilePanel.cpp:5062 src/SearchPanel.cpp:2613
-#: src/XFileExplorer.cpp:1398
+#: src/XFileExplorer.cpp:1448
 msgid "&Delete"
 msgstr "&Διαγραφή"
 
@@ -976,16 +976,16 @@ msgid "New &Tab"
 msgstr "Όνομα"
 
 #: src/DirPanel.cpp:1615 src/DirPanel.cpp:1695 src/DirPanel.cpp:1814
-#: src/XFileExplorer.cpp:1611
+#: src/XFileExplorer.cpp:1662
 msgid "New &Window"
 msgstr "Νέο παρά&θυρο"
 
 #: src/DirPanel.cpp:1617 src/DirPanel.cpp:1702 src/DirPanel.cpp:1821
-#: src/XFileExplorer.cpp:1410
+#: src/XFileExplorer.cpp:1460
 msgid "&Properties"
 msgstr "&Ιδιότητες"
 
-#: src/DirPanel.cpp:1699 src/XFileExplorer.cpp:1665
+#: src/DirPanel.cpp:1699 src/XFileExplorer.cpp:1716
 msgid "&Unmount"
 msgstr "&Αποπροσάρτηση"
 
@@ -1020,10 +1020,10 @@ msgstr "Μεταφορά "
 #: src/FilePanel.cpp:6064 src/FilePanel.cpp:6095 src/FilePanel.cpp:6206
 #: src/FilePanel.cpp:6232 src/FilePanel.cpp:6488 src/FilePanel.cpp:6541
 #: src/SearchPanel.cpp:936 src/SearchPanel.cpp:2712 src/SearchPanel.cpp:4532
-#: src/SearchPanel.cpp:4563 src/XFileExplorer.cpp:4660
-#: src/XFileExplorer.cpp:4688 src/XFileExplorer.cpp:5365
-#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5544
-#: src/XFileExplorer.cpp:5602
+#: src/SearchPanel.cpp:4563 src/XFileExplorer.cpp:4701
+#: src/XFileExplorer.cpp:4729 src/XFileExplorer.cpp:5406
+#: src/XFileExplorer.cpp:5511 src/XFileExplorer.cpp:5585
+#: src/XFileExplorer.cpp:5643
 #, c-format
 msgid "Can't enter folder %s: %s"
 msgstr ""
@@ -1040,10 +1040,10 @@ msgstr ""
 #: src/FilePanel.cpp:6069 src/FilePanel.cpp:6100 src/FilePanel.cpp:6210
 #: src/FilePanel.cpp:6237 src/FilePanel.cpp:6493 src/FilePanel.cpp:6546
 #: src/SearchPanel.cpp:941 src/SearchPanel.cpp:2717 src/SearchPanel.cpp:4537
-#: src/SearchPanel.cpp:4568 src/XFileExplorer.cpp:4665
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5370
-#: src/XFileExplorer.cpp:5475 src/XFileExplorer.cpp:5549
-#: src/XFileExplorer.cpp:5607
+#: src/SearchPanel.cpp:4568 src/XFileExplorer.cpp:4706
+#: src/XFileExplorer.cpp:4734 src/XFileExplorer.cpp:5411
+#: src/XFileExplorer.cpp:5516 src/XFileExplorer.cpp:5590
+#: src/XFileExplorer.cpp:5648
 #, c-format
 msgid "Can't enter folder %s"
 msgstr "Αδυναμία εισόδου στο φάκελο %s"
@@ -1337,7 +1337,7 @@ msgid "Execute in Console &Mode"
 msgstr "Εκτέλεση σε Περιβάλλον Κονσό&λας"
 
 #: src/ExecuteBox.cpp:51 src/FilePanel.cpp:5009 src/SearchPanel.cpp:2572
-#: src/WriteWindow.cpp:615 src/XFileExplorer.cpp:1470
+#: src/WriteWindow.cpp:615 src/XFileExplorer.cpp:1520
 msgid "&Edit"
 msgstr "&Επεξεργασία"
 
@@ -1673,20 +1673,20 @@ msgstr "&Φίλτρο Αρχείων:"
 msgid "Read Only"
 msgstr "Μόνο για Ανάγνωση"
 
-#: src/FileDialog.cpp:262 src/XFileExplorer.cpp:1081 src/XFileImage.cpp:530
+#: src/FileDialog.cpp:262 src/XFileExplorer.cpp:1131 src/XFileImage.cpp:530
 msgid "Go to Previous Folder"
 msgstr "Μετάβαση στον προηγούμενο φάκελο"
 
-#: src/FileDialog.cpp:271 src/XFileExplorer.cpp:1090 src/XFileImage.cpp:538
+#: src/FileDialog.cpp:271 src/XFileExplorer.cpp:1140 src/XFileImage.cpp:538
 msgid "Go to Next Folder"
 msgstr "Μετάβαση στον επόμενο φάκελο"
 
-#: src/FileDialog.cpp:279 src/SearchPanel.cpp:227 src/XFileExplorer.cpp:1099
+#: src/FileDialog.cpp:279 src/SearchPanel.cpp:227 src/XFileExplorer.cpp:1149
 #: src/XFileImage.cpp:546
 msgid "Go to Parent Folder"
 msgstr "Μετάβαση στο γονικό φάκελο"
 
-#: src/FileDialog.cpp:285 src/XFileExplorer.cpp:1107 src/XFileImage.cpp:555
+#: src/FileDialog.cpp:285 src/XFileExplorer.cpp:1157 src/XFileImage.cpp:555
 msgid "Go to Home Folder"
 msgstr "Μετάβαση στον αρχικό κατάλογο"
 
@@ -1694,17 +1694,17 @@ msgstr "Μετάβαση στον αρχικό κατάλογο"
 msgid "Go to Working Folder"
 msgstr "Μετάβαση στον φάκελο εργασίας"
 
-#: src/FileDialog.cpp:303 src/SearchPanel.cpp:293 src/XFileExplorer.cpp:1286
+#: src/FileDialog.cpp:303 src/SearchPanel.cpp:293 src/XFileExplorer.cpp:1336
 #: src/XFileImage.cpp:571
 msgid "Big Icon List"
 msgstr "Λίστα με μεγάλα εικονίδια"
 
-#: src/FileDialog.cpp:310 src/SearchPanel.cpp:300 src/XFileExplorer.cpp:1293
+#: src/FileDialog.cpp:310 src/SearchPanel.cpp:300 src/XFileExplorer.cpp:1343
 #: src/XFileImage.cpp:577
 msgid "Small Icon List"
 msgstr "Λίστα με μικρά εικονίδια"
 
-#: src/FileDialog.cpp:317 src/SearchPanel.cpp:307 src/XFileExplorer.cpp:1300
+#: src/FileDialog.cpp:317 src/SearchPanel.cpp:307 src/XFileExplorer.cpp:1350
 #: src/XFileImage.cpp:583
 msgid "Detailed File List"
 msgstr "Λεπτομερής λίστα αρχείων"
@@ -1788,7 +1788,7 @@ msgstr "Μετάβαση στην αρχή"
 msgid "Go &Work"
 msgstr "Μετάβαση στην εργασία"
 
-#: src/FileDialog.cpp:1900 src/XFileExplorer.cpp:1324
+#: src/FileDialog.cpp:1900 src/XFileExplorer.cpp:1374
 msgid "New &File..."
 msgstr "Νέο &αρχείο..."
 
@@ -1797,7 +1797,7 @@ msgid "New F&older..."
 msgstr "Νέος φάκε&λος..."
 
 #: src/FileDialog.cpp:1903 src/FilePanel.cpp:4864 src/FilePanel.cpp:4909
-#: src/XFileExplorer.cpp:1533 src/XFileExplorer.cpp:1564 src/XFileImage.cpp:971
+#: src/XFileExplorer.cpp:1583 src/XFileExplorer.cpp:1614 src/XFileImage.cpp:971
 #: src/XFileImage.cpp:1109
 msgid "&Hidden Files"
 msgstr "Κρυφά &αρχεία"
@@ -1813,46 +1813,46 @@ msgid "B&ig Icons"
 msgstr "Με&γάλα εικονίδια"
 
 #: src/FileDialog.cpp:1907 src/FilePanel.cpp:4868 src/FilePanel.cpp:4913
-#: src/SearchPanel.cpp:2475 src/SearchPanel.cpp:2504 src/XFileExplorer.cpp:1537
-#: src/XFileExplorer.cpp:1568 src/XFileImage.cpp:991 src/XFileImage.cpp:1113
+#: src/SearchPanel.cpp:2475 src/SearchPanel.cpp:2504 src/XFileExplorer.cpp:1587
+#: src/XFileExplorer.cpp:1618 src/XFileImage.cpp:991 src/XFileImage.cpp:1113
 msgid "&Small Icons"
 msgstr "Μικ&ρά εικονίδια"
 
 #: src/FileDialog.cpp:1908 src/FilePanel.cpp:4869 src/FilePanel.cpp:4914
-#: src/SearchPanel.cpp:2476 src/SearchPanel.cpp:2505 src/XFileExplorer.cpp:1538
-#: src/XFileExplorer.cpp:1569 src/XFileImage.cpp:997 src/XFileImage.cpp:1114
+#: src/SearchPanel.cpp:2476 src/SearchPanel.cpp:2505 src/XFileExplorer.cpp:1588
+#: src/XFileExplorer.cpp:1619 src/XFileImage.cpp:997 src/XFileImage.cpp:1114
 msgid "&Detailed File List"
 msgstr "&Λεπτομερής λίστα αρχείων"
 
 #: src/FileDialog.cpp:1910 src/FilePanel.cpp:4871 src/FilePanel.cpp:4916
-#: src/SearchPanel.cpp:2478 src/SearchPanel.cpp:2507 src/XFileExplorer.cpp:1540
-#: src/XFileExplorer.cpp:1571 src/XFileImage.cpp:1013 src/XFileImage.cpp:1116
+#: src/SearchPanel.cpp:2478 src/SearchPanel.cpp:2507 src/XFileExplorer.cpp:1590
+#: src/XFileExplorer.cpp:1621 src/XFileImage.cpp:1013 src/XFileImage.cpp:1116
 #, fuzzy
 #| msgid "Autosize"
 msgid "Autos&ize"
 msgstr "Αυτόματο μέγεθος"
 
 #: src/FileDialog.cpp:1911 src/FilePanel.cpp:4872 src/FilePanel.cpp:4917
-#: src/SearchPanel.cpp:2479 src/SearchPanel.cpp:2508 src/XFileExplorer.cpp:1541
-#: src/XFileExplorer.cpp:1572 src/XFileImage.cpp:1014 src/XFileImage.cpp:1117
+#: src/SearchPanel.cpp:2479 src/SearchPanel.cpp:2508 src/XFileExplorer.cpp:1591
+#: src/XFileExplorer.cpp:1622 src/XFileImage.cpp:1014 src/XFileImage.cpp:1117
 msgid "&Rows"
 msgstr "&Γραμμές"
 
 #: src/FileDialog.cpp:1912 src/FilePanel.cpp:4873 src/FilePanel.cpp:4918
-#: src/SearchPanel.cpp:2480 src/SearchPanel.cpp:2509 src/XFileExplorer.cpp:1542
-#: src/XFileExplorer.cpp:1573 src/XFileImage.cpp:1015 src/XFileImage.cpp:1118
+#: src/SearchPanel.cpp:2480 src/SearchPanel.cpp:2509 src/XFileExplorer.cpp:1592
+#: src/XFileExplorer.cpp:1623 src/XFileImage.cpp:1015 src/XFileImage.cpp:1118
 msgid "&Columns"
 msgstr "&Στήλες"
 
 #: src/FileDialog.cpp:1914 src/FilePanel.cpp:4875 src/FilePanel.cpp:4920
-#: src/SearchPanel.cpp:2482 src/SearchPanel.cpp:2511 src/XFileExplorer.cpp:1544
-#: src/XFileExplorer.cpp:1575 src/XFileImage.cpp:1120
+#: src/SearchPanel.cpp:2482 src/SearchPanel.cpp:2511 src/XFileExplorer.cpp:1594
+#: src/XFileExplorer.cpp:1625 src/XFileImage.cpp:1120
 msgid "&Name"
 msgstr "Ό&νομα"
 
 #: src/FileDialog.cpp:1915 src/FilePanel.cpp:4876 src/FilePanel.cpp:4921
-#: src/SearchPanel.cpp:2483 src/SearchPanel.cpp:2512 src/XFileExplorer.cpp:1545
-#: src/XFileExplorer.cpp:1576 src/XFileImage.cpp:1121
+#: src/SearchPanel.cpp:2483 src/SearchPanel.cpp:2512 src/XFileExplorer.cpp:1595
+#: src/XFileExplorer.cpp:1626 src/XFileImage.cpp:1121
 msgid "Si&ze"
 msgstr "&Μέγεθος"
 
@@ -1862,8 +1862,8 @@ msgid "&Type"
 msgstr "&Τύπος"
 
 #: src/FileDialog.cpp:1917 src/FilePanel.cpp:4878 src/FilePanel.cpp:4923
-#: src/SearchPanel.cpp:2485 src/SearchPanel.cpp:2514 src/XFileExplorer.cpp:1547
-#: src/XFileExplorer.cpp:1578 src/XFileImage.cpp:1123
+#: src/SearchPanel.cpp:2485 src/SearchPanel.cpp:2514 src/XFileExplorer.cpp:1597
+#: src/XFileExplorer.cpp:1628 src/XFileImage.cpp:1123
 msgid "E&xtension"
 msgstr "Ε&πέκταση"
 
@@ -1883,14 +1883,14 @@ msgid "&Group"
 msgstr "&Ομάδα"
 
 #: src/FileDialog.cpp:1921 src/Properties.cpp:226 src/Properties.cpp:1030
-#: src/XFileExplorer.cpp:1551 src/XFileExplorer.cpp:1582
+#: src/XFileExplorer.cpp:1601 src/XFileExplorer.cpp:1632
 #: src/XFileImage.cpp:1127
 msgid "&Permissions"
 msgstr "&Δικαιώματα"
 
 #: src/FileDialog.cpp:1922 src/FilePanel.cpp:4883 src/FilePanel.cpp:4928
-#: src/SearchPanel.cpp:2490 src/SearchPanel.cpp:2519 src/XFileExplorer.cpp:1552
-#: src/XFileExplorer.cpp:1583 src/XFileImage.cpp:1128
+#: src/SearchPanel.cpp:2490 src/SearchPanel.cpp:2519 src/XFileExplorer.cpp:1602
+#: src/XFileExplorer.cpp:1633 src/XFileImage.cpp:1128
 #, fuzzy
 #| msgid "Link"
 msgid "&Link"
@@ -1902,8 +1902,8 @@ msgid "Fold&ers First"
 msgstr "Πρώτα οι Φάκ&ελοι"
 
 #: src/FileDialog.cpp:1926 src/FilePanel.cpp:4888 src/FilePanel.cpp:4933
-#: src/SearchPanel.cpp:2494 src/SearchPanel.cpp:2523 src/XFileExplorer.cpp:1558
-#: src/XFileExplorer.cpp:1589 src/XFileImage.cpp:1132
+#: src/SearchPanel.cpp:2494 src/SearchPanel.cpp:2523 src/XFileExplorer.cpp:1608
+#: src/XFileExplorer.cpp:1639 src/XFileImage.cpp:1132
 msgid "Re&verse Order"
 msgstr "Α&ντίστροφη σειρά"
 
@@ -1958,7 +1958,7 @@ msgstr "Δεσμός στο "
 #: src/FileList.cpp:5139 src/FileList.cpp:5963 src/IconList.cpp:316
 #: src/IconList.cpp:331 src/IconList.cpp:671 src/XFileImage.cpp:1717
 #: src/XFileImage.cpp:2415 src/XFileImage.cpp:2490 src/XFileImage.cpp:2605
-#: src/foxhacks.cpp:3509 src/foxhacks.cpp:3534
+#: src/foxhacks.cpp:3362 src/foxhacks.cpp:3387
 msgid "Unable to load image"
 msgstr "Αδυναμία φόρτωσης της εικόνας"
 
@@ -1987,7 +1987,7 @@ msgstr ""
 msgid "Confirm Execute"
 msgstr "Επιβεβαίωση της Εκτέλεσης"
 
-#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5405
+#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5446
 msgid "Command log"
 msgstr "Καταγραφή εντολών"
 
@@ -2102,7 +2102,7 @@ msgstr ""
 msgid "Definitively delete %s selected items?"
 msgstr "Αμετάκλητη διαγραφή των %s επιλεγμένων αντικειμένων;"
 
-#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5729 src/XFileExplorer.cpp:5735
+#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5770 src/XFileExplorer.cpp:5776
 msgid "Delete Files"
 msgstr "Διαγραφή των αρχείων"
 
@@ -2217,7 +2217,7 @@ msgstr "Συσ&χέτιση"
 msgid "New& File..."
 msgstr "&Νέο αρχείο..."
 
-#: src/FilePanel.cpp:4858 src/FilePanel.cpp:4903 src/XFileExplorer.cpp:1336
+#: src/FilePanel.cpp:4858 src/FilePanel.cpp:4903 src/XFileExplorer.cpp:1386
 msgid "New S&ymlink..."
 msgstr "Νέος εσωτερικός &δεσμός...."
 
@@ -2238,20 +2238,20 @@ msgstr "Ημερομηνία Διαγραφής:"
 msgid "Ne&w File..."
 msgstr "Νέο Α&ρχείο..."
 
-#: src/FilePanel.cpp:4941 src/XFileExplorer.cpp:1661
+#: src/FilePanel.cpp:4941 src/XFileExplorer.cpp:1712
 msgid "&Mount"
 msgstr "&Προσάρτηση"
 
-#: src/FilePanel.cpp:4942 src/XFileExplorer.cpp:1217
+#: src/FilePanel.cpp:4942 src/XFileExplorer.cpp:1267
 msgid "Unmount"
 msgstr "Αποπροσάρτηση"
 
-#: src/FilePanel.cpp:4950 src/XFileArchive.cpp:1860
+#: src/FilePanel.cpp:4950 src/XFileArchive.cpp:1850
 msgid "Open &With..."
 msgstr "Ά&νοιγμα με..."
 
-#: src/FilePanel.cpp:4951 src/SearchPanel.cpp:2532 src/XFileExplorer.cpp:1356
-#: src/XFileArchive.cpp:1861
+#: src/FilePanel.cpp:4951 src/SearchPanel.cpp:2532 src/XFileExplorer.cpp:1406
+#: src/XFileArchive.cpp:1851
 msgid "&Open"
 msgstr "Άν&οιγμα"
 
@@ -2273,7 +2273,7 @@ msgid "&Extract here"
 msgstr "&Αποσυμπίεση εδώ"
 
 #: src/FilePanel.cpp:5000 src/FilePanel.cpp:5008 src/SearchPanel.cpp:2565
-#: src/SearchPanel.cpp:2571 src/WriteWindow.cpp:619 src/XFileExplorer.cpp:1508
+#: src/SearchPanel.cpp:2571 src/WriteWindow.cpp:619 src/XFileExplorer.cpp:1558
 #: src/XFileImage.cpp:343
 msgid "&View"
 msgstr "Προβο&λή"
@@ -2302,13 +2302,13 @@ msgstr "&Διερεύνηση πακέτων "
 msgid "Scripts"
 msgstr "Σενάρια"
 
-#: src/FilePanel.cpp:5041 src/SearchPanel.cpp:2601 src/XFileExplorer.cpp:1595
-#: src/XFileExplorer.cpp:1650
+#: src/FilePanel.cpp:5041 src/SearchPanel.cpp:2601 src/XFileExplorer.cpp:135
+#: src/XFileExplorer.cpp:1645 src/XFileExplorer.cpp:1701
 msgid "&Go to Script Folder"
 msgstr "Μετάβαση στο &φάκελο των σεναρίων"
 
 #: src/FilePanel.cpp:5053 src/SearchPanel.cpp:257 src/SearchPanel.cpp:2622
-#: src/XFileExplorer.cpp:1404 src/XFileExplorer.cpp:6204
+#: src/XFileExplorer.cpp:1454 src/XFileExplorer.cpp:6245
 #, fuzzy
 #| msgid "Name"
 msgid "Cop&y Names"
@@ -2365,7 +2365,7 @@ msgstr ""
 msgid "Can't create script folder %s"
 msgstr "Αδυναμία δημιουργίας του φακέλου σεναρίων %s"
 
-#: src/FilePanel.cpp:6360 src/SearchPanel.cpp:4966 src/XFilePackage.cpp:1031
+#: src/FilePanel.cpp:6360 src/SearchPanel.cpp:4966 src/XFilePackage.cpp:1021
 msgid "No compatible package manager (rpm or dpkg) found!"
 msgstr "Δεν βρέθηκε συμβατός διαχειριστής των πακέτων (rpm ή dpkg)."
 
@@ -2656,7 +2656,7 @@ msgstr "Όνομα"
 msgid "Folder Name"
 msgstr "Το όνομα του φακέλου"
 
-#: src/IconList.cpp:4622 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
+#: src/IconList.cpp:4622 src/XFileExplorer.cpp:1604 src/XFileExplorer.cpp:1635
 msgid "Original Path"
 msgstr "Αρχική διαδρομή"
 
@@ -2672,7 +2672,7 @@ msgstr "Επέκταση"
 msgid "Modified Date"
 msgstr "Ημερομηνία τροποποίησης"
 
-#: src/IconList.cpp:4642 src/XFileExplorer.cpp:1553 src/XFileExplorer.cpp:1584
+#: src/IconList.cpp:4642 src/XFileExplorer.cpp:1603 src/XFileExplorer.cpp:1634
 msgid "Deletion Date"
 msgstr "Ημερομηνία Διαγραφής:"
 
@@ -2849,7 +2849,7 @@ msgstr ""
 msgid "Select an Executable File"
 msgstr "Επέλεξε ένα εκτελέσιμο αρχείο"
 
-#: src/MessageBox.cpp:102 src/XFileExplorer.cpp:1190
+#: src/MessageBox.cpp:102 src/XFileExplorer.cpp:1240
 msgid "Launch Xfe as root"
 msgstr "Εκκίνηση του Xfe σαν υπερχρήστης"
 
@@ -2864,7 +2864,7 @@ msgid "&Yes"
 msgstr "&Ναι"
 
 #: src/MessageBox.cpp:152 src/MessageBox.cpp:162 src/SearchWindow.cpp:275
-#: src/WriteWindow.cpp:856 src/XFileExplorer.cpp:1418 src/XFileArchive.cpp:260
+#: src/WriteWindow.cpp:856 src/XFileExplorer.cpp:1468 src/XFileArchive.cpp:260
 #: src/XFileArchive.cpp:293 src/XFileImage.cpp:907 src/XFilePackage.cpp:243
 #: src/XFilePackage.cpp:273
 msgid "&Quit"
@@ -2878,7 +2878,7 @@ msgstr "&Αποθήκευση"
 msgid "Yes for &All"
 msgstr "Ναι για &Όλα"
 
-#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5518
+#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5559
 msgid ""
 "Command pkexec not found!\n"
 "\n"
@@ -2894,7 +2894,7 @@ msgstr "Εισήγαγε τον κωδικό πρόσβασης για τον χ
 msgid "Enter root password:"
 msgstr "Εισήγαγε τον κωδικό πρόσβασης του υπερχρήστη:"
 
-#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5616
+#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5657
 msgid "An error has occurred!"
 msgstr "Παρουσιάστηκε κάποιο σφάλμα."
 
@@ -3709,7 +3709,7 @@ msgstr "Κλείσιμο παραθύρου"
 msgid "Print file"
 msgstr "Εκτύπωση του αρχείου"
 
-#: src/Preferences.cpp:1531 src/WriteWindow.cpp:768 src/WriteWindow.cpp:2215
+#: src/Preferences.cpp:1531 src/WriteWindow.cpp:768 src/WriteWindow.cpp:2205
 msgid "Search"
 msgstr "Αναζήτηση"
 
@@ -3774,7 +3774,7 @@ msgstr "Δημιουργία νέου παραθύρου"
 msgid "Create new root window"
 msgstr "Δημιουργία νέου παραθύρου υπερχρήστη"
 
-#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5380
+#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5421
 msgid "Execute command"
 msgstr "Εκτέλεση εντολής"
 
@@ -3852,7 +3852,7 @@ msgstr "Εναλλαγή πλαισίων"
 msgid "Go to trash can"
 msgstr "Μετάβαση στον κάδο απορριμάτων"
 
-#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5718
+#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5759
 msgid "Empty trash can"
 msgstr "Άδειασμα του κάδου απορριμάτων"
 
@@ -4174,13 +4174,13 @@ msgid "Deletion Date:"
 msgstr "Ημερομηνία Διαγραφής:"
 
 #: src/Properties.cpp:856 src/Properties.cpp:2154 src/Properties.cpp:2223
-#: src/XFileExplorer.cpp:5704
+#: src/XFileExplorer.cpp:5745
 #, c-format
 msgid "%s (%lu bytes)"
 msgstr "%s (%lu μπάιτια)"
 
 #: src/Properties.cpp:858 src/Properties.cpp:2156 src/Properties.cpp:2225
-#: src/XFileExplorer.cpp:5706
+#: src/XFileExplorer.cpp:5747
 #, c-format
 msgid "%s (%llu bytes)"
 msgstr "%s (%llu μπάιτια)"
@@ -4321,7 +4321,7 @@ msgstr "%u αρχεία, %u υποφάκελοι"
 msgid "%u files, %u subfolder"
 msgstr "%u αρχεία, %u υποφάκελοι"
 
-#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5708
+#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5749
 #, c-format
 msgid "%u files, %u subfolders"
 msgstr "%u αρχεία, %u υποφάκελοι"
@@ -4480,23 +4480,23 @@ msgstr ""
 msgid "Refresh Panel"
 msgstr "Ανανέωση του πίνακα"
 
-#: src/SearchPanel.cpp:235 src/XFileExplorer.cpp:1131
+#: src/SearchPanel.cpp:235 src/XFileExplorer.cpp:1181
 msgid "Copy Selected Files to Clipboard"
 msgstr "Αντιγραφή των επιλεγμένων αρχείων στο πρόχειρο"
 
-#: src/SearchPanel.cpp:242 src/XFileExplorer.cpp:1147
+#: src/SearchPanel.cpp:242 src/XFileExplorer.cpp:1197
 msgid "Cut Selected Files to Clipboard"
 msgstr "Αποκοπή των επιλεγμένων αρχείων στο πρόχειρο"
 
-#: src/SearchPanel.cpp:249 src/XFileExplorer.cpp:1164
+#: src/SearchPanel.cpp:249 src/XFileExplorer.cpp:1214
 msgid "Show Properties of Selected Files"
 msgstr "Εμφάνιση των ιδιοτήτων των επιλεγμένων αρχείων"
 
-#: src/SearchPanel.cpp:272 src/XFileExplorer.cpp:1171
+#: src/SearchPanel.cpp:272 src/XFileExplorer.cpp:1221
 msgid "Move Selected Files to Trash Can"
 msgstr "Μεταφορά των επιλεγμένων αρχείων στον κάδο απορριμμάτων"
 
-#: src/SearchPanel.cpp:279 src/XFileExplorer.cpp:1181
+#: src/SearchPanel.cpp:279 src/XFileExplorer.cpp:1231
 msgid "Delete Selected Files"
 msgstr "Διαγραφή των επιλεγμένων αρχείων"
 
@@ -4519,8 +4519,8 @@ msgstr ""
 "Παρακαλώ, προσδιόρισε μία εφαρμογή σύγκρισης αρχείων, στο διάλογο των "
 "Ρυθμίσεων."
 
-#: src/SearchPanel.cpp:2492 src/XFileExplorer.cpp:1556
-#: src/XFileExplorer.cpp:1587
+#: src/SearchPanel.cpp:2492 src/XFileExplorer.cpp:1606
+#: src/XFileExplorer.cpp:1637
 msgid "I&gnore Case"
 msgstr "&Χωρίς διάκριση πεζών/κεφαλαίων"
 
@@ -4896,7 +4896,7 @@ msgstr "Χρώμα παρασκηνίου των αριθμών των γραμ�
 msgid "Line numbers foreground:"
 msgstr "Χρώμα προσκηνίου των αριθμών των γραμμών:"
 
-#: src/WriteWindow.cpp:611 src/XFileExplorer.cpp:1424 src/XFileArchive.cpp:221
+#: src/WriteWindow.cpp:611 src/XFileExplorer.cpp:1474 src/XFileArchive.cpp:221
 #: src/XFileImage.cpp:335 src/XFilePackage.cpp:204
 msgid "&File"
 msgstr "&Αρχείο"
@@ -4914,9 +4914,9 @@ msgstr "&Προτιμήσεις"
 msgid "&Window"
 msgstr "Παρά&θυρο"
 
-#: src/WriteWindow.cpp:635 src/XFileExplorer.cpp:1699
-#: src/XFileExplorer.cpp:1706 src/XFileExplorer.cpp:6079
-#: src/XFileExplorer.cpp:6090 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
+#: src/WriteWindow.cpp:635 src/XFileExplorer.cpp:1750
+#: src/XFileExplorer.cpp:1757 src/XFileExplorer.cpp:6120
+#: src/XFileExplorer.cpp:6131 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
 #: src/XFilePackage.cpp:212
 msgid "&Help"
 msgstr "&Βοήθεια"
@@ -4965,7 +4965,7 @@ msgstr "Κλείσιμο"
 msgid "Close document file."
 msgstr "Κλείσιμο του εγγράφου."
 
-#: src/WriteWindow.cpp:711 src/WriteWindow.cpp:1996 src/XFileImage.cpp:808
+#: src/WriteWindow.cpp:711 src/WriteWindow.cpp:1986 src/XFileImage.cpp:808
 #: src/XFileImage.cpp:1921
 msgid "Print"
 msgstr "Εκτύπωση"
@@ -5002,7 +5002,7 @@ msgstr "Επικόλληση"
 msgid "Paste clipboard."
 msgstr "Επικόλληση του προχείρου."
 
-#: src/WriteWindow.cpp:746 src/WriteWindow.cpp:2419
+#: src/WriteWindow.cpp:746 src/WriteWindow.cpp:2409
 msgid "Goto Line"
 msgstr "Μετάβαση στη Γραμμή"
 
@@ -5249,8 +5249,8 @@ msgstr "&Σχετικά με το X File Write"
 msgid "About X File Write."
 msgstr "Σχετικά με το Εξ Φάειλ Ράειτ."
 
-#: src/WriteWindow.cpp:1177 src/WriteWindow.cpp:1284 src/XFileArchive.cpp:2047
-#: src/XFileImage.cpp:1619 src/XFilePackage.cpp:711
+#: src/WriteWindow.cpp:1177 src/WriteWindow.cpp:1284 src/XFileArchive.cpp:2037
+#: src/XFileImage.cpp:1619 src/XFilePackage.cpp:701
 #, c-format
 msgid "Unable to open file: %s"
 msgstr "Αδυναμία ανοίγματος του αρχείου: %s"
@@ -5260,7 +5260,7 @@ msgstr "Αδυναμία ανοίγματος του αρχείου: %s"
 msgid "File is too big: %s (%d bytes)"
 msgstr "Το αρχείο είναι πολύ μεγάλο: %s (%d μπάιτια)"
 
-#: src/WriteWindow.cpp:1200 src/XFileArchive.cpp:2047
+#: src/WriteWindow.cpp:1200 src/XFileArchive.cpp:2037
 msgid "Error Loading File"
 msgstr "Σφάλμα Φόρτωσης του Αρχείου"
 
@@ -5302,7 +5302,7 @@ msgstr "χωρίς τίτλο"
 msgid "untitled%d"
 msgstr "χωρίς_τίτλο%d"
 
-#: src/WriteWindow.cpp:1596
+#: src/WriteWindow.cpp:1586
 #, c-format
 msgid ""
 "X File Write Version %s is a simple text editor.\n"
@@ -5311,75 +5311,75 @@ msgstr ""
 "Ο X File Write, Έκδοσης %s, είναι ένας απλός επεξεργαστής κειμένου.\n"
 "\n"
 
-#: src/WriteWindow.cpp:1598
+#: src/WriteWindow.cpp:1588
 msgid "About X File Write"
 msgstr "Σχετικά με το Εξ Φάειλ Ράειτ"
 
-#: src/WriteWindow.cpp:1621
+#: src/WriteWindow.cpp:1611
 msgid "Change Font"
 msgstr "Τροποποίηση των Γραμματοσειρών"
 
-#: src/WriteWindow.cpp:1662
+#: src/WriteWindow.cpp:1652
 msgid "Text Files"
 msgstr "Αρχεία Κειμένου"
 
-#: src/WriteWindow.cpp:1663
+#: src/WriteWindow.cpp:1653
 msgid "C Source Files"
 msgstr "Πηγαίας C Αρχεία"
 
-#: src/WriteWindow.cpp:1664 src/WriteWindow.cpp:1665 src/WriteWindow.cpp:1666
+#: src/WriteWindow.cpp:1654 src/WriteWindow.cpp:1655 src/WriteWindow.cpp:1656
 msgid "C++ Source Files"
 msgstr "Πηγαίας C++ Αρχεία"
 
-#: src/WriteWindow.cpp:1667
+#: src/WriteWindow.cpp:1657
 msgid "C/C++ Header Files"
 msgstr "C/C++  Κεφαλίδας Αρχεία"
 
-#: src/WriteWindow.cpp:1668 src/WriteWindow.cpp:1669
+#: src/WriteWindow.cpp:1658 src/WriteWindow.cpp:1659
 msgid "HTML Files"
 msgstr "Αρχεία HTML"
 
-#: src/WriteWindow.cpp:1670
+#: src/WriteWindow.cpp:1660
 msgid "PHP Files"
 msgstr "Αρχεία PHP"
 
-#: src/WriteWindow.cpp:1673 src/XFilePackage.cpp:359
+#: src/WriteWindow.cpp:1663 src/XFilePackage.cpp:359
 msgid "Open Document"
 msgstr "Άνοιγμα Εγγράφου"
 
-#: src/WriteWindow.cpp:1792
+#: src/WriteWindow.cpp:1782
 msgid "Unsaved Document"
 msgstr "Μη αποθηκευμένο Έγγραφο"
 
-#: src/WriteWindow.cpp:1793
+#: src/WriteWindow.cpp:1783
 #, c-format
 msgid "Save %s to file?"
 msgstr "Αποθήκευση του «%s» στο δίσκο;"
 
-#: src/WriteWindow.cpp:1803 src/WriteWindow.cpp:1866
+#: src/WriteWindow.cpp:1793 src/WriteWindow.cpp:1856
 msgid "Save Document"
 msgstr "Αποθήκευση του Εγγράφου"
 
-#: src/WriteWindow.cpp:1813 src/WriteWindow.cpp:1876
+#: src/WriteWindow.cpp:1803 src/WriteWindow.cpp:1866
 msgid "Overwrite Document"
 msgstr "Αντικατάσταση του Εγγράφου"
 
-#: src/WriteWindow.cpp:1814 src/WriteWindow.cpp:1877
+#: src/WriteWindow.cpp:1804 src/WriteWindow.cpp:1867
 #, c-format
 msgid "Overwrite existing document: %s?"
 msgstr ""
 "Αντικατάσταση του υπάρχοντος εγγράφου:\n"
 " %s ;"
 
-#: src/WriteWindow.cpp:1965
+#: src/WriteWindow.cpp:1955
 msgid " (changed)"
 msgstr " (τροποποιημένο)"
 
-#: src/WriteWindow.cpp:1975
+#: src/WriteWindow.cpp:1965
 msgid " (read only)"
 msgstr " (μόνο για ανάγνωση)"
 
-#: src/WriteWindow.cpp:1995 src/XFileImage.cpp:1921
+#: src/WriteWindow.cpp:1985 src/XFileImage.cpp:1921
 msgid ""
 "Print command: \n"
 "(ex: lpr -P <printer>)"
@@ -5387,23 +5387,23 @@ msgstr ""
 "Εντολή εκτύπωσης: \n"
 "(ex: lpr -P <printer>)"
 
-#: src/WriteWindow.cpp:2087
+#: src/WriteWindow.cpp:2077
 msgid "READ ONLY"
 msgstr "ΑΝΑΓΝΩΣΗ ΜΟΝΟ"
 
-#: src/WriteWindow.cpp:2092
+#: src/WriteWindow.cpp:2082
 msgid "OVR"
 msgstr "OVR"
 
-#: src/WriteWindow.cpp:2092
+#: src/WriteWindow.cpp:2082
 msgid "INS"
 msgstr "INS"
 
-#: src/WriteWindow.cpp:2194
+#: src/WriteWindow.cpp:2184
 msgid "File Was Changed"
 msgstr "Το Αρχείο Τροποποιήθηκε"
 
-#: src/WriteWindow.cpp:2195
+#: src/WriteWindow.cpp:2185
 #, c-format
 msgid ""
 "%s\n"
@@ -5414,327 +5414,327 @@ msgstr ""
 "\n"
 "Θα ήθελες να ξανανοίξει από το δίσκο;"
 
-#: src/WriteWindow.cpp:2259
+#: src/WriteWindow.cpp:2249
 msgid "Replace"
 msgstr "Αντικατάσταση"
 
-#: src/WriteWindow.cpp:2419
+#: src/WriteWindow.cpp:2409
 msgid "&Goto line number:"
 msgstr "&Μετάβαση στη γραμμή με το αντίστοιχο νούμερο:"
 
-#: src/XFileExplorer.cpp:1111
+#: src/XFileExplorer.cpp:1161
 msgid "Refresh Panels"
 msgstr "Ανανέωση των πλαισίων"
 
-#: src/XFileExplorer.cpp:1117
+#: src/XFileExplorer.cpp:1167
 msgid "Create New File"
 msgstr "Δημιουργία νέου αρχείου"
 
-#: src/XFileExplorer.cpp:1121
+#: src/XFileExplorer.cpp:1171
 msgid "Create New Folder"
 msgstr "Δημιουργία νέου φακέλου"
 
-#: src/XFileExplorer.cpp:1125
+#: src/XFileExplorer.cpp:1175
 msgid "Create New Symlink"
 msgstr "Δημιουργία νέου εσωτερικού δεσμού"
 
-#: src/XFileExplorer.cpp:1159
+#: src/XFileExplorer.cpp:1209
 msgid "Paste From Clipboard"
 msgstr "Επικόλληση από το πρόχειρο"
 
-#: src/XFileExplorer.cpp:1176
+#: src/XFileExplorer.cpp:1226
 msgid "Restore Selected Files From Trash Can"
 msgstr "Αποκατάσταση των επιλεγμένων αρχείων από κάδο απορριμμάτων"
 
-#: src/XFileExplorer.cpp:1186
+#: src/XFileExplorer.cpp:1236
 msgid "Launch Xfe"
 msgstr "Εκκίνηση του Xfe"
 
-#: src/XFileExplorer.cpp:1194
+#: src/XFileExplorer.cpp:1244
 msgid "Execute Command"
 msgstr "Εκτέλεση εντολής"
 
-#: src/XFileExplorer.cpp:1198
+#: src/XFileExplorer.cpp:1248
 msgid "Launch Terminal"
 msgstr "Εκκίνηση τερματικού"
 
-#: src/XFileExplorer.cpp:1202
+#: src/XFileExplorer.cpp:1252
 msgid "Search Files and Folders..."
 msgstr "Αναζήτηση για φακέλους και αρχεία..."
 
-#: src/XFileExplorer.cpp:1211
+#: src/XFileExplorer.cpp:1261
 msgid "Mount"
 msgstr "Προσάρτηση"
 
-#: src/XFileExplorer.cpp:1224
+#: src/XFileExplorer.cpp:1274
 #, fuzzy
 #| msgid "Mount file system (Linux only)"
 msgid "Connect to Server..."
 msgstr "Προσάρτηση συστήματος αρχείων (μόνο για Λίνουξ)"
 
-#: src/XFileExplorer.cpp:1234
+#: src/XFileExplorer.cpp:1284
 #, fuzzy
 #| msgid "Show one panel"
 msgid "Show One File Panel"
 msgstr "Προβολή ενός πλαισίου"
 
-#: src/XFileExplorer.cpp:1242
+#: src/XFileExplorer.cpp:1292
 #, fuzzy
 #| msgid "Two panels mode"
 msgid "Show Folder Panel and File Panel"
 msgstr "Κατάστασης λειτουργίας δύο πλαισίων"
 
-#: src/XFileExplorer.cpp:1250
+#: src/XFileExplorer.cpp:1300
 #, fuzzy
 #| msgid "Show two panels"
 msgid "Show Two File Panels"
 msgstr "Εμφάνιση δύο πλαισίων"
 
-#: src/XFileExplorer.cpp:1258
+#: src/XFileExplorer.cpp:1308
 #, fuzzy
 #| msgid "Show one panel"
 msgid "Show Folder Panel and Two File Panels"
 msgstr "Προβολή ενός πλαισίου"
 
-#: src/XFileExplorer.cpp:1268 src/XFileImage.cpp:593
+#: src/XFileExplorer.cpp:1318 src/XFileImage.cpp:593
 msgid "Vertical Panels"
 msgstr "Κάθετα πλαίσια"
 
-#: src/XFileExplorer.cpp:1276 src/XFileImage.cpp:601
+#: src/XFileExplorer.cpp:1326 src/XFileImage.cpp:601
 msgid "Horizontal Panels"
 msgstr "Οριζόντια πλαίσια"
 
-#: src/XFileExplorer.cpp:1308
+#: src/XFileExplorer.cpp:1358
 msgid "Clear Address Bar"
 msgstr "Προσθήκη σελι&δοδείκτη"
 
-#: src/XFileExplorer.cpp:1330
+#: src/XFileExplorer.cpp:1380
 msgid "New Fo&lder..."
 msgstr "Νέος φάκε&λος..."
 
-#: src/XFileExplorer.cpp:1342
+#: src/XFileExplorer.cpp:1392
 msgid "Go &Home"
 msgstr "Μετάβαση στον αρ&χικό κατάλογο"
 
-#: src/XFileExplorer.cpp:1348
+#: src/XFileExplorer.cpp:1398
 msgid "&Refresh"
 msgstr "Ανανέ&ωση"
 
-#: src/XFileExplorer.cpp:1368
+#: src/XFileExplorer.cpp:1418
 msgid "&Copy to..."
 msgstr "Αντιγρα&φή σε..."
 
-#: src/XFileExplorer.cpp:1380
+#: src/XFileExplorer.cpp:1430
 msgid "&Symlink to..."
 msgstr "Ε&σωτερικός δεσμός στο..."
 
-#: src/XFileExplorer.cpp:1449
+#: src/XFileExplorer.cpp:1499
 msgid "&Select All"
 msgstr "Επιλογή όλ&ων"
 
-#: src/XFileExplorer.cpp:1455
+#: src/XFileExplorer.cpp:1505
 msgid "&Deselect All"
 msgstr "Α&ποεπιλογή όλων"
 
-#: src/XFileExplorer.cpp:1461
+#: src/XFileExplorer.cpp:1511
 msgid "&Invert Selection"
 msgstr "Α&ντιστροφή επιλογής"
 
-#: src/XFileExplorer.cpp:1468
+#: src/XFileExplorer.cpp:1518
 msgid "P&references"
 msgstr "&Προτιμήσεις"
 
-#: src/XFileExplorer.cpp:1474
+#: src/XFileExplorer.cpp:1524
 msgid "&General Toolbar"
 msgstr "&Γενική γραμμή εργαλείων"
 
-#: src/XFileExplorer.cpp:1475
+#: src/XFileExplorer.cpp:1525
 msgid "&Tools Toolbar"
 msgstr "&Γραμμή εργαλείων"
 
-#: src/XFileExplorer.cpp:1476
+#: src/XFileExplorer.cpp:1526
 msgid "&Panel Toolbar"
 msgstr "&Γραμμή εργαλείων πλαισίου"
 
-#: src/XFileExplorer.cpp:1477
+#: src/XFileExplorer.cpp:1527
 msgid "&Address Bar"
 msgstr "Προσθήκη σελι&δοδείκτη"
 
-#: src/XFileExplorer.cpp:1478
+#: src/XFileExplorer.cpp:1528
 msgid "&Status Bar"
 msgstr "Γραμμή εργαλείων &κατάστασης"
 
-#: src/XFileExplorer.cpp:1482
+#: src/XFileExplorer.cpp:1532
 msgid "&One Panel"
 msgstr "&Ένα πλαίσιο"
 
-#: src/XFileExplorer.cpp:1486
+#: src/XFileExplorer.cpp:1536
 #, fuzzy
 #| msgid "T&ree and panel"
 msgid "Folde&rs and Panel"
 msgstr "&Δένδρο και πλαίσιο"
 
-#: src/XFileExplorer.cpp:1490
+#: src/XFileExplorer.cpp:1540
 msgid "Two &Panels"
 msgstr "&Δύο πλαίσια"
 
-#: src/XFileExplorer.cpp:1494
+#: src/XFileExplorer.cpp:1544
 #, fuzzy
 #| msgid "Tr&ee and two panels"
 msgid "Fold&ers and Two Panels"
 msgstr "Δένδρο &και δύο πλαίσια"
 
-#: src/XFileExplorer.cpp:1500 src/XFileImage.cpp:1004
+#: src/XFileExplorer.cpp:1550 src/XFileImage.cpp:1004
 msgid "&Vertical Panels"
 msgstr "&Κάθετα πλαίσια"
 
-#: src/XFileExplorer.cpp:1504 src/XFileImage.cpp:1008
+#: src/XFileExplorer.cpp:1554 src/XFileImage.cpp:1008
 msgid "&Horizontal Panels"
 msgstr "&Οριζόντια πλαίσια"
 
-#: src/XFileExplorer.cpp:1512
+#: src/XFileExplorer.cpp:1562
 msgid "&Add Bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
-#: src/XFileExplorer.cpp:1518
+#: src/XFileExplorer.cpp:1568
 #, fuzzy
 #| msgid "&Clear bookmarks"
 msgid "&Remove All Bookmarks"
 msgstr "Εκκα&θάριση των σελιδοδεικτών"
 
-#: src/XFileExplorer.cpp:1528
+#: src/XFileExplorer.cpp:1578
 msgid "&Bookmarks"
 msgstr "&Σελιδοδείκτες"
 
-#: src/XFileExplorer.cpp:1532
+#: src/XFileExplorer.cpp:1582
 msgid "&Filter..."
 msgstr "&Φίλτρο..."
 
-#: src/XFileExplorer.cpp:1534 src/XFileExplorer.cpp:1565 src/XFileImage.cpp:977
+#: src/XFileExplorer.cpp:1584 src/XFileExplorer.cpp:1615 src/XFileImage.cpp:977
 msgid "&Thumbnails"
 msgstr "Εικόνες &προεπισκόπησης"
 
-#: src/XFileExplorer.cpp:1536 src/XFileExplorer.cpp:1567 src/XFileImage.cpp:985
+#: src/XFileExplorer.cpp:1586 src/XFileExplorer.cpp:1617 src/XFileImage.cpp:985
 msgid "&Big Icons"
 msgstr "&Μεγάλα εικονίδια"
 
-#: src/XFileExplorer.cpp:1546 src/XFileExplorer.cpp:1577
+#: src/XFileExplorer.cpp:1596 src/XFileExplorer.cpp:1627
 msgid "T&ype"
 msgstr "Τύ&πος"
 
-#: src/XFileExplorer.cpp:1548 src/XFileExplorer.cpp:1579
+#: src/XFileExplorer.cpp:1598 src/XFileExplorer.cpp:1629
 msgid "D&ate"
 msgstr "Ημερομηνί&α"
 
-#: src/XFileExplorer.cpp:1549 src/XFileExplorer.cpp:1580
+#: src/XFileExplorer.cpp:1599 src/XFileExplorer.cpp:1630
 msgid "Us&er"
 msgstr "&Χρήστης"
 
-#: src/XFileExplorer.cpp:1550 src/XFileExplorer.cpp:1581
+#: src/XFileExplorer.cpp:1600 src/XFileExplorer.cpp:1631
 msgid "Gr&oup"
 msgstr "&Ομάδα"
 
-#: src/XFileExplorer.cpp:1557
+#: src/XFileExplorer.cpp:1607
 msgid "Fol&ders First"
 msgstr "Πρώτα οι φάκε&λοι"
 
-#: src/XFileExplorer.cpp:1559 src/XFileExplorer.cpp:5169
-#: src/XFileExplorer.cpp:5228
+#: src/XFileExplorer.cpp:1609 src/XFileExplorer.cpp:5210
+#: src/XFileExplorer.cpp:5269
 msgid "&Left Panel"
 msgstr "Αριστερό π&λαίσιο"
 
-#: src/XFileExplorer.cpp:1563
+#: src/XFileExplorer.cpp:1613
 msgid "&Filter"
 msgstr "&Φίλτρο"
 
-#: src/XFileExplorer.cpp:1588
+#: src/XFileExplorer.cpp:1638
 msgid "&Folders First"
 msgstr "Πρώτα οι &φάκελοι"
 
-#: src/XFileExplorer.cpp:1590 src/XFileExplorer.cpp:5168
-#: src/XFileExplorer.cpp:5227
+#: src/XFileExplorer.cpp:1640 src/XFileExplorer.cpp:5209
+#: src/XFileExplorer.cpp:5268
 msgid "&Right Panel"
 msgstr "Δε&ξί πλαίσιο"
 
-#: src/XFileExplorer.cpp:1597
+#: src/XFileExplorer.cpp:1648
 #, fuzzy
 #| msgid "Scripts"
 msgid "&Scripts"
 msgstr "Σενάρια"
 
-#: src/XFileExplorer.cpp:1602
+#: src/XFileExplorer.cpp:1653
 #, fuzzy
 #| msgid "Name"
 msgid "&New Tab"
 msgstr "Όνομα"
 
-#: src/XFileExplorer.cpp:1607
+#: src/XFileExplorer.cpp:1658
 #, fuzzy
 #| msgid "&Clear bookmarks"
 msgid "Remove &All Tabs"
 msgstr "Εκκα&θάριση των σελιδοδεικτών"
 
-#: src/XFileExplorer.cpp:1617
+#: src/XFileExplorer.cpp:1668
 msgid "New &Root Window"
 msgstr "Νέο παράθυρο υπε&ρχρήστη"
 
-#: src/XFileExplorer.cpp:1625
+#: src/XFileExplorer.cpp:1676
 msgid "E&xecute Command..."
 msgstr "Εκ&τέλεση εντολής..."
 
-#: src/XFileExplorer.cpp:1631
+#: src/XFileExplorer.cpp:1682
 msgid "&Terminal"
 msgstr "&Τερματικό"
 
-#: src/XFileExplorer.cpp:1637
+#: src/XFileExplorer.cpp:1688
 msgid "&Synchronize Panels"
 msgstr "&Συγχρονισμός πλαισίων"
 
-#: src/XFileExplorer.cpp:1644
+#: src/XFileExplorer.cpp:1695
 msgid "Sw&itch Panels"
 msgstr "Εναλλαγή πλα&ισίων"
 
-#: src/XFileExplorer.cpp:1652
+#: src/XFileExplorer.cpp:1703
 msgid "Search &Files..."
 msgstr "Αναζήτη&ση αρχείων..."
 
-#: src/XFileExplorer.cpp:1671
+#: src/XFileExplorer.cpp:1722
 #, fuzzy
 #| msgid "Mount file system (Linux only)"
 msgid "&Connect to Server..."
 msgstr "Προσάρτηση συστήματος αρχείων (μόνο για Λίνουξ)"
 
-#: src/XFileExplorer.cpp:1675
+#: src/XFileExplorer.cpp:1726
 msgid "&Tools"
 msgstr "Ερ&γαλεία"
 
-#: src/XFileExplorer.cpp:1680
+#: src/XFileExplorer.cpp:1731
 msgid "&Go to Trash"
 msgstr "&Μετάβαση στα απορρίμματα"
 
-#: src/XFileExplorer.cpp:1686
+#: src/XFileExplorer.cpp:1737
 msgid "&Trash Size"
 msgstr "Μέγεθος &του κάδου απορριμμάτων"
 
-#: src/XFileExplorer.cpp:1688
+#: src/XFileExplorer.cpp:1739
 #, fuzzy
 #| msgid "&Empty trash can"
 msgid "&Empty Trash"
 msgstr "Άδ&ειασμα του κάδου απορριμμάτων"
 
-#: src/XFileExplorer.cpp:1694 src/XFileExplorer.cpp:6076
+#: src/XFileExplorer.cpp:1745 src/XFileExplorer.cpp:6117
 msgid "T&rash"
 msgstr "Απο&ρρίμματα"
 
-#: src/XFileExplorer.cpp:1705
+#: src/XFileExplorer.cpp:1756
 msgid "&About X File Explorer"
 msgstr "&Σχετικά με τον Εξ Φάειλ Εξπλόρερ"
 
-#: src/XFileExplorer.cpp:3457
+#: src/XFileExplorer.cpp:3498
 msgid "Running Xfe as root!"
 msgstr "Εκτέλεση του Xfe σαν υπερχρήστης."
 
-#: src/XFileExplorer.cpp:3501
+#: src/XFileExplorer.cpp:3542
 #, c-format
 msgid "Can't create Xfe config folder %s: %s"
 msgstr ""
@@ -5743,84 +5743,84 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/XFileExplorer.cpp:3506
+#: src/XFileExplorer.cpp:3547
 #, c-format
 msgid "Can't create Xfe config folder %s"
 msgstr "Αδυναμία δημιουργίας του φακέλου ρυθμίσεων του Xfe %s"
 
-#: src/XFileExplorer.cpp:3528
+#: src/XFileExplorer.cpp:3569
 msgid "No global xferc file found! Please select a configuration file..."
 msgstr ""
 "Δεν βρέθηκε ένα καθολικό αρχείο xferc. Παρακαλώ, επέλεξε ένα αρχείο "
 "ρυθμίσεων..."
 
-#: src/XFileExplorer.cpp:3532
+#: src/XFileExplorer.cpp:3573
 msgid "XFE configuration file"
 msgstr "Αρχείο ρυθμίσεων του XFE"
 
-#: src/XFileExplorer.cpp:3545
+#: src/XFileExplorer.cpp:3586
 msgid "Xfe cannot run without a global xferc configuration file"
 msgstr ""
 
-#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:5750
+#: src/XFileExplorer.cpp:3609 src/XFileExplorer.cpp:5791
 #, c-format
 msgid "Can't create trash can 'files' folder %s: %s"
 msgstr ""
 "Αδυναμία δημιουργίας του φακέλου για τα αρχεία του κάδου απορριμμάτων %s : %s"
 
-#: src/XFileExplorer.cpp:3573 src/XFileExplorer.cpp:5755
+#: src/XFileExplorer.cpp:3614 src/XFileExplorer.cpp:5796
 #, c-format
 msgid "Can't create trash can 'files' folder %s"
 msgstr ""
 "Αδυναμία  δημιουργίας του φακέλου «αρχείων», του κάδου απορριμμάτων, %s"
 
-#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:5771
+#: src/XFileExplorer.cpp:3633 src/XFileExplorer.cpp:5812
 #, c-format
 msgid "Can't create trash can 'info' folder %s: %s"
 msgstr ""
 "Αδυναμία δημιουργίας του φακέλου για τις πληροφορίες του κάδου απορριμμάτων "
 "%s : %s"
 
-#: src/XFileExplorer.cpp:3597 src/XFileExplorer.cpp:5776
+#: src/XFileExplorer.cpp:3638 src/XFileExplorer.cpp:5817
 #, c-format
 msgid "Can't create trash can 'info' folder %s"
 msgstr ""
 "Αδυναμία δημιουργίας του φακέλου «πληροφοριών», του κάδου απορριμμάτων, %s"
 
-#: src/XFileExplorer.cpp:3702
+#: src/XFileExplorer.cpp:3743
 msgid ""
 "Unable to find udisksctl command on your system.\n"
 "Package udisks2 is probably not installed, Xfe automounter is disabled."
 msgstr ""
 
-#: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
+#: src/XFileExplorer.cpp:3765 src/XFileExplorer.cpp:3777
 #: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Σφάλμα: Αδυναμία εκτέλεσης της εντολής %s"
 
-#: src/XFileExplorer.cpp:4374
+#: src/XFileExplorer.cpp:4415
 #, fuzzy
 #| msgid "Confirm Clear Bookmarks"
 msgid "Confirm Remove Bookmarks"
 msgstr "Επιβεβαίωση της εκκαθάρισης των σελιδοδεικτών"
 
-#: src/XFileExplorer.cpp:4375
+#: src/XFileExplorer.cpp:4416
 #, fuzzy
 #| msgid "Do you really want to clear all your bookmarks?"
 msgid "Do you really want to remove all bookmarks?"
 msgstr "Θέλεις πραγματικά να γίνει εκκαθάριση όλων των σελιδοδεικτών;"
 
-#: src/XFileExplorer.cpp:4710
+#: src/XFileExplorer.cpp:4751
 msgid "Help"
 msgstr "Βοήθεια"
 
-#: src/XFileExplorer.cpp:4739
+#: src/XFileExplorer.cpp:4780
 #, c-format
 msgid "X File Explorer Version %s"
 msgstr "Εξ Φάιλ Εξπλόρερ (X File Explorer), Έκδοση %s"
 
-#: src/XFileExplorer.cpp:4742
+#: src/XFileExplorer.cpp:4783
 #, fuzzy
 #| msgid "Based on X Win Commander by Maxim Baranov\n"
 msgid ""
@@ -5830,11 +5830,11 @@ msgstr ""
 "Βασίζεται στον Εξ ΓουίνΚομάντερ (X Win Commander) του Μαξήμ Μπαράμοβ (Maxim "
 "Baranov)\n"
 
-#: src/XFileExplorer.cpp:4743
+#: src/XFileExplorer.cpp:4784
 msgid "FOX Toolkit by Jeroen van der Zijp\n"
 msgstr ""
 
-#: src/XFileExplorer.cpp:4748
+#: src/XFileExplorer.cpp:4789
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -5931,49 +5931,49 @@ msgstr ""
 "Σουηδικά: Anders F. Bjorklund\n"
 "Τουρκικά: erkaN\n"
 
-#: src/XFileExplorer.cpp:4781
+#: src/XFileExplorer.cpp:4822
 msgid "About X File Explorer"
 msgstr "Σχετικά με τον Εξ Φάειλ Εξπλόρερ"
 
-#: src/XFileExplorer.cpp:5136 src/XFileExplorer.cpp:5190
+#: src/XFileExplorer.cpp:5177 src/XFileExplorer.cpp:5231
 msgid "&Panel"
 msgstr "&Πίνακας"
 
-#: src/XFileExplorer.cpp:5380
+#: src/XFileExplorer.cpp:5421
 msgid "Execute the command:"
 msgstr "Εκτέλεση της εντολής:"
 
-#: src/XFileExplorer.cpp:5381
+#: src/XFileExplorer.cpp:5422
 msgid "Console mode"
 msgstr "Κατάσταση λειτουργίας κονσόλας"
 
-#: src/XFileExplorer.cpp:5558
+#: src/XFileExplorer.cpp:5599
 msgid "Enter the user password:"
 msgstr "Εισήγαγε τον κωδικό πρόσβασης για τον χρήστη:"
 
-#: src/XFileExplorer.cpp:5565
+#: src/XFileExplorer.cpp:5606
 msgid "Enter the root password:"
 msgstr "Εισήγαγε τον κωδικό πρόσβασης του υπερχρήστη:"
 
-#: src/XFileExplorer.cpp:5633
+#: src/XFileExplorer.cpp:5674
 #, fuzzy
 #| msgid "Mount file system (Linux only)"
 msgid "Connect to Server"
 msgstr "Προσάρτηση συστήματος αρχείων (μόνο για Λίνουξ)"
 
-#: src/XFileExplorer.cpp:5648
+#: src/XFileExplorer.cpp:5689
 msgid "Search Files and Folders"
 msgstr "Αναζήτηση για φακέλους και αρχεία"
 
-#: src/XFileExplorer.cpp:5714
+#: src/XFileExplorer.cpp:5755
 msgid "Do you really want to empty the trash can?"
 msgstr "Θέλεις πραγματικά να αδειάσεις τον κάδο απορριμμάτων;"
 
-#: src/XFileExplorer.cpp:5714
+#: src/XFileExplorer.cpp:5755
 msgid " in "
 msgstr " σε "
 
-#: src/XFileExplorer.cpp:5716
+#: src/XFileExplorer.cpp:5757
 msgid ""
 "\n"
 "\n"
@@ -5983,7 +5983,7 @@ msgstr ""
 "\n"
 "Όλα τα αντικείμενα θα χαθούν, οριστικά!"
 
-#: src/XFileExplorer.cpp:5821
+#: src/XFileExplorer.cpp:5862
 #, c-format
 msgid ""
 "Trash size: %s (%s files, %s subfolders)\n"
@@ -5994,30 +5994,30 @@ msgstr ""
 "\n"
 "Μετατράπηκε την ημερομηνία: %s"
 
-#: src/XFileExplorer.cpp:5823
+#: src/XFileExplorer.cpp:5864
 msgid "Trash size"
 msgstr "Μέγεθος του κάδου απορριμμάτων"
 
-#: src/XFileExplorer.cpp:5831
+#: src/XFileExplorer.cpp:5872
 #, c-format
 msgid "Trash can 'files' folder %s is not readable!"
 msgstr "Ο φάκελος των αρχείων του κάδου απορριμμάτων %s δεν είναι αναγνώσιμος."
 
-#: src/XFileExplorer.cpp:6428 src/XFileExplorer.cpp:6502
+#: src/XFileExplorer.cpp:6469 src/XFileExplorer.cpp:6543
 #, c-format
 msgid "Command not found: %s"
 msgstr ""
 "Δε βρέθηκε η εντολή:\n"
 " %s"
 
-#: src/XFileExplorer.cpp:6508
+#: src/XFileExplorer.cpp:6549
 #, c-format
 msgid "Invalid file association: %s"
 msgstr ""
 "Μη έγκυρη συσχέτιση αρχείου:\n"
 " %s"
 
-#: src/XFileExplorer.cpp:6515
+#: src/XFileExplorer.cpp:6556
 #, c-format
 msgid "File association not found: %s"
 msgstr ""
@@ -6036,7 +6036,7 @@ msgstr "Καθαρισμός της Λίστας των Προσφάτων Αρ�
 msgid "&About X File Archive"
 msgstr "&Σχετικά με το X File Archive"
 
-#: src/XFileArchive.cpp:297 src/XFileArchive.cpp:1862
+#: src/XFileArchive.cpp:297 src/XFileArchive.cpp:1852
 #, fuzzy
 #| msgid "Extract:"
 msgid "&Extract"
@@ -6167,7 +6167,7 @@ msgstr "Άνοιγμα αρχείου πακέτου"
 msgid "No archive opened"
 msgstr "Δεν φορτώθηκαν κάποια πακέτα"
 
-#: src/XFileArchive.cpp:520 src/XFileArchive.cpp:719 src/XFileArchive.cpp:1570
+#: src/XFileArchive.cpp:520 src/XFileArchive.cpp:719 src/XFileArchive.cpp:1560
 #, fuzzy
 #| msgid "Unknown package format"
 msgid "Unknown archive format"
@@ -6208,45 +6208,45 @@ msgstr "Στο φάκελο:"
 msgid "Extract File"
 msgstr "Αποσυμπίεση αρχειοθήκης"
 
-#: src/XFileArchive.cpp:1348
+#: src/XFileArchive.cpp:1338
 #, fuzzy, c-format
 #| msgid "Can't create folder %s"
 msgid "Can't remove folder %s"
 msgstr "Αδυναμία δημιουργίας του φακέλου %s"
 
-#: src/XFileArchive.cpp:1370
+#: src/XFileArchive.cpp:1360
 msgid "Confirm Quit"
 msgstr "Επιβεβαίωση του τερματισμού"
 
-#: src/XFileArchive.cpp:1370
+#: src/XFileArchive.cpp:1360
 msgid "An operation in in progress, do you really want to quit Xfa?"
 msgstr ""
 
-#: src/XFileArchive.cpp:1403 src/XFileArchive.cpp:1415
-#: src/XFileArchive.cpp:1427 src/XFileArchive.cpp:1439
-#: src/XFileArchive.cpp:1451 src/XFileArchive.cpp:1463
-#: src/XFileArchive.cpp:1475 src/XFileArchive.cpp:1487
-#: src/XFileArchive.cpp:1499 src/XFileArchive.cpp:1511
-#: src/XFileArchive.cpp:1523 src/XFileArchive.cpp:1535
-#: src/XFileArchive.cpp:1547 src/XFileArchive.cpp:1559
+#: src/XFileArchive.cpp:1393 src/XFileArchive.cpp:1405
+#: src/XFileArchive.cpp:1417 src/XFileArchive.cpp:1429
+#: src/XFileArchive.cpp:1441 src/XFileArchive.cpp:1453
+#: src/XFileArchive.cpp:1465 src/XFileArchive.cpp:1477
+#: src/XFileArchive.cpp:1489 src/XFileArchive.cpp:1501
+#: src/XFileArchive.cpp:1513 src/XFileArchive.cpp:1525
+#: src/XFileArchive.cpp:1537 src/XFileArchive.cpp:1549
 #, fuzzy, c-format
 #| msgid "Symlink source %s does not exist"
 msgid "Unarchive program %s was not found"
 msgstr "Η πηγή του εσωτερικού δεσμού %s δεν υπάρχει"
 
-#: src/XFileArchive.cpp:1728 src/XFileArchive.cpp:1801
+#: src/XFileArchive.cpp:1718 src/XFileArchive.cpp:1791
 msgid "Please wait while opening archive..."
 msgstr ""
 
-#: src/XFileArchive.cpp:1863
+#: src/XFileArchive.cpp:1853
 msgid "&Extract to..."
 msgstr "Αποσ&υμπίεση στο ..."
 
-#: src/XFileArchive.cpp:1947 src/XFileArchive.cpp:1989
+#: src/XFileArchive.cpp:1937 src/XFileArchive.cpp:1979
 msgid "Please wait while extracting archive..."
 msgstr ""
 
-#: src/XFileArchive.cpp:2172
+#: src/XFileArchive.cpp:2162
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -6285,15 +6285,15 @@ msgstr ""
 "    το οποίο θα ήθελες να ανοίξει, κατά την εκκίνηση.\n"
 "\n"
 
-#: src/XFileArchive.cpp:2340 src/XFileArchive.cpp:2348
-#: src/XFileArchive.cpp:2356 src/XFileImage.cpp:3343 src/XFileImage.cpp:3351
-#: src/XFileImage.cpp:3359 src/XFilePackage.cpp:983 src/XFilePackage.cpp:991
-#: src/XFilePackage.cpp:999 src/XFileWrite.cpp:352 src/XFileWrite.cpp:360
+#: src/XFileArchive.cpp:2330 src/XFileArchive.cpp:2338
+#: src/XFileArchive.cpp:2346 src/XFileImage.cpp:3333 src/XFileImage.cpp:3341
+#: src/XFileImage.cpp:3349 src/XFilePackage.cpp:973 src/XFilePackage.cpp:981
+#: src/XFilePackage.cpp:989 src/XFileWrite.cpp:352 src/XFileWrite.cpp:360
 #: src/XFileWrite.cpp:368 src/main.cpp:563 src/main.cpp:571 src/main.cpp:579
 msgid "Error loading icons"
 msgstr "Σφάλμα στη φόρτωση των εικονιδίων"
 
-#: src/XFileArchive.cpp:2341 src/XFileImage.cpp:3344 src/XFilePackage.cpp:984
+#: src/XFileArchive.cpp:2331 src/XFileImage.cpp:3334 src/XFilePackage.cpp:974
 #: src/XFileWrite.cpp:353 src/main.cpp:564
 #, fuzzy
 msgid ""
@@ -6304,7 +6304,7 @@ msgstr ""
 "Αδυναμία φόρτωσης κάποιων εικονιδίων. Παρακαλώ, έλεγξε την διαδρομή των "
 "εικονιδίων."
 
-#: src/XFileArchive.cpp:2349 src/XFileImage.cpp:3352 src/XFilePackage.cpp:992
+#: src/XFileArchive.cpp:2339 src/XFileImage.cpp:3342 src/XFilePackage.cpp:982
 #: src/XFileWrite.cpp:361 src/main.cpp:572
 #, fuzzy
 msgid ""
@@ -6315,7 +6315,7 @@ msgstr ""
 "Αδυναμία φόρτωσης κάποιων εικονιδίων. Παρακαλώ, έλεγξε την διαδρομή των "
 "εικονιδίων."
 
-#: src/XFileArchive.cpp:2357 src/XFileImage.cpp:3360 src/XFilePackage.cpp:1000
+#: src/XFileArchive.cpp:2347 src/XFileImage.cpp:3350 src/XFilePackage.cpp:990
 #: src/XFileWrite.cpp:369 src/main.cpp:580
 #, fuzzy
 msgid ""
@@ -6654,7 +6654,7 @@ msgstr ""
 msgid "Open Image"
 msgstr "Άνοιγμα Εικόνας"
 
-#: src/XFileImage.cpp:3165
+#: src/XFileImage.cpp:3155
 msgid ""
 "\n"
 "Usage: xfi [options] [image] \n"
@@ -6731,27 +6731,27 @@ msgstr "DEB πακέτα"
 msgid "No package loaded"
 msgstr "Δεν φορτώθηκαν κάποια πακέτα"
 
-#: src/XFilePackage.cpp:415 src/XFilePackage.cpp:465 src/XFilePackage.cpp:590
-#: src/XFilePackage.cpp:655
+#: src/XFilePackage.cpp:415 src/XFilePackage.cpp:465 src/XFilePackage.cpp:580
+#: src/XFilePackage.cpp:645
 msgid "Unknown package format"
 msgstr "Άγνωστη μορφή πακέτου"
 
-#: src/XFilePackage.cpp:643
+#: src/XFilePackage.cpp:633
 msgid "[RPM package]\n"
 msgstr "[Πακέτο RPM]\n"
 
-#: src/XFilePackage.cpp:648
+#: src/XFilePackage.cpp:638
 msgid "[DEB package]\n"
 msgstr "[Πακέτο DEB]\n"
 
-#: src/XFilePackage.cpp:687
+#: src/XFilePackage.cpp:677
 #, c-format
 msgid "Query of %s failed!"
 msgstr ""
 "Απέτυχε η διερεύνηση του\n"
 " %s ."
 
-#: src/XFilePackage.cpp:815
+#: src/XFilePackage.cpp:805
 msgid ""
 "\n"
 "Usage: xfp [options] [package] \n"
@@ -6838,35 +6838,35 @@ msgstr "Κανονική έκ&φραση"
 msgid "&Backward"
 msgstr "&Πίσω"
 
-#: src/foxhacks.cpp:3693
+#: src/foxhacks.cpp:3546
 msgid "Docking"
 msgstr ""
 
-#: src/foxhacks.cpp:3695
+#: src/foxhacks.cpp:3548
 #, fuzzy
 #| msgid "To:"
 msgid "Top"
 msgstr "Στο:"
 
-#: src/foxhacks.cpp:3696
+#: src/foxhacks.cpp:3549
 msgid "Bottom"
 msgstr ""
 
-#: src/foxhacks.cpp:3697
+#: src/foxhacks.cpp:3550
 msgid "Left"
 msgstr ""
 
-#: src/foxhacks.cpp:3698
+#: src/foxhacks.cpp:3551
 #, fuzzy
 #| msgid "&Weight:"
 msgid "Right"
 msgstr "&Βάρος:"
 
-#: src/foxhacks.cpp:3699
+#: src/foxhacks.cpp:3552
 msgid "Float"
 msgstr ""
 
-#: src/foxhacks.cpp:3700
+#: src/foxhacks.cpp:3553
 msgid "Flip"
 msgstr ""
 

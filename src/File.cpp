@@ -2665,10 +2665,17 @@ long File::onCopySpeed(FXObject*, FXSelector, void*)
 #endif
     hsize = xf_humansize(size);
     snprintf(size, sizeof(size), "%s %s / %s (%s/s)", datatext.text(), hsize.text(),
-             copyspeedHsourcesize.text(), hspeed.text());
-    datalabel->setText(size);
+             copyspeedHsourcesize.text(), hspeed.text());    
+    if (datalabel)
+    {
+        datalabel->setText(size);
+    }
+    
     snprintf(size, sizeof(size), "%s %s", timetext.text(), hremtime.text());
-    timelabel->setText(size);
+    if (timelabel)
+    {
+        timelabel->setText(size);
+    }
 
     // Restart timeout   
     prevTotaldataread = totaldataread;

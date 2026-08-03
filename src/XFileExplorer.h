@@ -33,7 +33,32 @@
 typedef std::map<FXString, int> progsmap;
 
 
-// Application object
+// Custom MenuPane class that can detect if a menu is open
+class MenuPane : public FXMenuPane
+{
+  FXDECLARE(MenuPane)
+
+protected:
+
+    FXbool open = false;
+
+public:
+
+    MenuPane() {}
+
+    MenuPane(FXComposite* p) : FXMenuPane(p) {}
+
+    long onMap(FXObject*, FXSelector, void*);
+    long onUnmap(FXObject*, FXSelector, void*);
+
+    FXbool isOpen(void)
+    {
+        return open;
+    }
+};
+
+
+// Application class
 class XFileExplorer : public FXMainWindow
 {
     FXDECLARE(XFileExplorer)
@@ -47,6 +72,7 @@ protected:
         FILEPANEL_FOCUS,
         DIRPANEL_FOCUS,
     };
+        
     int panel_mode = -1;
     int panel_view = 0;
     FXbool vertpanels = false;
@@ -60,8 +86,8 @@ protected:
     FXMenuPane* viewmenu = NULL;
     FXMenuPane* lpanelmenu = NULL;
     FXMenuPane* rpanelmenu = NULL;
-    FXMenuPane* scriptsmenu = NULL;
     FXMenuPane* helpmenu = NULL;
+    MenuPane* scriptsmenu = NULL;          // Dynamic menu
     FXMenuTitle* toolsmenutitle = NULL;
     FXMenuTitle* filemenutitle = NULL;
     FXMenuTitle* trashmenutitle = NULL;
@@ -199,6 +225,8 @@ public:
         ID_FILE_ADDCUT,
         ID_HORZ_PANELS,
         ID_VERT_PANELS,
+        ID_MENU_OPEN,
+        ID_MENU_CLOSE,
         ID_LAST
     };
 
@@ -380,5 +408,8 @@ public:
     {
         return tabbuttons;
     }
+
+    int readScriptDir(FXWindow*, FXMenuPane*, FXString);
+
 };
 #endif

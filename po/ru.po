@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfe 2.1.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-25 10:57+0200\n"
+"POT-Creation-Date: 2026-07-31 15:49+0200\n"
 "PO-Revision-Date: 2026-07-18 11:12+0600\n"
 "Last-Translator: вдмЪ <vg72proton@proton.me>\n"
 "Language-Team: Russian\n"
@@ -121,7 +121,7 @@ msgstr "Выбрать каталог назначения"
 #: src/ArchInputDialog.cpp:143 src/BookmarkDialog.cpp:167
 #: src/BrowseInputDialog.cpp:149 src/FilePanel.cpp:5412
 #: src/HistInputDialog.cpp:171 src/Preferences.cpp:1315 src/Properties.cpp:2010
-#: src/SearchPanel.cpp:2854 src/SearchWindow.cpp:1328 src/WriteWindow.cpp:1661
+#: src/SearchPanel.cpp:2854 src/SearchWindow.cpp:1328 src/WriteWindow.cpp:1651
 #: src/XFileArchive.cpp:387 src/XFileArchive.cpp:528 src/XFileArchive.cpp:1232
 #: src/XFileImage.cpp:181 src/XFilePackage.cpp:351
 msgid "All Files"
@@ -232,18 +232,18 @@ msgstr "Очистить\tОчистить список запросов"
 
 #: src/ComboBox.cpp:906 src/DirPanel.cpp:1524 src/FilePanel.cpp:5044
 #: src/SearchPanel.cpp:2605 src/WriteWindow.cpp:879 src/WriteWindow.cpp:920
-#: src/XFileExplorer.cpp:1429
+#: src/XFileExplorer.cpp:1479
 msgid "&Copy"
 msgstr "&Копировать в буфер"
 
 #: src/ComboBox.cpp:907 src/DirPanel.cpp:1525 src/FilePanel.cpp:5045
-#: src/SearchPanel.cpp:2606 src/XFileExplorer.cpp:1435
+#: src/SearchPanel.cpp:2606 src/XFileExplorer.cpp:1485
 msgid "C&ut"
 msgstr "&Вырезать в буфер"
 
 #: src/ComboBox.cpp:908 src/DirPanel.cpp:1526 src/FilePanel.cpp:4862
 #: src/FilePanel.cpp:4907 src/FilePanel.cpp:5046 src/WriteWindow.cpp:891
-#: src/WriteWindow.cpp:922 src/XFileExplorer.cpp:1441
+#: src/WriteWindow.cpp:922 src/XFileExplorer.cpp:1491
 msgid "&Paste"
 msgstr "В&ставить из буфера"
 
@@ -270,7 +270,7 @@ msgstr ""
 "\n"
 
 #: src/CommandWindow.cpp:221 src/FilePanel.cpp:6079 src/SearchPanel.cpp:4547
-#: src/SearchWindow.cpp:970 src/XFileArchive.cpp:1613
+#: src/SearchWindow.cpp:970 src/XFileArchive.cpp:1603
 #: src/startupnotification.cpp:162 src/xfeutils.cpp:1843
 #, c-format
 msgid "Error: Fork failed: %s\n"
@@ -361,53 +361,53 @@ msgstr "Ошибка: Ветвление не удалось: %s\n"
 #: src/SearchWindow.cpp:994 src/SearchWindow.cpp:1119 src/WriteWindow.cpp:1177
 #: src/WriteWindow.cpp:1187 src/WriteWindow.cpp:1265 src/WriteWindow.cpp:1271
 #: src/WriteWindow.cpp:1284 src/WriteWindow.cpp:1291 src/WriteWindow.cpp:1313
-#: src/WriteWindow.cpp:2017 src/XFileExplorer.cpp:3501
-#: src/XFileExplorer.cpp:3506 src/XFileExplorer.cpp:3544
-#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:3573
-#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:3597
-#: src/XFileExplorer.cpp:3702 src/XFileExplorer.cpp:4473
-#: src/XFileExplorer.cpp:4478 src/XFileExplorer.cpp:4610
-#: src/XFileExplorer.cpp:4660 src/XFileExplorer.cpp:4665
-#: src/XFileExplorer.cpp:4677 src/XFileExplorer.cpp:4688
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5365
-#: src/XFileExplorer.cpp:5370 src/XFileExplorer.cpp:5418
-#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5475
-#: src/XFileExplorer.cpp:5517 src/XFileExplorer.cpp:5544
-#: src/XFileExplorer.cpp:5549 src/XFileExplorer.cpp:5602
-#: src/XFileExplorer.cpp:5607 src/XFileExplorer.cpp:5616
-#: src/XFileExplorer.cpp:5750 src/XFileExplorer.cpp:5755
-#: src/XFileExplorer.cpp:5771 src/XFileExplorer.cpp:5776
-#: src/XFileExplorer.cpp:5831 src/XFileExplorer.cpp:6428
-#: src/XFileExplorer.cpp:6502 src/XFileExplorer.cpp:6508
-#: src/XFileExplorer.cpp:6515 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
+#: src/WriteWindow.cpp:2007 src/XFileExplorer.cpp:3542
+#: src/XFileExplorer.cpp:3547 src/XFileExplorer.cpp:3585
+#: src/XFileExplorer.cpp:3609 src/XFileExplorer.cpp:3614
+#: src/XFileExplorer.cpp:3633 src/XFileExplorer.cpp:3638
+#: src/XFileExplorer.cpp:3743 src/XFileExplorer.cpp:4514
+#: src/XFileExplorer.cpp:4519 src/XFileExplorer.cpp:4651
+#: src/XFileExplorer.cpp:4701 src/XFileExplorer.cpp:4706
+#: src/XFileExplorer.cpp:4718 src/XFileExplorer.cpp:4729
+#: src/XFileExplorer.cpp:4734 src/XFileExplorer.cpp:5406
+#: src/XFileExplorer.cpp:5411 src/XFileExplorer.cpp:5459
+#: src/XFileExplorer.cpp:5511 src/XFileExplorer.cpp:5516
+#: src/XFileExplorer.cpp:5558 src/XFileExplorer.cpp:5585
+#: src/XFileExplorer.cpp:5590 src/XFileExplorer.cpp:5643
+#: src/XFileExplorer.cpp:5648 src/XFileExplorer.cpp:5657
+#: src/XFileExplorer.cpp:5791 src/XFileExplorer.cpp:5796
+#: src/XFileExplorer.cpp:5812 src/XFileExplorer.cpp:5817
+#: src/XFileExplorer.cpp:5872 src/XFileExplorer.cpp:6469
+#: src/XFileExplorer.cpp:6543 src/XFileExplorer.cpp:6549
+#: src/XFileExplorer.cpp:6556 src/XFileArchive.cpp:457 src/XFileArchive.cpp:520
 #: src/XFileArchive.cpp:605 src/XFileArchive.cpp:628 src/XFileArchive.cpp:719
 #: src/XFileArchive.cpp:808 src/XFileArchive.cpp:872 src/XFileArchive.cpp:882
 #: src/XFileArchive.cpp:901 src/XFileArchive.cpp:1012 src/XFileArchive.cpp:1022
 #: src/XFileArchive.cpp:1041 src/XFileArchive.cpp:1164
 #: src/XFileArchive.cpp:1192 src/XFileArchive.cpp:1200
 #: src/XFileArchive.cpp:1224 src/XFileArchive.cpp:1264
-#: src/XFileArchive.cpp:1272 src/XFileArchive.cpp:1403
-#: src/XFileArchive.cpp:1415 src/XFileArchive.cpp:1427
-#: src/XFileArchive.cpp:1439 src/XFileArchive.cpp:1451
-#: src/XFileArchive.cpp:1463 src/XFileArchive.cpp:1475
-#: src/XFileArchive.cpp:1487 src/XFileArchive.cpp:1499
-#: src/XFileArchive.cpp:1511 src/XFileArchive.cpp:1523
-#: src/XFileArchive.cpp:1535 src/XFileArchive.cpp:1547
-#: src/XFileArchive.cpp:1559 src/XFileArchive.cpp:1570
-#: src/XFileArchive.cpp:1632 src/XFileArchive.cpp:1636 src/XFileImage.cpp:1619
+#: src/XFileArchive.cpp:1272 src/XFileArchive.cpp:1393
+#: src/XFileArchive.cpp:1405 src/XFileArchive.cpp:1417
+#: src/XFileArchive.cpp:1429 src/XFileArchive.cpp:1441
+#: src/XFileArchive.cpp:1453 src/XFileArchive.cpp:1465
+#: src/XFileArchive.cpp:1477 src/XFileArchive.cpp:1489
+#: src/XFileArchive.cpp:1501 src/XFileArchive.cpp:1513
+#: src/XFileArchive.cpp:1525 src/XFileArchive.cpp:1537
+#: src/XFileArchive.cpp:1549 src/XFileArchive.cpp:1560
+#: src/XFileArchive.cpp:1622 src/XFileArchive.cpp:1626 src/XFileImage.cpp:1619
 #: src/XFileImage.cpp:1943 src/XFileImage.cpp:2213 src/XFileImage.cpp:2259
 #: src/XFilePackage.cpp:396 src/XFilePackage.cpp:415 src/XFilePackage.cpp:442
-#: src/XFilePackage.cpp:465 src/XFilePackage.cpp:590 src/XFilePackage.cpp:655
-#: src/XFilePackage.cpp:687 src/XFilePackage.cpp:711 src/XFilePackage.cpp:1031
+#: src/XFilePackage.cpp:465 src/XFilePackage.cpp:580 src/XFilePackage.cpp:645
+#: src/XFilePackage.cpp:677 src/XFilePackage.cpp:701 src/XFilePackage.cpp:1021
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/CommandWindow.cpp:236 src/SearchWindow.cpp:990 src/XFileArchive.cpp:1632
+#: src/CommandWindow.cpp:236 src/SearchWindow.cpp:990 src/XFileArchive.cpp:1622
 #, c-format
 msgid "Can't duplicate pipes: %s"
 msgstr "Невозможно дублировать каналы: %s"
 
-#: src/CommandWindow.cpp:240 src/SearchWindow.cpp:994 src/XFileArchive.cpp:1636
+#: src/CommandWindow.cpp:240 src/SearchWindow.cpp:994 src/XFileArchive.cpp:1626
 msgid "Can't duplicate pipes"
 msgstr "Невозможно дублировать каналы"
 
@@ -537,9 +537,9 @@ msgstr ""
 #: src/SearchPanel.cpp:4094 src/SearchPanel.cpp:4125 src/SearchPanel.cpp:4171
 #: src/SearchPanel.cpp:4209 src/SearchPanel.cpp:4226 src/SearchPanel.cpp:4308
 #: src/SearchPanel.cpp:4403 src/SearchPanel.cpp:4454 src/SearchPanel.cpp:4475
-#: src/XFileExplorer.cpp:3457 src/XFileExplorer.cpp:3473
+#: src/XFileExplorer.cpp:3498 src/XFileExplorer.cpp:3514
 #: src/XFileArchive.cpp:1068 src/XFileArchive.cpp:1089
-#: src/XFileArchive.cpp:1348
+#: src/XFileArchive.cpp:1338
 msgid "Warning"
 msgstr "Внимание"
 
@@ -662,7 +662,7 @@ msgstr "Произошла ошибка при перемещении файло
 msgid "An error has occurred during the copy file operation!"
 msgstr "Произошла ошибка при копировании файлов!"
 
-#: src/DirList.cpp:1552 src/XFileExplorer.cpp:3473
+#: src/DirList.cpp:1552 src/XFileExplorer.cpp:3514
 #, c-format
 msgid "Mount point %s is not responding..."
 msgstr ""
@@ -770,7 +770,7 @@ msgstr "Активировать панель"
 #: src/DirPanel.cpp:1651 src/DirPanel.cpp:1759 src/FileDialog.cpp:436
 #: src/FileDialog.cpp:501 src/FilePanel.cpp:1313 src/FilePanel.cpp:1517
 #: src/SearchPanel.cpp:508 src/SearchPanel.cpp:712 src/SearchPanel.cpp:1873
-#: src/XFileExplorer.cpp:4478 src/XFileImage.cpp:2213 src/XFileImage.cpp:2259
+#: src/XFileExplorer.cpp:4519 src/XFileImage.cpp:2213 src/XFileImage.cpp:2259
 #, c-format
 msgid " Permission to: %s denied."
 msgstr ""
@@ -779,9 +779,9 @@ msgstr ""
 "Доступ запрещён."
 
 #: src/DirPanel.cpp:817 src/DirPanel.cpp:944 src/DirPanel.cpp:1071
-#: src/DirPanel.cpp:3805 src/FilePanel.cpp:5189 src/WriteWindow.cpp:2017
-#: src/XFileExplorer.cpp:4610 src/XFileExplorer.cpp:4677
-#: src/XFileExplorer.cpp:5418 src/XFileArchive.cpp:901
+#: src/DirPanel.cpp:3805 src/FilePanel.cpp:5189 src/WriteWindow.cpp:2007
+#: src/XFileExplorer.cpp:4651 src/XFileExplorer.cpp:4718
+#: src/XFileExplorer.cpp:5459 src/XFileArchive.cpp:901
 #: src/XFileArchive.cpp:1041 src/XFileArchive.cpp:1192
 #: src/XFileArchive.cpp:1264 src/XFileImage.cpp:1943
 #, c-format
@@ -792,7 +792,7 @@ msgstr "Не удалось выполнить команду '%s'"
 #: src/DirPanel.cpp:1566 src/DirPanel.cpp:1646 src/DirPanel.cpp:2853
 #: src/DirPanel.cpp:2881 src/FilePanel.cpp:2049 src/FilePanel.cpp:2070
 #: src/Properties.cpp:1497 src/SearchPanel.cpp:3985 src/SearchPanel.cpp:4013
-#: src/XFileExplorer.cpp:4473
+#: src/XFileExplorer.cpp:4514
 #, c-format
 msgid "Folder %s doesn't exist"
 msgstr ""
@@ -806,17 +806,17 @@ msgid "Modify Bookmark"
 msgstr "Редактировать закладку"
 
 #: src/DirPanel.cpp:1104 src/DirPanel.cpp:1181 src/FilePanel.cpp:4281
-#: src/XFileExplorer.cpp:4339
+#: src/XFileExplorer.cpp:4380
 msgid "Name:"
 msgstr "Имя:"
 
 #: src/DirPanel.cpp:1105 src/DirPanel.cpp:1182 src/FilePanel.cpp:4282
-#: src/XFileExplorer.cpp:4340
+#: src/XFileExplorer.cpp:4381
 msgid "Icon:"
 msgstr "Значок:"
 
 #: src/DirPanel.cpp:1118 src/DirPanel.cpp:1187 src/FilePanel.cpp:4287
-#: src/Properties.cpp:713 src/Properties.cpp:728 src/XFileExplorer.cpp:4345
+#: src/Properties.cpp:713 src/Properties.cpp:728 src/XFileExplorer.cpp:4386
 msgid "Location:"
 msgstr "Расположение:"
 
@@ -830,7 +830,7 @@ msgid "Confirm Remove"
 msgstr "Подтверждение"
 
 # Заголовок окна
-#: src/DirPanel.cpp:1181 src/FilePanel.cpp:4281 src/XFileExplorer.cpp:4339
+#: src/DirPanel.cpp:1181 src/FilePanel.cpp:4281 src/XFileExplorer.cpp:4380
 msgid "Add Bookmark"
 msgstr "Создать закладку"
 
@@ -882,12 +882,12 @@ msgid "&Add to Archive..."
 msgstr "Создать ар&хив..."
 
 #: src/DirPanel.cpp:1527 src/FilePanel.cpp:5049 src/SearchPanel.cpp:2618
-#: src/XFileExplorer.cpp:6199 src/XFileExplorer.cpp:6222
+#: src/XFileExplorer.cpp:6240 src/XFileExplorer.cpp:6263
 msgid "Cop&y Name"
 msgstr "Копировать и&мя"
 
 #: src/DirPanel.cpp:1529 src/FilePanel.cpp:5056 src/Preferences.cpp:1112
-#: src/SearchPanel.cpp:2608 src/XFileExplorer.cpp:1362
+#: src/SearchPanel.cpp:2608 src/XFileExplorer.cpp:1412
 msgid "Re&name..."
 msgstr "Пере&именовать..."
 
@@ -896,7 +896,7 @@ msgid "Cop&y to..."
 msgstr "К&опировать в..."
 
 #: src/DirPanel.cpp:1531 src/FilePanel.cpp:5058 src/SearchPanel.cpp:2610
-#: src/XFileExplorer.cpp:1374
+#: src/XFileExplorer.cpp:1424
 msgid "&Move to..."
 msgstr "П&ереместить в..."
 
@@ -904,16 +904,16 @@ msgstr "П&ереместить в..."
 msgid "Symlin&k to..."
 msgstr "Создать симв. сс&ылку..."
 
-#: src/DirPanel.cpp:1533 src/XFileExplorer.cpp:1386
+#: src/DirPanel.cpp:1533 src/XFileExplorer.cpp:1436
 msgid "Mo&ve to Trash"
 msgstr "Переместить в кор&зину"
 
-#: src/DirPanel.cpp:1534 src/XFileExplorer.cpp:1392
+#: src/DirPanel.cpp:1534 src/XFileExplorer.cpp:1442
 msgid "R&estore From Trash"
 msgstr "Восстановить из кор&зины"
 
 #: src/DirPanel.cpp:1535 src/FilePanel.cpp:5062 src/SearchPanel.cpp:2613
-#: src/XFileExplorer.cpp:1398
+#: src/XFileExplorer.cpp:1448
 msgid "&Delete"
 msgstr "&Удалить"
 
@@ -927,16 +927,16 @@ msgid "New &Tab"
 msgstr "Создать в&кладку"
 
 #: src/DirPanel.cpp:1615 src/DirPanel.cpp:1695 src/DirPanel.cpp:1814
-#: src/XFileExplorer.cpp:1611
+#: src/XFileExplorer.cpp:1662
 msgid "New &Window"
 msgstr "Новое &окно"
 
 #: src/DirPanel.cpp:1617 src/DirPanel.cpp:1702 src/DirPanel.cpp:1821
-#: src/XFileExplorer.cpp:1410
+#: src/XFileExplorer.cpp:1460
 msgid "&Properties"
 msgstr "Сво&йства"
 
-#: src/DirPanel.cpp:1699 src/XFileExplorer.cpp:1665
+#: src/DirPanel.cpp:1699 src/XFileExplorer.cpp:1716
 msgid "&Unmount"
 msgstr "Ра&змонтировать"
 
@@ -965,10 +965,10 @@ msgstr "В&низ"
 #: src/FilePanel.cpp:6064 src/FilePanel.cpp:6095 src/FilePanel.cpp:6206
 #: src/FilePanel.cpp:6232 src/FilePanel.cpp:6488 src/FilePanel.cpp:6541
 #: src/SearchPanel.cpp:936 src/SearchPanel.cpp:2712 src/SearchPanel.cpp:4532
-#: src/SearchPanel.cpp:4563 src/XFileExplorer.cpp:4660
-#: src/XFileExplorer.cpp:4688 src/XFileExplorer.cpp:5365
-#: src/XFileExplorer.cpp:5470 src/XFileExplorer.cpp:5544
-#: src/XFileExplorer.cpp:5602
+#: src/SearchPanel.cpp:4563 src/XFileExplorer.cpp:4701
+#: src/XFileExplorer.cpp:4729 src/XFileExplorer.cpp:5406
+#: src/XFileExplorer.cpp:5511 src/XFileExplorer.cpp:5585
+#: src/XFileExplorer.cpp:5643
 #, c-format
 msgid "Can't enter folder %s: %s"
 msgstr ""
@@ -985,10 +985,10 @@ msgstr ""
 #: src/FilePanel.cpp:6069 src/FilePanel.cpp:6100 src/FilePanel.cpp:6210
 #: src/FilePanel.cpp:6237 src/FilePanel.cpp:6493 src/FilePanel.cpp:6546
 #: src/SearchPanel.cpp:941 src/SearchPanel.cpp:2717 src/SearchPanel.cpp:4537
-#: src/SearchPanel.cpp:4568 src/XFileExplorer.cpp:4665
-#: src/XFileExplorer.cpp:4693 src/XFileExplorer.cpp:5370
-#: src/XFileExplorer.cpp:5475 src/XFileExplorer.cpp:5549
-#: src/XFileExplorer.cpp:5607
+#: src/SearchPanel.cpp:4568 src/XFileExplorer.cpp:4706
+#: src/XFileExplorer.cpp:4734 src/XFileExplorer.cpp:5411
+#: src/XFileExplorer.cpp:5516 src/XFileExplorer.cpp:5590
+#: src/XFileExplorer.cpp:5648
 #, c-format
 msgid "Can't enter folder %s"
 msgstr ""
@@ -1288,7 +1288,7 @@ msgid "Execute in Console &Mode"
 msgstr "Выполнить в &консоли"
 
 #: src/ExecuteBox.cpp:51 src/FilePanel.cpp:5009 src/SearchPanel.cpp:2572
-#: src/WriteWindow.cpp:615 src/XFileExplorer.cpp:1470
+#: src/WriteWindow.cpp:615 src/XFileExplorer.cpp:1520
 msgid "&Edit"
 msgstr "&Правка"
 
@@ -1622,20 +1622,20 @@ msgstr "Фил&ьтр:"
 msgid "Read Only"
 msgstr "Только чтение"
 
-#: src/FileDialog.cpp:262 src/XFileExplorer.cpp:1081 src/XFileImage.cpp:530
+#: src/FileDialog.cpp:262 src/XFileExplorer.cpp:1131 src/XFileImage.cpp:530
 msgid "Go to Previous Folder"
 msgstr "Перейти в предыдущий каталог"
 
-#: src/FileDialog.cpp:271 src/XFileExplorer.cpp:1090 src/XFileImage.cpp:538
+#: src/FileDialog.cpp:271 src/XFileExplorer.cpp:1140 src/XFileImage.cpp:538
 msgid "Go to Next Folder"
 msgstr "Перейти в следующий каталог"
 
-#: src/FileDialog.cpp:279 src/SearchPanel.cpp:227 src/XFileExplorer.cpp:1099
+#: src/FileDialog.cpp:279 src/SearchPanel.cpp:227 src/XFileExplorer.cpp:1149
 #: src/XFileImage.cpp:546
 msgid "Go to Parent Folder"
 msgstr "Перейти в родительский каталог"
 
-#: src/FileDialog.cpp:285 src/XFileExplorer.cpp:1107 src/XFileImage.cpp:555
+#: src/FileDialog.cpp:285 src/XFileExplorer.cpp:1157 src/XFileImage.cpp:555
 msgid "Go to Home Folder"
 msgstr "Перейти в домашний каталог"
 
@@ -1643,17 +1643,17 @@ msgstr "Перейти в домашний каталог"
 msgid "Go to Working Folder"
 msgstr "Перейти в рабочий каталог"
 
-#: src/FileDialog.cpp:303 src/SearchPanel.cpp:293 src/XFileExplorer.cpp:1286
+#: src/FileDialog.cpp:303 src/SearchPanel.cpp:293 src/XFileExplorer.cpp:1336
 #: src/XFileImage.cpp:571
 msgid "Big Icon List"
 msgstr "Большие значки в списке"
 
-#: src/FileDialog.cpp:310 src/SearchPanel.cpp:300 src/XFileExplorer.cpp:1293
+#: src/FileDialog.cpp:310 src/SearchPanel.cpp:300 src/XFileExplorer.cpp:1343
 #: src/XFileImage.cpp:577
 msgid "Small Icon List"
 msgstr "Маленькие значки в списке"
 
-#: src/FileDialog.cpp:317 src/SearchPanel.cpp:307 src/XFileExplorer.cpp:1300
+#: src/FileDialog.cpp:317 src/SearchPanel.cpp:307 src/XFileExplorer.cpp:1350
 #: src/XFileImage.cpp:583
 msgid "Detailed File List"
 msgstr "Подробный список файлов"
@@ -1732,7 +1732,7 @@ msgstr "В &домашний каталог"
 msgid "Go &Work"
 msgstr "В &рабочий каталог"
 
-#: src/FileDialog.cpp:1900 src/XFileExplorer.cpp:1324
+#: src/FileDialog.cpp:1900 src/XFileExplorer.cpp:1374
 msgid "New &File..."
 msgstr "&Создать файл..."
 
@@ -1741,7 +1741,7 @@ msgid "New F&older..."
 msgstr "Создать &каталог..."
 
 #: src/FileDialog.cpp:1903 src/FilePanel.cpp:4864 src/FilePanel.cpp:4909
-#: src/XFileExplorer.cpp:1533 src/XFileExplorer.cpp:1564 src/XFileImage.cpp:971
+#: src/XFileExplorer.cpp:1583 src/XFileExplorer.cpp:1614 src/XFileImage.cpp:971
 #: src/XFileImage.cpp:1109
 msgid "&Hidden Files"
 msgstr "Скр&ытые файлы"
@@ -1757,44 +1757,44 @@ msgid "B&ig Icons"
 msgstr "&Большие значки"
 
 #: src/FileDialog.cpp:1907 src/FilePanel.cpp:4868 src/FilePanel.cpp:4913
-#: src/SearchPanel.cpp:2475 src/SearchPanel.cpp:2504 src/XFileExplorer.cpp:1537
-#: src/XFileExplorer.cpp:1568 src/XFileImage.cpp:991 src/XFileImage.cpp:1113
+#: src/SearchPanel.cpp:2475 src/SearchPanel.cpp:2504 src/XFileExplorer.cpp:1587
+#: src/XFileExplorer.cpp:1618 src/XFileImage.cpp:991 src/XFileImage.cpp:1113
 msgid "&Small Icons"
 msgstr "М&аленькие значки"
 
 #: src/FileDialog.cpp:1908 src/FilePanel.cpp:4869 src/FilePanel.cpp:4914
-#: src/SearchPanel.cpp:2476 src/SearchPanel.cpp:2505 src/XFileExplorer.cpp:1538
-#: src/XFileExplorer.cpp:1569 src/XFileImage.cpp:997 src/XFileImage.cpp:1114
+#: src/SearchPanel.cpp:2476 src/SearchPanel.cpp:2505 src/XFileExplorer.cpp:1588
+#: src/XFileExplorer.cpp:1619 src/XFileImage.cpp:997 src/XFileImage.cpp:1114
 msgid "&Detailed File List"
 msgstr "Подробный с&писок файлов"
 
 #: src/FileDialog.cpp:1910 src/FilePanel.cpp:4871 src/FilePanel.cpp:4916
-#: src/SearchPanel.cpp:2478 src/SearchPanel.cpp:2507 src/XFileExplorer.cpp:1540
-#: src/XFileExplorer.cpp:1571 src/XFileImage.cpp:1013 src/XFileImage.cpp:1116
+#: src/SearchPanel.cpp:2478 src/SearchPanel.cpp:2507 src/XFileExplorer.cpp:1590
+#: src/XFileExplorer.cpp:1621 src/XFileImage.cpp:1013 src/XFileImage.cpp:1116
 msgid "Autos&ize"
 msgstr "&Авторазмер"
 
 #: src/FileDialog.cpp:1911 src/FilePanel.cpp:4872 src/FilePanel.cpp:4917
-#: src/SearchPanel.cpp:2479 src/SearchPanel.cpp:2508 src/XFileExplorer.cpp:1541
-#: src/XFileExplorer.cpp:1572 src/XFileImage.cpp:1014 src/XFileImage.cpp:1117
+#: src/SearchPanel.cpp:2479 src/SearchPanel.cpp:2508 src/XFileExplorer.cpp:1591
+#: src/XFileExplorer.cpp:1622 src/XFileImage.cpp:1014 src/XFileImage.cpp:1117
 msgid "&Rows"
 msgstr "Строк&и"
 
 #: src/FileDialog.cpp:1912 src/FilePanel.cpp:4873 src/FilePanel.cpp:4918
-#: src/SearchPanel.cpp:2480 src/SearchPanel.cpp:2509 src/XFileExplorer.cpp:1542
-#: src/XFileExplorer.cpp:1573 src/XFileImage.cpp:1015 src/XFileImage.cpp:1118
+#: src/SearchPanel.cpp:2480 src/SearchPanel.cpp:2509 src/XFileExplorer.cpp:1592
+#: src/XFileExplorer.cpp:1623 src/XFileImage.cpp:1015 src/XFileImage.cpp:1118
 msgid "&Columns"
 msgstr "Стол&бцы"
 
 #: src/FileDialog.cpp:1914 src/FilePanel.cpp:4875 src/FilePanel.cpp:4920
-#: src/SearchPanel.cpp:2482 src/SearchPanel.cpp:2511 src/XFileExplorer.cpp:1544
-#: src/XFileExplorer.cpp:1575 src/XFileImage.cpp:1120
+#: src/SearchPanel.cpp:2482 src/SearchPanel.cpp:2511 src/XFileExplorer.cpp:1594
+#: src/XFileExplorer.cpp:1625 src/XFileImage.cpp:1120
 msgid "&Name"
 msgstr "Им&я"
 
 #: src/FileDialog.cpp:1915 src/FilePanel.cpp:4876 src/FilePanel.cpp:4921
-#: src/SearchPanel.cpp:2483 src/SearchPanel.cpp:2512 src/XFileExplorer.cpp:1545
-#: src/XFileExplorer.cpp:1576 src/XFileImage.cpp:1121
+#: src/SearchPanel.cpp:2483 src/SearchPanel.cpp:2512 src/XFileExplorer.cpp:1595
+#: src/XFileExplorer.cpp:1626 src/XFileImage.cpp:1121
 msgid "Si&ze"
 msgstr "&Размер"
 
@@ -1804,8 +1804,8 @@ msgid "&Type"
 msgstr "&Тип"
 
 #: src/FileDialog.cpp:1917 src/FilePanel.cpp:4878 src/FilePanel.cpp:4923
-#: src/SearchPanel.cpp:2485 src/SearchPanel.cpp:2514 src/XFileExplorer.cpp:1547
-#: src/XFileExplorer.cpp:1578 src/XFileImage.cpp:1123
+#: src/SearchPanel.cpp:2485 src/SearchPanel.cpp:2514 src/XFileExplorer.cpp:1597
+#: src/XFileExplorer.cpp:1628 src/XFileImage.cpp:1123
 msgid "E&xtension"
 msgstr "Рас&ширение"
 
@@ -1825,14 +1825,14 @@ msgid "&Group"
 msgstr "Г&руппа"
 
 #: src/FileDialog.cpp:1921 src/Properties.cpp:226 src/Properties.cpp:1030
-#: src/XFileExplorer.cpp:1551 src/XFileExplorer.cpp:1582
+#: src/XFileExplorer.cpp:1601 src/XFileExplorer.cpp:1632
 #: src/XFileImage.cpp:1127
 msgid "&Permissions"
 msgstr "&Права доступа"
 
 #: src/FileDialog.cpp:1922 src/FilePanel.cpp:4883 src/FilePanel.cpp:4928
-#: src/SearchPanel.cpp:2490 src/SearchPanel.cpp:2519 src/XFileExplorer.cpp:1552
-#: src/XFileExplorer.cpp:1583 src/XFileImage.cpp:1128
+#: src/SearchPanel.cpp:2490 src/SearchPanel.cpp:2519 src/XFileExplorer.cpp:1602
+#: src/XFileExplorer.cpp:1633 src/XFileImage.cpp:1128
 msgid "&Link"
 msgstr "&Ссылка"
 
@@ -1842,8 +1842,8 @@ msgid "Fold&ers First"
 msgstr "Сна&чала каталоги"
 
 #: src/FileDialog.cpp:1926 src/FilePanel.cpp:4888 src/FilePanel.cpp:4933
-#: src/SearchPanel.cpp:2494 src/SearchPanel.cpp:2523 src/XFileExplorer.cpp:1558
-#: src/XFileExplorer.cpp:1589 src/XFileImage.cpp:1132
+#: src/SearchPanel.cpp:2494 src/SearchPanel.cpp:2523 src/XFileExplorer.cpp:1608
+#: src/XFileExplorer.cpp:1639 src/XFileImage.cpp:1132
 msgid "Re&verse Order"
 msgstr "О&братный порядок"
 
@@ -1898,7 +1898,7 @@ msgstr "Ссылка на "
 #: src/FileList.cpp:5139 src/FileList.cpp:5963 src/IconList.cpp:316
 #: src/IconList.cpp:331 src/IconList.cpp:671 src/XFileImage.cpp:1717
 #: src/XFileImage.cpp:2415 src/XFileImage.cpp:2490 src/XFileImage.cpp:2605
-#: src/foxhacks.cpp:3509 src/foxhacks.cpp:3534
+#: src/foxhacks.cpp:3362 src/foxhacks.cpp:3387
 msgid "Unable to load image"
 msgstr "Не удалось загрузить изображение"
 
@@ -1926,7 +1926,7 @@ msgstr ""
 msgid "Confirm Execute"
 msgstr "Подтверждение"
 
-#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5405
+#: src/FilePanel.cpp:1160 src/XFileExplorer.cpp:5446
 msgid "Command log"
 msgstr "Отчёт о выполнении команды"
 
@@ -2032,7 +2032,7 @@ msgstr ""
 msgid "Definitively delete %s selected items?"
 msgstr "Удалить выделенные объекты ( %s ) безвозвратно?"
 
-#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5729 src/XFileExplorer.cpp:5735
+#: src/FilePanel.cpp:3180 src/XFileExplorer.cpp:5770 src/XFileExplorer.cpp:5776
 msgid "Delete Files"
 msgstr "Удалить файлы"
 
@@ -2150,7 +2150,7 @@ msgstr "&Ассоциация"
 msgid "New& File..."
 msgstr "Создать &файл..."
 
-#: src/FilePanel.cpp:4858 src/FilePanel.cpp:4903 src/XFileExplorer.cpp:1336
+#: src/FilePanel.cpp:4858 src/FilePanel.cpp:4903 src/XFileExplorer.cpp:1386
 msgid "New S&ymlink..."
 msgstr "Создать символическую сс&ылку..."
 
@@ -2171,20 +2171,20 @@ msgstr "У&далён"
 msgid "Ne&w File..."
 msgstr "Создать &файл..."
 
-#: src/FilePanel.cpp:4941 src/XFileExplorer.cpp:1661
+#: src/FilePanel.cpp:4941 src/XFileExplorer.cpp:1712
 msgid "&Mount"
 msgstr "&Монтировать"
 
-#: src/FilePanel.cpp:4942 src/XFileExplorer.cpp:1217
+#: src/FilePanel.cpp:4942 src/XFileExplorer.cpp:1267
 msgid "Unmount"
 msgstr "Размонтировать"
 
-#: src/FilePanel.cpp:4950 src/XFileArchive.cpp:1860
+#: src/FilePanel.cpp:4950 src/XFileArchive.cpp:1850
 msgid "Open &With..."
 msgstr "О&ткрыть с помощью..."
 
-#: src/FilePanel.cpp:4951 src/SearchPanel.cpp:2532 src/XFileExplorer.cpp:1356
-#: src/XFileArchive.cpp:1861
+#: src/FilePanel.cpp:4951 src/SearchPanel.cpp:2532 src/XFileExplorer.cpp:1406
+#: src/XFileArchive.cpp:1851
 msgid "&Open"
 msgstr "&Открыть"
 
@@ -2206,7 +2206,7 @@ msgid "&Extract here"
 msgstr "Извлечь &здесь"
 
 #: src/FilePanel.cpp:5000 src/FilePanel.cpp:5008 src/SearchPanel.cpp:2565
-#: src/SearchPanel.cpp:2571 src/WriteWindow.cpp:619 src/XFileExplorer.cpp:1508
+#: src/SearchPanel.cpp:2571 src/WriteWindow.cpp:619 src/XFileExplorer.cpp:1558
 #: src/XFileImage.cpp:343
 msgid "&View"
 msgstr "&Вид"
@@ -2235,13 +2235,13 @@ msgstr "Запрос &пакетов "
 msgid "Scripts"
 msgstr "Сценарии"
 
-#: src/FilePanel.cpp:5041 src/SearchPanel.cpp:2601 src/XFileExplorer.cpp:1595
-#: src/XFileExplorer.cpp:1650
+#: src/FilePanel.cpp:5041 src/SearchPanel.cpp:2601 src/XFileExplorer.cpp:135
+#: src/XFileExplorer.cpp:1645 src/XFileExplorer.cpp:1701
 msgid "&Go to Script Folder"
 msgstr "&Перейти в каталог сценариев"
 
 #: src/FilePanel.cpp:5053 src/SearchPanel.cpp:257 src/SearchPanel.cpp:2622
-#: src/XFileExplorer.cpp:1404 src/XFileExplorer.cpp:6204
+#: src/XFileExplorer.cpp:1454 src/XFileExplorer.cpp:6245
 msgid "Cop&y Names"
 msgstr "Копировать име&на"
 
@@ -2299,7 +2299,7 @@ msgstr ""
 "\n"
 "Не удалось создать каталог сценариев"
 
-#: src/FilePanel.cpp:6360 src/SearchPanel.cpp:4966 src/XFilePackage.cpp:1031
+#: src/FilePanel.cpp:6360 src/SearchPanel.cpp:4966 src/XFilePackage.cpp:1021
 msgid "No compatible package manager (rpm or dpkg) found!"
 msgstr "Не найден совместимый менеджер пакетов (rpm или dpkg)!"
 
@@ -2587,7 +2587,7 @@ msgstr "Имя"
 msgid "Folder Name"
 msgstr "Имя каталога"
 
-#: src/IconList.cpp:4622 src/XFileExplorer.cpp:1554 src/XFileExplorer.cpp:1585
+#: src/IconList.cpp:4622 src/XFileExplorer.cpp:1604 src/XFileExplorer.cpp:1635
 msgid "Original Path"
 msgstr "Первоначальный путь"
 
@@ -2603,7 +2603,7 @@ msgstr "Расширение"
 msgid "Modified Date"
 msgstr "Изменён"
 
-#: src/IconList.cpp:4642 src/XFileExplorer.cpp:1553 src/XFileExplorer.cpp:1584
+#: src/IconList.cpp:4642 src/XFileExplorer.cpp:1603 src/XFileExplorer.cpp:1634
 msgid "Deletion Date"
 msgstr "Удалён"
 
@@ -2774,7 +2774,7 @@ msgstr ""
 msgid "Select an Executable File"
 msgstr "Выбрать исполняемый файл"
 
-#: src/MessageBox.cpp:102 src/XFileExplorer.cpp:1190
+#: src/MessageBox.cpp:102 src/XFileExplorer.cpp:1240
 msgid "Launch Xfe as root"
 msgstr "Запуск Xfe от root"
 
@@ -2789,7 +2789,7 @@ msgid "&Yes"
 msgstr "&Да"
 
 #: src/MessageBox.cpp:152 src/MessageBox.cpp:162 src/SearchWindow.cpp:275
-#: src/WriteWindow.cpp:856 src/XFileExplorer.cpp:1418 src/XFileArchive.cpp:260
+#: src/WriteWindow.cpp:856 src/XFileExplorer.cpp:1468 src/XFileArchive.cpp:260
 #: src/XFileArchive.cpp:293 src/XFileImage.cpp:907 src/XFilePackage.cpp:243
 #: src/XFilePackage.cpp:273
 msgid "&Quit"
@@ -2803,7 +2803,7 @@ msgstr "&Сохранить"
 msgid "Yes for &All"
 msgstr "Да для все&х"
 
-#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5518
+#: src/MessageBox.cpp:241 src/XFileExplorer.cpp:5559
 msgid ""
 "Command pkexec not found!\n"
 "\n"
@@ -2822,7 +2822,7 @@ msgstr "Пароль пользователя:"
 msgid "Enter root password:"
 msgstr "Пароль root:"
 
-#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5616
+#: src/MessageBox.cpp:304 src/XFileExplorer.cpp:5657
 msgid "An error has occurred!"
 msgstr "Произошла ошибка!"
 
@@ -3578,7 +3578,7 @@ msgstr "Закрыть окно"
 msgid "Print file"
 msgstr "Печать файла"
 
-#: src/Preferences.cpp:1531 src/WriteWindow.cpp:768 src/WriteWindow.cpp:2215
+#: src/Preferences.cpp:1531 src/WriteWindow.cpp:768 src/WriteWindow.cpp:2205
 msgid "Search"
 msgstr "Поиск"
 
@@ -3638,7 +3638,7 @@ msgstr "Создать новое окно"
 msgid "Create new root window"
 msgstr "Создать новое окно 'root'"
 
-#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5380
+#: src/Preferences.cpp:1601 src/XFileExplorer.cpp:5421
 msgid "Execute command"
 msgstr "Выполнить команду"
 
@@ -3710,7 +3710,7 @@ msgstr "Переключить панели"
 msgid "Go to trash can"
 msgstr "Перейти в корзину"
 
-#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5718
+#: src/Preferences.cpp:1674 src/XFileExplorer.cpp:5759
 msgid "Empty trash can"
 msgstr "Очистить корзину"
 
@@ -4024,13 +4024,13 @@ msgid "Deletion Date:"
 msgstr "Удалён:"
 
 #: src/Properties.cpp:856 src/Properties.cpp:2154 src/Properties.cpp:2223
-#: src/XFileExplorer.cpp:5704
+#: src/XFileExplorer.cpp:5745
 #, c-format
 msgid "%s (%lu bytes)"
 msgstr "%s (%lu байт)"
 
 #: src/Properties.cpp:858 src/Properties.cpp:2156 src/Properties.cpp:2225
-#: src/XFileExplorer.cpp:5706
+#: src/XFileExplorer.cpp:5747
 #, c-format
 msgid "%s (%llu bytes)"
 msgstr "%s (%llu байт)"
@@ -4168,7 +4168,7 @@ msgstr "( файлов: %u, подкаталогов: %u )"
 msgid "%u files, %u subfolder"
 msgstr "( файлов: %u, подкаталогов: %u )"
 
-#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5708
+#: src/Properties.cpp:2177 src/Properties.cpp:2246 src/XFileExplorer.cpp:5749
 #, c-format
 msgid "%u files, %u subfolders"
 msgstr "( файлов: %u, подкаталогов: %u )"
@@ -4299,23 +4299,23 @@ msgstr "&Копировать имя"
 msgid "Refresh Panel"
 msgstr "Обновить панели"
 
-#: src/SearchPanel.cpp:235 src/XFileExplorer.cpp:1131
+#: src/SearchPanel.cpp:235 src/XFileExplorer.cpp:1181
 msgid "Copy Selected Files to Clipboard"
 msgstr "Копировать выбранные файлы в буфер обмена"
 
-#: src/SearchPanel.cpp:242 src/XFileExplorer.cpp:1147
+#: src/SearchPanel.cpp:242 src/XFileExplorer.cpp:1197
 msgid "Cut Selected Files to Clipboard"
 msgstr "Вырезать выбранные файлы в буфер обмена"
 
-#: src/SearchPanel.cpp:249 src/XFileExplorer.cpp:1164
+#: src/SearchPanel.cpp:249 src/XFileExplorer.cpp:1214
 msgid "Show Properties of Selected Files"
 msgstr "Показать свойства выбранных файлов"
 
-#: src/SearchPanel.cpp:272 src/XFileExplorer.cpp:1171
+#: src/SearchPanel.cpp:272 src/XFileExplorer.cpp:1221
 msgid "Move Selected Files to Trash Can"
 msgstr "Переместить выбранные файлы в корзину"
 
-#: src/SearchPanel.cpp:279 src/XFileExplorer.cpp:1181
+#: src/SearchPanel.cpp:279 src/XFileExplorer.cpp:1231
 msgid "Delete Selected Files"
 msgstr "Удалить выбранные файлы"
 
@@ -4339,8 +4339,8 @@ msgstr ""
 "Программа не найдена.\n"
 "Задайте программу для сравнения файлов в Настройках!"
 
-#: src/SearchPanel.cpp:2492 src/XFileExplorer.cpp:1556
-#: src/XFileExplorer.cpp:1587
+#: src/SearchPanel.cpp:2492 src/XFileExplorer.cpp:1606
+#: src/XFileExplorer.cpp:1637
 msgid "I&gnore Case"
 msgstr "Без у&чёта регистра"
 
@@ -4695,7 +4695,7 @@ msgstr "Фон номеров строк:"
 msgid "Line numbers foreground:"
 msgstr "Цвет номеров строк:"
 
-#: src/WriteWindow.cpp:611 src/XFileExplorer.cpp:1424 src/XFileArchive.cpp:221
+#: src/WriteWindow.cpp:611 src/XFileExplorer.cpp:1474 src/XFileArchive.cpp:221
 #: src/XFileImage.cpp:335 src/XFilePackage.cpp:204
 msgid "&File"
 msgstr "&Файл"
@@ -4713,9 +4713,9 @@ msgstr "&Настройки"
 msgid "&Window"
 msgstr "&Окно"
 
-#: src/WriteWindow.cpp:635 src/XFileExplorer.cpp:1699
-#: src/XFileExplorer.cpp:1706 src/XFileExplorer.cpp:6079
-#: src/XFileExplorer.cpp:6090 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
+#: src/WriteWindow.cpp:635 src/XFileExplorer.cpp:1750
+#: src/XFileExplorer.cpp:1757 src/XFileExplorer.cpp:6120
+#: src/XFileExplorer.cpp:6131 src/XFileArchive.cpp:229 src/XFileImage.cpp:351
 #: src/XFilePackage.cpp:212
 msgid "&Help"
 msgstr "&Справка"
@@ -4764,7 +4764,7 @@ msgstr "Закрыть"
 msgid "Close document file."
 msgstr "Закрыть файл документа."
 
-#: src/WriteWindow.cpp:711 src/WriteWindow.cpp:1996 src/XFileImage.cpp:808
+#: src/WriteWindow.cpp:711 src/WriteWindow.cpp:1986 src/XFileImage.cpp:808
 #: src/XFileImage.cpp:1921
 msgid "Print"
 msgstr "Печать"
@@ -4801,7 +4801,7 @@ msgstr "Вставить"
 msgid "Paste clipboard."
 msgstr "Вставить из буфера обмена."
 
-#: src/WriteWindow.cpp:746 src/WriteWindow.cpp:2419
+#: src/WriteWindow.cpp:746 src/WriteWindow.cpp:2409
 msgid "Goto Line"
 msgstr "Перейти к строке"
 
@@ -5048,8 +5048,8 @@ msgstr "&О программе"
 msgid "About X File Write."
 msgstr "О программе X File Write."
 
-#: src/WriteWindow.cpp:1177 src/WriteWindow.cpp:1284 src/XFileArchive.cpp:2047
-#: src/XFileImage.cpp:1619 src/XFilePackage.cpp:711
+#: src/WriteWindow.cpp:1177 src/WriteWindow.cpp:1284 src/XFileArchive.cpp:2037
+#: src/XFileImage.cpp:1619 src/XFilePackage.cpp:701
 #, c-format
 msgid "Unable to open file: %s"
 msgstr ""
@@ -5065,7 +5065,7 @@ msgstr ""
 "\n"
 "Файл слишком большой"
 
-#: src/WriteWindow.cpp:1200 src/XFileArchive.cpp:2047
+#: src/WriteWindow.cpp:1200 src/XFileArchive.cpp:2037
 msgid "Error Loading File"
 msgstr "Ошибка загрузки файла"
 
@@ -5124,7 +5124,7 @@ msgstr "без названия"
 msgid "untitled%d"
 msgstr "%d без названия"
 
-#: src/WriteWindow.cpp:1596
+#: src/WriteWindow.cpp:1586
 #, c-format
 msgid ""
 "X File Write Version %s is a simple text editor.\n"
@@ -5133,47 +5133,47 @@ msgstr ""
 "X File Write (версия: %s) — простой текстовый редактор. \n"
 "\n"
 
-#: src/WriteWindow.cpp:1598
+#: src/WriteWindow.cpp:1588
 msgid "About X File Write"
 msgstr "О программе X File Write"
 
-#: src/WriteWindow.cpp:1621
+#: src/WriteWindow.cpp:1611
 msgid "Change Font"
 msgstr "Изменить шрифт"
 
-#: src/WriteWindow.cpp:1662
+#: src/WriteWindow.cpp:1652
 msgid "Text Files"
 msgstr "Текстовые файлы"
 
-#: src/WriteWindow.cpp:1663
+#: src/WriteWindow.cpp:1653
 msgid "C Source Files"
 msgstr "Исходные файлы С"
 
-#: src/WriteWindow.cpp:1664 src/WriteWindow.cpp:1665 src/WriteWindow.cpp:1666
+#: src/WriteWindow.cpp:1654 src/WriteWindow.cpp:1655 src/WriteWindow.cpp:1656
 msgid "C++ Source Files"
 msgstr "Исходные файлы С++"
 
-#: src/WriteWindow.cpp:1667
+#: src/WriteWindow.cpp:1657
 msgid "C/C++ Header Files"
 msgstr "Файлы заголовков C/C++"
 
-#: src/WriteWindow.cpp:1668 src/WriteWindow.cpp:1669
+#: src/WriteWindow.cpp:1658 src/WriteWindow.cpp:1659
 msgid "HTML Files"
 msgstr "Файлы HTML"
 
-#: src/WriteWindow.cpp:1670
+#: src/WriteWindow.cpp:1660
 msgid "PHP Files"
 msgstr "Файлы PHP"
 
-#: src/WriteWindow.cpp:1673 src/XFilePackage.cpp:359
+#: src/WriteWindow.cpp:1663 src/XFilePackage.cpp:359
 msgid "Open Document"
 msgstr "Открыть документ"
 
-#: src/WriteWindow.cpp:1792
+#: src/WriteWindow.cpp:1782
 msgid "Unsaved Document"
 msgstr "Не сохраненный документ"
 
-#: src/WriteWindow.cpp:1793
+#: src/WriteWindow.cpp:1783
 #, c-format
 msgid "Save %s to file?"
 msgstr ""
@@ -5181,15 +5181,15 @@ msgstr ""
 "\n"
 "Сохранить в файл?"
 
-#: src/WriteWindow.cpp:1803 src/WriteWindow.cpp:1866
+#: src/WriteWindow.cpp:1793 src/WriteWindow.cpp:1856
 msgid "Save Document"
 msgstr "Сохранить документ"
 
-#: src/WriteWindow.cpp:1813 src/WriteWindow.cpp:1876
+#: src/WriteWindow.cpp:1803 src/WriteWindow.cpp:1866
 msgid "Overwrite Document"
 msgstr "Перезаписать документ"
 
-#: src/WriteWindow.cpp:1814 src/WriteWindow.cpp:1877
+#: src/WriteWindow.cpp:1804 src/WriteWindow.cpp:1867
 #, c-format
 msgid "Overwrite existing document: %s?"
 msgstr ""
@@ -5197,15 +5197,15 @@ msgstr ""
 "\n"
 "Заменить существующий документ?"
 
-#: src/WriteWindow.cpp:1965
+#: src/WriteWindow.cpp:1955
 msgid " (changed)"
 msgstr " (изменён)"
 
-#: src/WriteWindow.cpp:1975
+#: src/WriteWindow.cpp:1965
 msgid " (read only)"
 msgstr " (только чтение)"
 
-#: src/WriteWindow.cpp:1995 src/XFileImage.cpp:1921
+#: src/WriteWindow.cpp:1985 src/XFileImage.cpp:1921
 msgid ""
 "Print command: \n"
 "(ex: lpr -P <printer>)"
@@ -5213,24 +5213,24 @@ msgstr ""
 "Команда печати: \n"
 "(ex: lpr -P <printer>)"
 
-#: src/WriteWindow.cpp:2087
+#: src/WriteWindow.cpp:2077
 msgid "READ ONLY"
 msgstr "ТОЛЬКО ЧТЕНИЕ"
 
-#: src/WriteWindow.cpp:2092
+#: src/WriteWindow.cpp:2082
 msgid "OVR"
 msgstr "ЗАМЕНА ТЕКСТА"
 
-#: src/WriteWindow.cpp:2092
+#: src/WriteWindow.cpp:2082
 msgid "INS"
 msgstr "ВСТАВКА ТЕКСТА"
 
 # Заголовок
-#: src/WriteWindow.cpp:2194
+#: src/WriteWindow.cpp:2184
 msgid "File Was Changed"
 msgstr "Файл изменён"
 
-#: src/WriteWindow.cpp:2195
+#: src/WriteWindow.cpp:2185
 #, c-format
 msgid ""
 "%s\n"
@@ -5241,301 +5241,301 @@ msgstr ""
 "Файл изменён другой программой. Перезагрузить его с диска?"
 
 # Заголовок
-#: src/WriteWindow.cpp:2259
+#: src/WriteWindow.cpp:2249
 msgid "Replace"
 msgstr "Заменить"
 
-#: src/WriteWindow.cpp:2419
+#: src/WriteWindow.cpp:2409
 msgid "&Goto line number:"
 msgstr "Номер &строки:"
 
-#: src/XFileExplorer.cpp:1111
+#: src/XFileExplorer.cpp:1161
 msgid "Refresh Panels"
 msgstr "Обновить панели"
 
-#: src/XFileExplorer.cpp:1117
+#: src/XFileExplorer.cpp:1167
 msgid "Create New File"
 msgstr "Создать новый файл"
 
-#: src/XFileExplorer.cpp:1121
+#: src/XFileExplorer.cpp:1171
 msgid "Create New Folder"
 msgstr "Создать новый каталог"
 
-#: src/XFileExplorer.cpp:1125
+#: src/XFileExplorer.cpp:1175
 msgid "Create New Symlink"
 msgstr "Создать новую символическую ссылку"
 
-#: src/XFileExplorer.cpp:1159
+#: src/XFileExplorer.cpp:1209
 msgid "Paste From Clipboard"
 msgstr "Вставить из буфера обмена"
 
-#: src/XFileExplorer.cpp:1176
+#: src/XFileExplorer.cpp:1226
 msgid "Restore Selected Files From Trash Can"
 msgstr "Восстановить из корзины выбранные файлы"
 
-#: src/XFileExplorer.cpp:1186
+#: src/XFileExplorer.cpp:1236
 msgid "Launch Xfe"
 msgstr "Запуск Xfe"
 
-#: src/XFileExplorer.cpp:1194
+#: src/XFileExplorer.cpp:1244
 msgid "Execute Command"
 msgstr "Выполнить команду"
 
-#: src/XFileExplorer.cpp:1198
+#: src/XFileExplorer.cpp:1248
 msgid "Launch Terminal"
 msgstr "Запустить терминал"
 
-#: src/XFileExplorer.cpp:1202
+#: src/XFileExplorer.cpp:1252
 msgid "Search Files and Folders..."
 msgstr "Поиск файлов и каталогов..."
 
-#: src/XFileExplorer.cpp:1211
+#: src/XFileExplorer.cpp:1261
 msgid "Mount"
 msgstr "Монтировать"
 
-#: src/XFileExplorer.cpp:1224
+#: src/XFileExplorer.cpp:1274
 msgid "Connect to Server..."
 msgstr "Подключиться к серверу..."
 
-#: src/XFileExplorer.cpp:1234
+#: src/XFileExplorer.cpp:1284
 msgid "Show One File Panel"
 msgstr "Показать одну панель файлов"
 
-#: src/XFileExplorer.cpp:1242
+#: src/XFileExplorer.cpp:1292
 msgid "Show Folder Panel and File Panel"
 msgstr "Показать панель каталогов и панель файлов"
 
-#: src/XFileExplorer.cpp:1250
+#: src/XFileExplorer.cpp:1300
 msgid "Show Two File Panels"
 msgstr "Показать две панели файлов"
 
-#: src/XFileExplorer.cpp:1258
+#: src/XFileExplorer.cpp:1308
 msgid "Show Folder Panel and Two File Panels"
 msgstr "Показать панель каталогов и две панели файлов"
 
-#: src/XFileExplorer.cpp:1268 src/XFileImage.cpp:593
+#: src/XFileExplorer.cpp:1318 src/XFileImage.cpp:593
 msgid "Vertical Panels"
 msgstr "Вертикальные панели"
 
-#: src/XFileExplorer.cpp:1276 src/XFileImage.cpp:601
+#: src/XFileExplorer.cpp:1326 src/XFileImage.cpp:601
 msgid "Horizontal Panels"
 msgstr "Горизонтальные панели"
 
-#: src/XFileExplorer.cpp:1308
+#: src/XFileExplorer.cpp:1358
 msgid "Clear Address Bar"
 msgstr "Очистить адресную строку"
 
-#: src/XFileExplorer.cpp:1330
+#: src/XFileExplorer.cpp:1380
 msgid "New Fo&lder..."
 msgstr "Создать &каталог..."
 
-#: src/XFileExplorer.cpp:1342
+#: src/XFileExplorer.cpp:1392
 msgid "Go &Home"
 msgstr "&Домашний каталог"
 
-#: src/XFileExplorer.cpp:1348
+#: src/XFileExplorer.cpp:1398
 msgid "&Refresh"
 msgstr "О&бновить"
 
-#: src/XFileExplorer.cpp:1368
+#: src/XFileExplorer.cpp:1418
 msgid "&Copy to..."
 msgstr "Копиров&ать в..."
 
-#: src/XFileExplorer.cpp:1380
+#: src/XFileExplorer.cpp:1430
 msgid "&Symlink to..."
 msgstr "Создать си&мволическую ссылку в..."
 
-#: src/XFileExplorer.cpp:1449
+#: src/XFileExplorer.cpp:1499
 msgid "&Select All"
 msgstr "Выделить вс&ё"
 
-#: src/XFileExplorer.cpp:1455
+#: src/XFileExplorer.cpp:1505
 msgid "&Deselect All"
 msgstr "&Снять выделение"
 
-#: src/XFileExplorer.cpp:1461
+#: src/XFileExplorer.cpp:1511
 msgid "&Invert Selection"
 msgstr "&Обратить выделение"
 
-#: src/XFileExplorer.cpp:1468
+#: src/XFileExplorer.cpp:1518
 msgid "P&references"
 msgstr "&Настройки"
 
-#: src/XFileExplorer.cpp:1474
+#: src/XFileExplorer.cpp:1524
 msgid "&General Toolbar"
 msgstr "Панель &управления"
 
-#: src/XFileExplorer.cpp:1475
+#: src/XFileExplorer.cpp:1525
 msgid "&Tools Toolbar"
 msgstr "Панель &инструментов"
 
-#: src/XFileExplorer.cpp:1476
+#: src/XFileExplorer.cpp:1526
 msgid "&Panel Toolbar"
 msgstr "Управление пане&лями файлов"
 
-#: src/XFileExplorer.cpp:1477
+#: src/XFileExplorer.cpp:1527
 msgid "&Address Bar"
 msgstr "&Адресная строка"
 
-#: src/XFileExplorer.cpp:1478
+#: src/XFileExplorer.cpp:1528
 msgid "&Status Bar"
 msgstr "Строка &состояния"
 
-#: src/XFileExplorer.cpp:1482
+#: src/XFileExplorer.cpp:1532
 msgid "&One Panel"
 msgstr "&Одна панель"
 
-#: src/XFileExplorer.cpp:1486
+#: src/XFileExplorer.cpp:1536
 msgid "Folde&rs and Panel"
 msgstr "&Каталоги и панель файлов"
 
-#: src/XFileExplorer.cpp:1490
+#: src/XFileExplorer.cpp:1540
 msgid "Two &Panels"
 msgstr "&Две панели файлов"
 
-#: src/XFileExplorer.cpp:1494
+#: src/XFileExplorer.cpp:1544
 msgid "Fold&ers and Two Panels"
 msgstr "Каталоги и дв&е панели файлов"
 
-#: src/XFileExplorer.cpp:1500 src/XFileImage.cpp:1004
+#: src/XFileExplorer.cpp:1550 src/XFileImage.cpp:1004
 msgid "&Vertical Panels"
 msgstr "&Вертикальные панели"
 
-#: src/XFileExplorer.cpp:1504 src/XFileImage.cpp:1008
+#: src/XFileExplorer.cpp:1554 src/XFileImage.cpp:1008
 msgid "&Horizontal Panels"
 msgstr "&Горизонтальные панели"
 
-#: src/XFileExplorer.cpp:1512
+#: src/XFileExplorer.cpp:1562
 msgid "&Add Bookmark"
 msgstr "&Создать закладку"
 
-#: src/XFileExplorer.cpp:1518
+#: src/XFileExplorer.cpp:1568
 msgid "&Remove All Bookmarks"
 msgstr "&Удалить все закладки"
 
-#: src/XFileExplorer.cpp:1528
+#: src/XFileExplorer.cpp:1578
 msgid "&Bookmarks"
 msgstr "&Закладки"
 
-#: src/XFileExplorer.cpp:1532
+#: src/XFileExplorer.cpp:1582
 msgid "&Filter..."
 msgstr "Фил&ьтр..."
 
-#: src/XFileExplorer.cpp:1534 src/XFileExplorer.cpp:1565 src/XFileImage.cpp:977
+#: src/XFileExplorer.cpp:1584 src/XFileExplorer.cpp:1615 src/XFileImage.cpp:977
 msgid "&Thumbnails"
 msgstr "&Миниатюры"
 
-#: src/XFileExplorer.cpp:1536 src/XFileExplorer.cpp:1567 src/XFileImage.cpp:985
+#: src/XFileExplorer.cpp:1586 src/XFileExplorer.cpp:1617 src/XFileImage.cpp:985
 msgid "&Big Icons"
 msgstr "&Большие значки"
 
-#: src/XFileExplorer.cpp:1546 src/XFileExplorer.cpp:1577
+#: src/XFileExplorer.cpp:1596 src/XFileExplorer.cpp:1627
 msgid "T&ype"
 msgstr "&Тип"
 
-#: src/XFileExplorer.cpp:1548 src/XFileExplorer.cpp:1579
+#: src/XFileExplorer.cpp:1598 src/XFileExplorer.cpp:1629
 msgid "D&ate"
 msgstr "&Дата"
 
-#: src/XFileExplorer.cpp:1549 src/XFileExplorer.cpp:1580
+#: src/XFileExplorer.cpp:1599 src/XFileExplorer.cpp:1630
 msgid "Us&er"
 msgstr "&Владелец"
 
-#: src/XFileExplorer.cpp:1550 src/XFileExplorer.cpp:1581
+#: src/XFileExplorer.cpp:1600 src/XFileExplorer.cpp:1631
 msgid "Gr&oup"
 msgstr "&Группа"
 
-#: src/XFileExplorer.cpp:1557
+#: src/XFileExplorer.cpp:1607
 msgid "Fol&ders First"
 msgstr "&Сначала каталоги"
 
-#: src/XFileExplorer.cpp:1559 src/XFileExplorer.cpp:5169
-#: src/XFileExplorer.cpp:5228
+#: src/XFileExplorer.cpp:1609 src/XFileExplorer.cpp:5210
+#: src/XFileExplorer.cpp:5269
 msgid "&Left Panel"
 msgstr "&Левая панель"
 
-#: src/XFileExplorer.cpp:1563
+#: src/XFileExplorer.cpp:1613
 msgid "&Filter"
 msgstr "Фил&ьтр"
 
-#: src/XFileExplorer.cpp:1588
+#: src/XFileExplorer.cpp:1638
 msgid "&Folders First"
 msgstr "Внача&ле каталоги"
 
-#: src/XFileExplorer.cpp:1590 src/XFileExplorer.cpp:5168
-#: src/XFileExplorer.cpp:5227
+#: src/XFileExplorer.cpp:1640 src/XFileExplorer.cpp:5209
+#: src/XFileExplorer.cpp:5268
 msgid "&Right Panel"
 msgstr "П&равая панель"
 
-#: src/XFileExplorer.cpp:1597
+#: src/XFileExplorer.cpp:1648
 msgid "&Scripts"
 msgstr "С&ценарии"
 
-#: src/XFileExplorer.cpp:1602
+#: src/XFileExplorer.cpp:1653
 msgid "&New Tab"
 msgstr "Создать &вкладку"
 
-#: src/XFileExplorer.cpp:1607
+#: src/XFileExplorer.cpp:1658
 msgid "Remove &All Tabs"
 msgstr "&Удалить все вкладки"
 
-#: src/XFileExplorer.cpp:1617
+#: src/XFileExplorer.cpp:1668
 msgid "New &Root Window"
 msgstr "Н&овое окно 'root'"
 
-#: src/XFileExplorer.cpp:1625
+#: src/XFileExplorer.cpp:1676
 msgid "E&xecute Command..."
 msgstr "&Выполнить команду..."
 
-#: src/XFileExplorer.cpp:1631
+#: src/XFileExplorer.cpp:1682
 msgid "&Terminal"
 msgstr "&Терминал"
 
-#: src/XFileExplorer.cpp:1637
+#: src/XFileExplorer.cpp:1688
 msgid "&Synchronize Panels"
 msgstr "&Синхронизировать панели"
 
-#: src/XFileExplorer.cpp:1644
+#: src/XFileExplorer.cpp:1695
 msgid "Sw&itch Panels"
 msgstr "&Переключить панели"
 
-#: src/XFileExplorer.cpp:1652
+#: src/XFileExplorer.cpp:1703
 msgid "Search &Files..."
 msgstr "По&иск..."
 
-#: src/XFileExplorer.cpp:1671
+#: src/XFileExplorer.cpp:1722
 msgid "&Connect to Server..."
 msgstr "Подключиться к се&рверу..."
 
-#: src/XFileExplorer.cpp:1675
+#: src/XFileExplorer.cpp:1726
 msgid "&Tools"
 msgstr "&Инструменты"
 
-#: src/XFileExplorer.cpp:1680
+#: src/XFileExplorer.cpp:1731
 msgid "&Go to Trash"
 msgstr "&Перейти в корзину"
 
-#: src/XFileExplorer.cpp:1686
+#: src/XFileExplorer.cpp:1737
 msgid "&Trash Size"
 msgstr "&Размер корзины"
 
-#: src/XFileExplorer.cpp:1688
+#: src/XFileExplorer.cpp:1739
 msgid "&Empty Trash"
 msgstr "&Очистить корзину"
 
-#: src/XFileExplorer.cpp:1694 src/XFileExplorer.cpp:6076
+#: src/XFileExplorer.cpp:1745 src/XFileExplorer.cpp:6117
 msgid "T&rash"
 msgstr "&Корзина"
 
-#: src/XFileExplorer.cpp:1705
+#: src/XFileExplorer.cpp:1756
 msgid "&About X File Explorer"
 msgstr "&О программе"
 
-#: src/XFileExplorer.cpp:3457
+#: src/XFileExplorer.cpp:3498
 msgid "Running Xfe as root!"
 msgstr "Запуск Xfe от 'root'!"
 
-#: src/XFileExplorer.cpp:3501
+#: src/XFileExplorer.cpp:3542
 #, c-format
 msgid "Can't create Xfe config folder %s: %s"
 msgstr ""
@@ -5543,7 +5543,7 @@ msgstr ""
 "\n"
 "Не удалось создать каталог с настройками Xfe: %s"
 
-#: src/XFileExplorer.cpp:3506
+#: src/XFileExplorer.cpp:3547
 #, c-format
 msgid "Can't create Xfe config folder %s"
 msgstr ""
@@ -5551,40 +5551,40 @@ msgstr ""
 "\n"
 "Не удалось создать каталог с настройками Xfe"
 
-#: src/XFileExplorer.cpp:3528
+#: src/XFileExplorer.cpp:3569
 msgid "No global xferc file found! Please select a configuration file..."
 msgstr ""
 "Не найден основной файл настроек 'xferc'! Выберите файл конфигурации ..."
 
-#: src/XFileExplorer.cpp:3532
+#: src/XFileExplorer.cpp:3573
 msgid "XFE configuration file"
 msgstr "Файл конфигурации XFE"
 
-#: src/XFileExplorer.cpp:3545
+#: src/XFileExplorer.cpp:3586
 msgid "Xfe cannot run without a global xferc configuration file"
 msgstr "Xfe не может работать без основного файла конфигурации 'xferc'"
 
-#: src/XFileExplorer.cpp:3568 src/XFileExplorer.cpp:5750
+#: src/XFileExplorer.cpp:3609 src/XFileExplorer.cpp:5791
 #, c-format
 msgid "Can't create trash can 'files' folder %s: %s"
 msgstr "Не удалось создать каталог 'files' корзины %s: %s"
 
-#: src/XFileExplorer.cpp:3573 src/XFileExplorer.cpp:5755
+#: src/XFileExplorer.cpp:3614 src/XFileExplorer.cpp:5796
 #, c-format
 msgid "Can't create trash can 'files' folder %s"
 msgstr "Не удалось создать каталог 'files' корзины %s"
 
-#: src/XFileExplorer.cpp:3592 src/XFileExplorer.cpp:5771
+#: src/XFileExplorer.cpp:3633 src/XFileExplorer.cpp:5812
 #, c-format
 msgid "Can't create trash can 'info' folder %s: %s"
 msgstr "Не удалось создать каталог 'info' корзины %s: %s"
 
-#: src/XFileExplorer.cpp:3597 src/XFileExplorer.cpp:5776
+#: src/XFileExplorer.cpp:3638 src/XFileExplorer.cpp:5817
 #, c-format
 msgid "Can't create trash can 'info' folder %s"
 msgstr "Не удалось создать каталог 'info' корзины %s"
 
-#: src/XFileExplorer.cpp:3702
+#: src/XFileExplorer.cpp:3743
 msgid ""
 "Unable to find udisksctl command on your system.\n"
 "Package udisks2 is probably not installed, Xfe automounter is disabled."
@@ -5592,30 +5592,30 @@ msgstr ""
 "Не найдена команда 'udisksctl' в вашей системе.\n"
 "Возможно не установлен пакет 'udisks2'. Автомонтирование отключено."
 
-#: src/XFileExplorer.cpp:3724 src/XFileExplorer.cpp:3736
+#: src/XFileExplorer.cpp:3765 src/XFileExplorer.cpp:3777
 #: src/startupnotification.cpp:185 src/startupnotification.cpp:245
 #, c-format
 msgid "Error: Can't execute command %s"
 msgstr "Ошибка: Не удалось выполнить команду '%s'"
 
-#: src/XFileExplorer.cpp:4374
+#: src/XFileExplorer.cpp:4415
 msgid "Confirm Remove Bookmarks"
 msgstr "Подтверждение"
 
-#: src/XFileExplorer.cpp:4375
+#: src/XFileExplorer.cpp:4416
 msgid "Do you really want to remove all bookmarks?"
 msgstr "Удалить все закладки?"
 
-#: src/XFileExplorer.cpp:4710
+#: src/XFileExplorer.cpp:4751
 msgid "Help"
 msgstr "Помощь"
 
-#: src/XFileExplorer.cpp:4739
+#: src/XFileExplorer.cpp:4780
 #, c-format
 msgid "X File Explorer Version %s"
 msgstr "X File Explorer ( версия %s )"
 
-#: src/XFileExplorer.cpp:4742
+#: src/XFileExplorer.cpp:4783
 msgid ""
 "X Win Commander by Maxim Baranov\n"
 "\n"
@@ -5623,11 +5623,11 @@ msgstr ""
 "На основе 'X Win Commander' Максима Баранова\n"
 "\n"
 
-#: src/XFileExplorer.cpp:4743
+#: src/XFileExplorer.cpp:4784
 msgid "FOX Toolkit by Jeroen van der Zijp\n"
 msgstr "'FOX Toolkit' от Jeroen van der Zijp\n"
 
-#: src/XFileExplorer.cpp:4748
+#: src/XFileExplorer.cpp:4789
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -5724,47 +5724,47 @@ msgstr ""
 "Шведский: Anders F. Bjorklund\n"
 "Турецкий: erkaN\n"
 
-#: src/XFileExplorer.cpp:4781
+#: src/XFileExplorer.cpp:4822
 msgid "About X File Explorer"
 msgstr "О программе X File Explorer"
 
-#: src/XFileExplorer.cpp:5136 src/XFileExplorer.cpp:5190
+#: src/XFileExplorer.cpp:5177 src/XFileExplorer.cpp:5231
 msgid "&Panel"
 msgstr "&Панель"
 
-#: src/XFileExplorer.cpp:5380
+#: src/XFileExplorer.cpp:5421
 msgid "Execute the command:"
 msgstr "Команда:"
 
-#: src/XFileExplorer.cpp:5381
+#: src/XFileExplorer.cpp:5422
 msgid "Console mode"
 msgstr "Консольный режим"
 
-#: src/XFileExplorer.cpp:5558
+#: src/XFileExplorer.cpp:5599
 msgid "Enter the user password:"
 msgstr "Пароль пользователя:"
 
-#: src/XFileExplorer.cpp:5565
+#: src/XFileExplorer.cpp:5606
 msgid "Enter the root password:"
 msgstr "Пароль 'root':"
 
-#: src/XFileExplorer.cpp:5633
+#: src/XFileExplorer.cpp:5674
 msgid "Connect to Server"
 msgstr "Подключиться к серверу"
 
-#: src/XFileExplorer.cpp:5648
+#: src/XFileExplorer.cpp:5689
 msgid "Search Files and Folders"
 msgstr "Поиск файлов и каталогов"
 
-#: src/XFileExplorer.cpp:5714
+#: src/XFileExplorer.cpp:5755
 msgid "Do you really want to empty the trash can?"
 msgstr "Очистить корзину?"
 
-#: src/XFileExplorer.cpp:5714
+#: src/XFileExplorer.cpp:5755
 msgid " in "
 msgstr " в "
 
-#: src/XFileExplorer.cpp:5716
+#: src/XFileExplorer.cpp:5757
 msgid ""
 "\n"
 "\n"
@@ -5774,7 +5774,7 @@ msgstr ""
 "\n"
 "Все объекты будут окончательно потеряны!"
 
-#: src/XFileExplorer.cpp:5821
+#: src/XFileExplorer.cpp:5862
 #, c-format
 msgid ""
 "Trash size: %s (%s files, %s subfolders)\n"
@@ -5785,16 +5785,16 @@ msgstr ""
 "\n"
 "Изменено: %s"
 
-#: src/XFileExplorer.cpp:5823
+#: src/XFileExplorer.cpp:5864
 msgid "Trash size"
 msgstr "Размер корзины"
 
-#: src/XFileExplorer.cpp:5831
+#: src/XFileExplorer.cpp:5872
 #, c-format
 msgid "Trash can 'files' folder %s is not readable!"
 msgstr "Каталог 'files' в корзине %s недоступен для чтения!"
 
-#: src/XFileExplorer.cpp:6428 src/XFileExplorer.cpp:6502
+#: src/XFileExplorer.cpp:6469 src/XFileExplorer.cpp:6543
 #, c-format
 msgid "Command not found: %s"
 msgstr ""
@@ -5802,7 +5802,7 @@ msgstr ""
 "\n"
 "Команда не найдена"
 
-#: src/XFileExplorer.cpp:6508
+#: src/XFileExplorer.cpp:6549
 #, c-format
 msgid "Invalid file association: %s"
 msgstr ""
@@ -5810,7 +5810,7 @@ msgstr ""
 "\n"
 "Недопустимая ассоциация файла"
 
-#: src/XFileExplorer.cpp:6515
+#: src/XFileExplorer.cpp:6556
 #, c-format
 msgid "File association not found: %s"
 msgstr ""
@@ -5831,7 +5831,7 @@ msgstr "Очистить меню недавно использовавшихс�
 msgid "&About X File Archive"
 msgstr "&О программе"
 
-#: src/XFileArchive.cpp:297 src/XFileArchive.cpp:1862
+#: src/XFileArchive.cpp:297 src/XFileArchive.cpp:1852
 msgid "&Extract"
 msgstr "&Извлечь"
 
@@ -5954,7 +5954,7 @@ msgstr "Открыть архив"
 msgid "No archive opened"
 msgstr "Архив не открыт"
 
-#: src/XFileArchive.cpp:520 src/XFileArchive.cpp:719 src/XFileArchive.cpp:1570
+#: src/XFileArchive.cpp:520 src/XFileArchive.cpp:719 src/XFileArchive.cpp:1560
 msgid "Unknown archive format"
 msgstr "Неизвестный формат архива"
 
@@ -5987,7 +5987,7 @@ msgstr "в каталог:"
 msgid "Extract File"
 msgstr "Извлечь файл"
 
-#: src/XFileArchive.cpp:1348
+#: src/XFileArchive.cpp:1338
 #, c-format
 msgid "Can't remove folder %s"
 msgstr ""
@@ -5995,21 +5995,21 @@ msgstr ""
 "\n"
 "Не удалось удалить каталог"
 
-#: src/XFileArchive.cpp:1370
+#: src/XFileArchive.cpp:1360
 msgid "Confirm Quit"
 msgstr "Подтвердить"
 
-#: src/XFileArchive.cpp:1370
+#: src/XFileArchive.cpp:1360
 msgid "An operation in in progress, do you really want to quit Xfa?"
 msgstr "Операция продолжается, вы действительно хотите выйти из Xfa?"
 
-#: src/XFileArchive.cpp:1403 src/XFileArchive.cpp:1415
-#: src/XFileArchive.cpp:1427 src/XFileArchive.cpp:1439
-#: src/XFileArchive.cpp:1451 src/XFileArchive.cpp:1463
-#: src/XFileArchive.cpp:1475 src/XFileArchive.cpp:1487
-#: src/XFileArchive.cpp:1499 src/XFileArchive.cpp:1511
-#: src/XFileArchive.cpp:1523 src/XFileArchive.cpp:1535
-#: src/XFileArchive.cpp:1547 src/XFileArchive.cpp:1559
+#: src/XFileArchive.cpp:1393 src/XFileArchive.cpp:1405
+#: src/XFileArchive.cpp:1417 src/XFileArchive.cpp:1429
+#: src/XFileArchive.cpp:1441 src/XFileArchive.cpp:1453
+#: src/XFileArchive.cpp:1465 src/XFileArchive.cpp:1477
+#: src/XFileArchive.cpp:1489 src/XFileArchive.cpp:1501
+#: src/XFileArchive.cpp:1513 src/XFileArchive.cpp:1525
+#: src/XFileArchive.cpp:1537 src/XFileArchive.cpp:1549
 #, c-format
 msgid "Unarchive program %s was not found"
 msgstr ""
@@ -6017,19 +6017,19 @@ msgstr ""
 "\n"
 "Приложение не найдено"
 
-#: src/XFileArchive.cpp:1728 src/XFileArchive.cpp:1801
+#: src/XFileArchive.cpp:1718 src/XFileArchive.cpp:1791
 msgid "Please wait while opening archive..."
 msgstr "Архив открывается, подождите..."
 
-#: src/XFileArchive.cpp:1863
+#: src/XFileArchive.cpp:1853
 msgid "&Extract to..."
 msgstr "Извлечь &в..."
 
-#: src/XFileArchive.cpp:1947 src/XFileArchive.cpp:1989
+#: src/XFileArchive.cpp:1937 src/XFileArchive.cpp:1979
 msgid "Please wait while extracting archive..."
 msgstr "Выполняется распаковка архива, подождите..."
 
-#: src/XFileArchive.cpp:2172
+#: src/XFileArchive.cpp:2162
 msgid ""
 "\n"
 "Usage: xfa [options] [archive] \n"
@@ -6053,15 +6053,15 @@ msgstr ""
 "    [архив] - путь до архива, который необходимо открыть.\n"
 "\n"
 
-#: src/XFileArchive.cpp:2340 src/XFileArchive.cpp:2348
-#: src/XFileArchive.cpp:2356 src/XFileImage.cpp:3343 src/XFileImage.cpp:3351
-#: src/XFileImage.cpp:3359 src/XFilePackage.cpp:983 src/XFilePackage.cpp:991
-#: src/XFilePackage.cpp:999 src/XFileWrite.cpp:352 src/XFileWrite.cpp:360
+#: src/XFileArchive.cpp:2330 src/XFileArchive.cpp:2338
+#: src/XFileArchive.cpp:2346 src/XFileImage.cpp:3333 src/XFileImage.cpp:3341
+#: src/XFileImage.cpp:3349 src/XFilePackage.cpp:973 src/XFilePackage.cpp:981
+#: src/XFilePackage.cpp:989 src/XFileWrite.cpp:352 src/XFileWrite.cpp:360
 #: src/XFileWrite.cpp:368 src/main.cpp:563 src/main.cpp:571 src/main.cpp:579
 msgid "Error loading icons"
 msgstr "Ошибка загрузки значков"
 
-#: src/XFileArchive.cpp:2341 src/XFileImage.cpp:3344 src/XFilePackage.cpp:984
+#: src/XFileArchive.cpp:2331 src/XFileImage.cpp:3334 src/XFilePackage.cpp:974
 #: src/XFileWrite.cpp:353 src/main.cpp:564
 msgid ""
 "Icon path doesn't exist, default icon path was selected.\n"
@@ -6072,7 +6072,7 @@ msgstr ""
 "\n"
 "Проверьте путь к значку в меню «Правка / Настройки / Внешний вид»..."
 
-#: src/XFileArchive.cpp:2349 src/XFileImage.cpp:3352 src/XFilePackage.cpp:992
+#: src/XFileArchive.cpp:2339 src/XFileImage.cpp:3342 src/XFilePackage.cpp:982
 #: src/XFileWrite.cpp:361 src/main.cpp:572
 msgid ""
 "Unable to load some icons, default icon theme was selected.\n"
@@ -6083,7 +6083,7 @@ msgstr ""
 "\n"
 "Проверьте тему значков в меню «Правка / Настройки / Внешний вид»..."
 
-#: src/XFileArchive.cpp:2357 src/XFileImage.cpp:3360 src/XFilePackage.cpp:1000
+#: src/XFileArchive.cpp:2347 src/XFileImage.cpp:3350 src/XFilePackage.cpp:990
 #: src/XFileWrite.cpp:369 src/main.cpp:580
 msgid ""
 "Unable to load default icons, no icons can be shown.\n"
@@ -6408,7 +6408,7 @@ msgstr ""
 msgid "Open Image"
 msgstr "Открыть изображение"
 
-#: src/XFileImage.cpp:3165
+#: src/XFileImage.cpp:3155
 msgid ""
 "\n"
 "Usage: xfi [options] [image] \n"
@@ -6481,25 +6481,25 @@ msgstr "Пакеты DEB"
 msgid "No package loaded"
 msgstr "Пакет не загружен"
 
-#: src/XFilePackage.cpp:415 src/XFilePackage.cpp:465 src/XFilePackage.cpp:590
-#: src/XFilePackage.cpp:655
+#: src/XFilePackage.cpp:415 src/XFilePackage.cpp:465 src/XFilePackage.cpp:580
+#: src/XFilePackage.cpp:645
 msgid "Unknown package format"
 msgstr "Неизвестный формат пакета"
 
-#: src/XFilePackage.cpp:643
+#: src/XFilePackage.cpp:633
 msgid "[RPM package]\n"
 msgstr "[RPM-пакет]\n"
 
-#: src/XFilePackage.cpp:648
+#: src/XFilePackage.cpp:638
 msgid "[DEB package]\n"
 msgstr "[DEB-пакет]\n"
 
-#: src/XFilePackage.cpp:687
+#: src/XFilePackage.cpp:677
 #, c-format
 msgid "Query of %s failed!"
 msgstr "Запрос %s не удался!"
 
-#: src/XFilePackage.cpp:815
+#: src/XFilePackage.cpp:805
 msgid ""
 "\n"
 "Usage: xfp [options] [package] \n"
@@ -6580,31 +6580,31 @@ msgstr "В&ыражение"
 msgid "&Backward"
 msgstr "&Назад"
 
-#: src/foxhacks.cpp:3693
+#: src/foxhacks.cpp:3546
 msgid "Docking"
 msgstr "Закрепить"
 
-#: src/foxhacks.cpp:3695
+#: src/foxhacks.cpp:3548
 msgid "Top"
 msgstr "Сверху"
 
-#: src/foxhacks.cpp:3696
+#: src/foxhacks.cpp:3549
 msgid "Bottom"
 msgstr "Снизу"
 
-#: src/foxhacks.cpp:3697
+#: src/foxhacks.cpp:3550
 msgid "Left"
 msgstr "Слева"
 
-#: src/foxhacks.cpp:3698
+#: src/foxhacks.cpp:3551
 msgid "Right"
 msgstr "Справа"
 
-#: src/foxhacks.cpp:3699
+#: src/foxhacks.cpp:3552
 msgid "Float"
 msgstr "Плавающий"
 
-#: src/foxhacks.cpp:3700
+#: src/foxhacks.cpp:3553
 msgid "Flip"
 msgstr "Повернуть"
 

@@ -1,4 +1,5 @@
 #include "config.h"
+#include "config.h"
 #include "i18n.h"
 
 #include <stdio.h>
@@ -86,6 +87,9 @@ extern FXString homedir;
 extern FXString xdgdatahome;
 extern FXString xdgconfighome;
 
+// Main window
+extern FXMainWindow* mainWindow;
+
 #if defined(linux)
 extern FXStringDict* fsdevices;
 extern FXStringDict* updevices;
@@ -101,6 +105,54 @@ static void toolbarSeparator(FXToolBar* tb)
     new FXFrame(tb, LAYOUT_CENTER_Y | LAYOUT_LEFT | LAYOUT_FIX_WIDTH | LAYOUT_FIX_HEIGHT, 0, 0, SEP_SPACE);
 }
 
+
+// Custom MenuPane class that can detect if a menu is open
+
+FXDEFMAP(MenuPane) MenuPaneMap[] =
+{
+  FXMAPFUNC(SEL_MAP,   0, MenuPane::onMap),
+  FXMAPFUNC(SEL_UNMAP, 0, MenuPane::onUnmap),
+};
+
+
+FXIMPLEMENT(MenuPane, FXMenuPane,
+            MenuPaneMap,
+            ARRAYNUMBER(MenuPaneMap))
+
+
+long MenuPane::onMap(FXObject*, FXSelector, void*)
+{   
+    // Menu is open
+    open = true;
+
+    // Delete menu items
+    while (this->getFirst())
+    {
+        delete this->getFirst();
+    }
+
+    // Add fixed menu items
+    FXMenuCommand* mc = new FXMenuCommand(this, _("&Go to Script Folder"), minigotodiricon,
+                                          ((XFileExplorer*)mainWindow)->getLeftPanel()->getCurrent(),
+                                          FilePanel::ID_GO_SCRIPTDIR);
+    mc->create();
+    FXMenuSeparator* ms = new FXMenuSeparator(this);
+    ms-> create();
+
+    // Add script menu items
+    FXString scriptpath = homedir + PATHSEPSTRING CONFIGPATH PATHSEPSTRING XFECONFIGPATH PATHSEPSTRING SCRIPTPATH;
+    ((XFileExplorer*)mainWindow)->readScriptDir(((XFileExplorer*)mainWindow), this, scriptpath);        
+    
+    return FXMenuPane::onMap(this, 0, nullptr);
+}
+
+long MenuPane::onUnmap(FXObject*, FXSelector, void*)
+{
+    // Menu is closed
+    open = false;
+
+    return FXMenuPane::onUnmap(this, 0, nullptr);
+}
 
 
 // Map
@@ -192,7 +244,6 @@ FXDEFMAP(XFileExplorer) XFileExplorerMap[] =
     FXMAPFUNC(SEL_UPDATE, XFileExplorer::ID_SU, XFileExplorer::onUpdSu),
     FXMAPFUNC(SEL_UPDATE, XFileExplorer::ID_QUIT, XFileExplorer::onUpdQuit),
     FXMAPFUNC(SEL_UPDATE, XFileExplorer::ID_FILE_SEARCH, XFileExplorer::onUpdFileSearch),
-
 };
 
 
@@ -211,7 +262,6 @@ XFileExplorer::XFileExplorer(FXApp* app, vector_FXString URIs, const int pm, con
 
     // Menu bar
     menubar = new FXMenuBar(this, LAYOUT_SIDE_TOP | LAYOUT_FILL_X | FRAME_NONE);
-
     
     // Position toolbars
     
@@ -1589,11 +1639,12 @@ XFileExplorer::XFileExplorer(FXApp* app, vector_FXString URIs, const int pm, con
     new FXMenuCheck(rpanelmenu, _("Re&verse Order"), rpanel->getList(), FileList::ID_SORT_REVERSE);
     rpanelmenutitle = new FXMenuTitle(menubar, _("&Right Panel"), NULL, rpanelmenu);
 
-    // Scripts menu
-    scriptsmenu = new FXMenuPane(this);
-    new FXMenuSeparator(scriptsmenu);
+    // Scripts menu (dynamic menu)
+    scriptsmenu = new MenuPane(this);
+
     new FXMenuCommand(scriptsmenu, _("&Go to Script Folder"), minigotodiricon, lpanel->getCurrent(),
                       FilePanel::ID_GO_SCRIPTDIR);
+    new FXMenuSeparator(scriptsmenu);
     scriptsmenutitle = new FXMenuTitle(menubar, _("&Scripts"), NULL, scriptsmenu);
 
     // Tools menu
@@ -2600,18 +2651,8 @@ void XFileExplorer::saveConfig()
         // Window position
         if (save_win_pos)
         {
-            // Account for the Window Manager border size
-            XWindowAttributes xwattr;
-            if (XGetWindowAttributes((Display*)getApp()->getDisplay(), this->id(), &xwattr))
-            {
-                getApp()->reg().writeIntEntry("OPTIONS", "xpos", getX() - xwattr.x);
-                getApp()->reg().writeIntEntry("OPTIONS", "ypos", getY() - xwattr.y);
-            }
-            else
-            {
-                getApp()->reg().writeIntEntry("OPTIONS", "xpos", getX());
-                getApp()->reg().writeIntEntry("OPTIONS", "ypos", getY());
-            }
+            getApp()->reg().writeIntEntry("OPTIONS", "xpos", getX());
+            getApp()->reg().writeIntEntry("OPTIONS", "ypos", getY());
         }
 
         
@@ -3081,7 +3122,7 @@ void XFileExplorer::create()
 
     // Complete scripts menu
     FXString scriptpath = homedir + PATHSEPSTRING CONFIGPATH PATHSEPSTRING XFECONFIGPATH PATHSEPSTRING SCRIPTPATH;
-    lpanel->getCurrent()->readScriptDir(this, scriptsmenu, scriptpath);
+    readScriptDir(this, scriptsmenu, scriptpath);
 
     // Window width and height
     int window_width = getWidth();
@@ -6529,6 +6570,88 @@ long XFileExplorer::onUpdQuit(FXObject* sender, FXSelector, void*)
     {
         onQuit(0, 0, 0);
     }
+
+    return 1;
+}
+
+
+// Read all executable file names that are located into the script directory
+// Sort entries alphabetically, directories first
+int XFileExplorer::readScriptDir(FXWindow* owner, FXMenuPane* scriptsmenu, FXString dir)
+{
+    DIR* dp;
+    struct dirent** namelist;
+
+    // Open directory
+    if ((dp = opendir(dir.text())) == NULL)
+    {
+        return 0;
+    }
+
+    // Possibly add a / at the end of the directory name
+    if (dir[dir.length() - 1] != '/')
+    {
+        dir = dir + "/";
+    }
+
+    // First, read only directory entries and sort them alphabetically
+    int n;
+    n = scandir(dir.text(), &namelist, NULL, alphasort);
+    if (n < 0)
+    {
+        perror("scandir");
+    }
+    else
+    {
+        for (int k = 0; k < n; k++)
+        {
+            // Avoid hidden directories and '.' and '..'
+            if (namelist[k]->d_name[0] != '.')
+            {
+                FXString pathname = dir + namelist[k]->d_name;
+
+                // Recurse if non empty directory
+                if (xf_isdirectory(pathname))
+                {
+                    if (!xf_isemptydir(pathname))
+                    {
+                        FXMenuPane* submenu = new FXMenuPane(owner);
+                        FXMenuCascade* mc = new FXMenuCascade(scriptsmenu, namelist[k]->d_name, NULL, submenu);
+                        mc->create();
+                        readScriptDir(this, submenu, pathname);
+                    }
+                }
+            }
+            free(namelist[k]);
+        }
+        free(namelist);
+    }
+
+    // Then, read only executable files and sort them alphabetically
+    n = scandir(dir.text(), &namelist, NULL, alphasort);
+    if (n < 0)
+    {
+        perror("scandir");
+    }
+    else
+    {
+        for (int k = 0; k < n; k++)
+        {
+            // Add only executable files to the list
+            FXString pathname = dir + namelist[k]->d_name;
+            if (!xf_isdirectory(pathname) && xf_isreadexecutable(pathname))
+            {
+                FXMenuCommand* mc = new FXMenuCommand(scriptsmenu, namelist[k]->d_name + FXString("\t\t") + pathname, miniexecicon, this,
+                                  FilePanel::ID_RUN_SCRIPT);
+                mc->create();
+            }
+            free(namelist[k]);
+        }
+        free(namelist);
+    }
+
+    // Close directory
+    (void)closedir(dp);
 
     return 1;
 }
