@@ -14,7 +14,6 @@
 #include "startupnotification.h"
 
 
-
 #ifdef STARTUP_NOTIFICATION  // Use startup notification
 
 
@@ -174,11 +173,16 @@ int runcmd(FXString cmd, FXString cmdname, FXString dir, FXString startdir, FXbo
     // Run command without startup notification
     else
     {
-        // Replace quotes with double quotes to avoid problems with sh -c
+        // Replace single quotes with double quotes to avoid problems with sh -c
+        // Apparently, this can't be done in a single step because file names may contain single or double quotes
+        cmd.substitute("\"", "\"\"", true);
+        cmd.substitute("'\\''", "\\", true);
         cmd.substitute('\'', '"', true);
+        cmd.substitute("\\", "'\\''", true);
 
         // Run command in background through a shell (to avoid problems with pkexec)
         FXString shcmd = "sh -c \'" + cmd + "\' &";
+
         int ret = system(shcmd.text());
         if (ret < 0)
         {

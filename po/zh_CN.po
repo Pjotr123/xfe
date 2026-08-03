@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfe 1.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-31 15:49+0200\n"
+"POT-Creation-Date: 2026-08-03 11:24+0200\n"
 "PO-Revision-Date: 2008-05-30 22:54+0200\n"
 "Last-Translator: xinli <xinliGG@gmail.com>\n"
 "Language-Team: zh_CN\n"
@@ -294,7 +294,7 @@ msgstr ""
 
 #: src/CommandWindow.cpp:221 src/FilePanel.cpp:6079 src/SearchPanel.cpp:4547
 #: src/SearchWindow.cpp:970 src/XFileArchive.cpp:1603
-#: src/startupnotification.cpp:162 src/xfeutils.cpp:1843
+#: src/startupnotification.cpp:161 src/xfeutils.cpp:1843
 #, c-format
 msgid "Error: Fork failed: %s\n"
 msgstr ""
@@ -5779,7 +5779,7 @@ msgid ""
 msgstr ""
 
 #: src/XFileExplorer.cpp:3765 src/XFileExplorer.cpp:3777
-#: src/startupnotification.cpp:185 src/startupnotification.cpp:245
+#: src/startupnotification.cpp:189 src/startupnotification.cpp:249
 #, fuzzy, c-format
 msgid "Error: Can't execute command %s"
 msgstr "执行命令"
@@ -7351,26 +7351,26 @@ msgstr ""
 msgid "Warning: Unknown panel mode, revert to last saved panel mode\n"
 msgstr ""
 
-#: src/startupnotification.cpp:80 src/startupnotification.cpp:132
-#: src/startupnotification.cpp:200 src/startupnotification.cpp:226
-#: src/startupnotification.cpp:259
+#: src/startupnotification.cpp:79 src/startupnotification.cpp:131
+#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
+#: src/startupnotification.cpp:263
 #, fuzzy, c-format
 msgid "Error: Can't enter folder %s: %s"
 msgstr "不能删除目录 %s"
 
-#: src/startupnotification.cpp:84 src/startupnotification.cpp:136
-#: src/startupnotification.cpp:204 src/startupnotification.cpp:230
-#: src/startupnotification.cpp:263
+#: src/startupnotification.cpp:83 src/startupnotification.cpp:135
+#: src/startupnotification.cpp:208 src/startupnotification.cpp:234
+#: src/startupnotification.cpp:267
 #, fuzzy, c-format
 msgid "Error: Can't enter folder %s"
 msgstr "不能删除目录 %s"
 
-#: src/startupnotification.cpp:125
+#: src/startupnotification.cpp:124
 #, fuzzy, c-format
 msgid "Error: Can't open display\n"
 msgstr "root目录"
 
-#: src/startupnotification.cpp:144
+#: src/startupnotification.cpp:143
 #, c-format
 msgid "Start of %s"
 msgstr ""
